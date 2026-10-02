@@ -40,6 +40,7 @@ graph LR
 | **React + Vite** | Component model ideal for card grid + flip interactions; Vite for fast dev builds |
 | **Tailwind CSS** | Utility-first for rapid responsive styling; phone-frame layout + dark mode |
 | **Phone frame on desktop** | Mobile-first demo should feel native on all screens |
+| **Deploy on Vercel** | Free tier, Git-push deploys, global CDN, zero-config for Vite |
 
 ---
 
@@ -828,7 +829,62 @@ export default {
 
 ---
 
-## 10. Security & Privacy
+## 10. Deployment (Vercel)
+
+The MVP is deployed on **Vercel** — a zero-config platform ideal for static Vite + React apps.
+
+### Why Vercel?
+
+| Criteria | Vercel | Netlify (Backup) |
+|----------|--------|-------------------|
+| **Vite support** | ✅ Auto-detected, zero config | ✅ Auto-detected |
+| **Free tier** | 100GB bandwidth, 100 deploys/day | 100GB bandwidth, 300 build min/month |
+| **Git-push deploys** | ✅ Push to `main` → auto deploy | ✅ Same |
+| **Preview deploys** | ✅ Per PR/branch | ✅ Per PR/branch |
+| **Global CDN** | ✅ Edge network | ✅ Edge network |
+| **Custom domain** | ✅ Free SSL | ✅ Free SSL |
+| **Build speed** | Fast (optimized for Vite) | Comparable |
+
+> [!TIP]
+> If Vercel encounters any issues, **Netlify** is a drop-in replacement — same Git-based workflow, identical capabilities for static sites.
+
+### Vercel Configuration
+
+No `vercel.json` is needed — Vercel auto-detects Vite projects. The defaults work:
+
+| Setting | Value | Note |
+|---------|-------|------|
+| **Framework Preset** | Vite | Auto-detected from `vite.config.js` |
+| **Build Command** | `npm run build` | Default Vite build |
+| **Output Directory** | `dist` | Default Vite output |
+| **Install Command** | `npm install` | Auto |
+| **Node.js Version** | 18.x or 20.x | LTS recommended |
+
+### Deployment Flow
+
+```mermaid
+flowchart LR
+    A["Push to GitHub<br/>(main branch)"] --> B["Vercel detects push"]
+    B --> C["npm install"]
+    C --> D["npm run build<br/>(vite build)"]
+    D --> E["Deploy /dist<br/>to global CDN"]
+    E --> F["✅ Live at<br/>project-name.vercel.app"]
+
+    style A fill:#334155,stroke:#60a5fa,color:#e2e8f0
+    style F fill:#065f46,stroke:#34d399,color:#e2e8f0
+```
+
+### Important Notes for This MVP
+
+- **Photo assets in `/public/photos/`** are served as static files by Vercel's CDN — no special config needed
+- **`tags.json`** is bundled into the JS via Vite's static import — no API route needed
+- **No serverless functions** are used — the entire app is a static SPA
+- **Environment variables** are only needed for build-time scripts (`download_photos.py`, `generate_tags.py`) which run locally, not on Vercel
+- **Total deploy size:** ~20-25MB (photos + app bundle) — well within Vercel's free tier limits
+
+---
+
+## 11. Security & Privacy
 
 | Concern | Status | Note |
 |---------|--------|------|
@@ -837,10 +893,11 @@ export default {
 | **localStorage** | Minimal | Only stores toast dismissal flag |
 | **Photo licensing** | ✅ Royalty-free | Unsplash/Pexels/Pixabay licenses permit usage |
 | **CORS** | ✅ N/A | All assets served from same origin |
+| **Deployment** | ✅ HTTPS enforced | Vercel serves all sites over HTTPS with free SSL |
 
 ---
 
-## 11. References
+## 12. References
 
 - [context.md](file:///c:/Users/panka/Documents/Pankaj_CodeSpace/AI_Projects/GooglePhotos_MVP/docs/context.md) — Full project context, scope, persona, and implementation phases
 - [NL_GooglePhotos.pdf](file:///c:/Users/panka/Documents/Pankaj_CodeSpace/AI_Projects/GooglePhotos_MVP/docs/NL_GooglePhotos.pdf) — Problem statement and discovery engine research
