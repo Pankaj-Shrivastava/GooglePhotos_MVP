@@ -1,43 +1,4862 @@
 {
-  "generated_at": "2026-10-03T00:00:00Z",
-  "model": "mock",
-  "total_photos": 3,
+  "generated_at": "2026-10-03T16:48:58+05:30",
+  "model": "gemini-1.5-pro",
+  "total_photos": 133,
   "photos": [
     {
-      "id": "udaipur_001",
-      "filename": "udaipur_001.jpg",
-      "city": "Udaipur",
-      "primary_subjects": ["palace", "lake", "reflection"],
-      "descriptive_tags": ["white marble palace", "calm lake water", "evening sky"],
-      "sensory_cues": ["serene", "golden light", "still water", "warm glow"],
-      "mood_and_tone": ["peaceful", "majestic"],
-      "dominant_colors": ["gold", "white", "deep blue"],
-      "alt_text": "City Palace reflected in Lake Pichola at golden hour",
-      "micro_story": "The last light painted the City Palace in gold as Priya watched its reflection shimmer on the lake."
+      "id": "goa_001",
+      "filename": "goa_001.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Beachfront wooden shacks",
+        "Towering coconut palm trees",
+        "Traditional outrigger fishing canoes",
+        "Golden sandy beach"
+      ],
+      "descriptive_tags": [
+        "Vibrant blue-and-white painted coastal huts",
+        "Lush canopy of dense tropical palms",
+        "Sun-baked coastal sand flats",
+        "Warm teak and varnished timber cabins",
+        "Clear cerulean midday sky"
+      ],
+      "sensory_cues": [
+        "Fine, warm sand clinging between bare toes",
+        "Rhythmic rustle of dry palm fronds in the sea breeze",
+        "Scent of salty ocean spray mingled with sun-warmed timber",
+        "Distant hum of an outboard motor on gentle swells",
+        "Sudden relief of cool shade beneath the thatch roofs"
+      ],
+      "mood_and_tone": [
+        "Idyllic and unhurried",
+        "Vibrant tropical escapism",
+        "Sun-drenched tranquility"
+      ],
+      "dominant_colors": [
+        "Palm green",
+        "Cerulean blue",
+        "Honeyed timber brown",
+        "Warm beach sand"
+      ],
+      "alt_text": "A colorful row of wooden beach cottages sits nestled beneath towering palm trees on a sandy Goan beach, framed by beached outrigger boats under a bright blue sky.",
+      "micro_story": "Waking up in the little blue cottage to the gentle scrape of fishermen hauling their boats ashore, I stepped out into the blinding midday glare with sand already clinging to my ankles. It was only day two in South Goa, but the steady sway of the palms had completely untangled every knot in my mind."
+    },
+    {
+      "id": "goa_002",
+      "filename": "goa_002.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "rocky coastal headland",
+        "coconut palm canopy",
+        "Arabian Sea swells",
+        "distant blue-roofed beach huts"
+      ],
+      "descriptive_tags": [
+        "sun-baked granite boulders",
+        "dense silhouette of palm fronds",
+        "deep emerald-teal water",
+        "hazy midday horizon",
+        "rugged tropical coastline"
+      ],
+      "sensory_cues": [
+        "cool, briny sea spray on sun-warmed skin",
+        "rhythmic rolling heave of deep water",
+        "whistle of hot tropical wind",
+        "glare of harsh afternoon light off rock faces",
+        "faint smell of diesel and salt air"
+      ],
+      "mood_and_tone": [
+        "untamed",
+        "serene",
+        "wistful"
+      ],
+      "dominant_colors": [
+        "deep teal",
+        "pale azure",
+        "sun-scorched ochre",
+        "olive green"
+      ],
+      "alt_text": "A rocky promontory covered in tall palm trees rises from deep turquoise ocean waters under a clear tropical sky in Goa.",
+      "micro_story": "As the wooden ferry cut through the deep swells, the salty breeze tangled my hair while I stared at that lonely, palm-crested outcrop. It felt like catching a glimpse of Goa from decades ago, wild and completely untamed by the bustling beach shacks behind us."
+    },
+    {
+      "id": "goa_003",
+      "filename": "goa_003.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Rustic wooden beach shack interior",
+        "Open wooden French doors",
+        "Potted broad-leaf tropical plant",
+        "Dark wood dining tables and chairs"
+      ],
+      "descriptive_tags": [
+        "Shaded open-air dining space",
+        "Dark varnished timber architecture",
+        "Terracotta tiled flooring",
+        "Lush green potted Alocasia",
+        "Sunlit patio overlooking the beach"
+      ],
+      "sensory_cues": [
+        "Cool shade providing relief from the midday sun",
+        "Smooth touch of varnished wooden armrests",
+        "Scent of old timber and salty coastal air",
+        "Gentle cross-breeze flowing through the open doors",
+        "Faint sound of distant waves mixing with restaurant chatter"
+      ],
+      "mood_and_tone": [
+        "Sheltered and relaxed",
+        "Rustic comfort",
+        "Inviting"
+      ],
+      "dominant_colors": [
+        "Dark timber brown",
+        "Terracotta red",
+        "Leafy green",
+        "Bright daylight cyan"
+      ],
+      "alt_text": "The shaded interior patio of a rustic wooden beach shack in Goa, featuring open French doors, dark wood dining furniture, a large potted plant, and red tiled floors.",
+      "micro_story": "Taking a seat inside the cool, wooden embrace of the beach shack, I traced the grain on the old dining table. Escaping the harsh midday sun for a plate of fish curry and a cold drink felt like the best decision of my trip so far."
+    },
+    {
+      "id": "goa_004",
+      "filename": "goa_004.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "crescent beach shoreline",
+        "canopy of coconut palms",
+        "approaching monsoon storm clouds",
+        "Arabian Sea surf waves",
+        "forested coastal headland"
+      ],
+      "descriptive_tags": [
+        "curving ribbon of wet tide-washed sand",
+        "dense emerald coconut palm canopy",
+        "heavy brooding monsoon sky",
+        "parallel lines of white breaking surf",
+        "hazy layered distant hills"
+      ],
+      "sensory_cues": [
+        "heavy scent of salt spray and incoming petrichor",
+        "sudden cool gust of pre-rain sea breeze",
+        "distant rhythmic rumble of ocean breakers",
+        "damp coastal humidity clinging to bare skin",
+        "soft yielding crunch of packed wet sand"
+      ],
+      "mood_and_tone": [
+        "brooding",
+        "contemplative",
+        "anticipatory"
+      ],
+      "dominant_colors": [
+        "slate gray",
+        "deep palm green",
+        "silvery ocean blue",
+        "frothy seafoam white",
+        "charcoal cloud gray"
+      ],
+      "alt_text": "An expansive aerial view of a curved, palm-lined beach in Goa under dramatic, low-hanging monsoon storm clouds.",
+      "micro_story": "The first cold drops of the monsoon kissed my face just as the wind turned the palms inside out. Standing above the bay, watching the sky swallow the sea whole, I felt the kind of electric calm that only Goa before a downpour can bring."
+    },
+    {
+      "id": "goa_005",
+      "filename": "goa_005.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "crescent shoreline",
+        "dense coconut palm canopy",
+        "incoming ocean swells",
+        "gathering monsoon storm clouds"
+      ],
+      "descriptive_tags": [
+        "aerial coastal curve",
+        "endless sea of emerald palm tops",
+        "monsoon overcast sky",
+        "rhythmic linear surf breaks",
+        "distant misty headlands"
+      ],
+      "sensory_cues": [
+        "heavy humid sea breeze",
+        "scent of petrichor and salty brine",
+        "cool rush of pre-storm wind",
+        "distant low rumble of rolling waves",
+        "rustle of thousands of palm fronds"
+      ],
+      "mood_and_tone": [
+        "brooding",
+        "tranquil",
+        "anticipatory"
+      ],
+      "dominant_colors": [
+        "deep forest green",
+        "slate gray",
+        "muted ocean silver",
+        "charcoal cloud gray",
+        "frothy seafoam white"
+      ],
+      "alt_text": "An aerial panoramic view of a sweeping crescent beach in Goa flanked by an expansive dense palm forest under heavy, dark monsoon clouds.",
+      "micro_story": "From up here, just before the skies unleashed their monsoon torrent, the entire Goan coast felt paused in reverent silence. I stood watching the gentle silver swells trace the bay, breathing in that intoxicating mix of damp jungle earth and incoming rain."
+    },
+    {
+      "id": "goa_006",
+      "filename": "goa_006.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Pair of leaning coconut palm trees",
+        "Curving coastline and sandy beach",
+        "Turquoise Arabian Sea",
+        "Moored sailboat and skiff",
+        "Distant forested headland"
+      ],
+      "descriptive_tags": [
+        "Slanted coconut fronds silhouetted against a vast cerulean sky",
+        "Crescent coastline dotted with rustic red-roofed shacks",
+        "Gentle surf lapping against dark laterite rocks",
+        "Hazy coastal horizon meeting turquoise ocean waters",
+        "Sun-drenched tropical cove in North Goa"
+      ],
+      "sensory_cues": [
+        "Warm, salt-laden sea breeze tangling hair",
+        "Rhythmic hush of waves breaking over wet sand",
+        "Papery rustle of dry palm fronds in the wind",
+        "Intense midday sun radiating off red Goan laterite",
+        "Faint smell of sun-baked sand and fresh seafood"
+      ],
+      "mood_and_tone": [
+        "Serene",
+        "Sun-drenched",
+        "Wanderlust-infused"
+      ],
+      "dominant_colors": [
+        "Vibrant cyan sky",
+        "Deep ocean turquoise",
+        "Lush palm green",
+        "Terracotta red",
+        "Golden sand"
+      ],
+      "alt_text": "An elevated wide-angle view of a tropical Goan cove framed by tall leaning coconut palms overlooking calm turquoise waters and a sandy, rock-strewn shoreline.",
+      "micro_story": "Standing beneath the leaning palms with sea salt drying on my skin, I watched a lonely sailboat drift across the turquoise water. At twenty-eight, after months of city noise, watching Goa's slow tides was the first time my mind had fallen completely quiet."
+    },
+    {
+      "id": "goa_007",
+      "filename": "goa_007.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Wide sandy beach coastline",
+        "Dark rocky coastal outcrops",
+        "Scattered figures of beachgoers",
+        "Incoming ocean waves"
+      ],
+      "descriptive_tags": [
+        "Elevated cliffside vantage point",
+        "Expansive stretch of wet sand",
+        "Hazy atmospheric ocean horizon",
+        "Craggy rocks intersecting the surf",
+        "Distant silhouettes of people relaxing"
+      ],
+      "sensory_cues": [
+        "Distant rhythmic roar of crashing waves",
+        "Warm, humid haze clinging to the coastline",
+        "Sweeping coastal breeze on the cliff edge",
+        "Faint smell of salt and sun-baked earth",
+        "Heat radiating from the coastal brush"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Atmospheric",
+        "Bustling yet distant"
+      ],
+      "dominant_colors": [
+        "Dusty sand brown",
+        "Hazy ocean blue",
+        "Dark rocky charcoal",
+        "Muted coastal green"
+      ],
+      "alt_text": "An elevated, wide-angle view overlooking a sandy Goan beach populated with tiny figures, intersected by dark rocky outcrops under a hazy, atmospheric sky.",
+      "micro_story": "Standing on the cliff edge looking down at the scattered crowds, I realized how tiny we all are against the vastness of the Arabian Sea. The humid haze blurred the horizon, turning the afternoon into a dreamy, endless stretch of blue."
+    },
+    {
+      "id": "goa_008",
+      "filename": "goa_008.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Discarded plastic water bottle",
+        "Golden setting sun",
+        "Rolling ocean surf",
+        "Reflective wet beach sand"
+      ],
+      "descriptive_tags": [
+        "Vibrant golden hour sunset",
+        "Washed-up plastic debris in the foreground",
+        "Choppy white-capped ocean waves",
+        "Fiery hazy sky",
+        "Glistening wet shoreline"
+      ],
+      "sensory_cues": [
+        "Warm golden light reflecting off wet sand",
+        "Cool water rushing over bare feet",
+        "Jarring visual of human waste in pristine nature",
+        "Rhythmic crash of the evening tide",
+        "Salty and humid sunset breeze"
+      ],
+      "mood_and_tone": [
+        "Melancholic",
+        "Bittersweet",
+        "Reflective"
+      ],
+      "dominant_colors": [
+        "Golden yellow",
+        "Fiery sunset orange",
+        "Silhouetted black",
+        "Foamy surf white"
+      ],
+      "alt_text": "A glowing golden sunset over a wavy Goan beach, with a discarded plastic bottle washing ashore in the wet reflective sand of the foreground.",
+      "micro_story": "The sunset was painting the Goan sky in breathtaking strokes of gold and orange, but my eyes kept dropping to the plastic bottle rolling in the surf. At twenty-eight, it was a sharp, melancholic reminder of the fragile balance between natural beauty and our careless footprints."
+    },
+    {
+      "id": "goa_009",
+      "filename": "goa_009.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Sinking reddish sun",
+        "Dark volcanic coastal rocks",
+        "Choppy ocean water",
+        "Hazy twilight sky"
+      ],
+      "descriptive_tags": [
+        "Silhouetted jagged foreground rocks",
+        "Moody pastel twilight sky",
+        "Dark and turbulent sea surface",
+        "Fading crimson sun near the horizon",
+        "Rugged untouched coastline"
+      ],
+      "sensory_cues": [
+        "Cool evening wind whipping off the dark water",
+        "Slippery and jagged texture of wet coastal rocks",
+        "Deep, echoing roar of ocean swells hitting stone",
+        "Fading warmth as the sun disappears",
+        "Heavy taste of salt in the twilight air"
+      ],
+      "mood_and_tone": [
+        "Moody and dramatic",
+        "Solitary",
+        "Brooding"
+      ],
+      "dominant_colors": [
+        "Charcoal black",
+        "Deep ocean navy",
+        "Soft peachy orange",
+        "Faded crimson"
+      ],
+      "alt_text": "A dark and moody sunset view in Goa, featuring a reddish sun sinking toward a hazy horizon over a choppy sea, framed by silhouetted, jagged rocks in the foreground.",
+      "micro_story": "Carefully balancing on the jagged, slippery rocks, I watched the sun dip into the hazy ocean like a glowing ember. The beach crowds were far behind me, leaving only the dark, powerful roar of the water to match the quiet inside my head."
+    },
+    {
+      "id": "goa_010",
+      "filename": "goa_010.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Rugged rocky coastal outcrop",
+        "People silhouetted on rocks",
+        "Incoming ocean waves",
+        "Overcast evening sky"
+      ],
+      "descriptive_tags": [
+        "Dark and jagged shoreline rocks",
+        "Choppy tide rolling in",
+        "Moody twilight atmosphere",
+        "Lush green coastal vegetation",
+        "Distant hazy horizon"
+      ],
+      "sensory_cues": [
+        "Cool damp breeze off the ocean",
+        "Rhythmic crashing of waves against stone",
+        "Scent of salty sea spray and wet earth",
+        "Slippery texture of algae-covered rocks",
+        "Fading warmth as evening settles"
+      ],
+      "mood_and_tone": [
+        "Dramatic",
+        "Untamed",
+        "Contemplative"
+      ],
+      "dominant_colors": [
+        "Dark rock charcoal",
+        "Muted ocean grey",
+        "Pale sunset peach",
+        "Deep vegetation green"
+      ],
+      "alt_text": "An elevated view of a rocky Goan coastline at dusk, where tiny figures stand on dark jagged rocks watching the choppy ocean waves under a muted, hazy sky.",
+      "micro_story": "Standing on the rugged outcrop as the tide began to churn, I watched the silhouettes of other travelers against the fading light. The air was thick with salt and the roar of the sea, making me feel wonderfully small and entirely present."
+    },
+    {
+      "id": "goa_011",
+      "filename": "goa_011.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "White colonial church facade",
+        "Twin architectural bell towers",
+        "Central dome structure",
+        "Manicured green courtyard"
+      ],
+      "descriptive_tags": [
+        "Weathered Portuguese baroque architecture",
+        "Imposing symmetrical stone facade",
+        "Arched windows and doorways",
+        "Lush tropical trees framing the building",
+        "Overcast grey sky"
+      ],
+      "sensory_cues": [
+        "Still, humid tropical air",
+        "Quiet crunch of gravel underfoot",
+        "Scent of damp old masonry",
+        "Cool shadow cast by the towering structure"
+      ],
+      "mood_and_tone": [
+        "Solemn",
+        "Historic",
+        "Reverent"
+      ],
+      "dominant_colors": [
+        "Aged plaster white",
+        "Weathered stone grey",
+        "Dark wood brown",
+        "Courtyard green"
+      ],
+      "alt_text": "The imposing, weathered white facade of a large Portuguese colonial church in Goa, featuring twin towers and a central dome, set behind a manicured green lawn under an overcast sky.",
+      "micro_story": "Walking up the gravel path toward the towering white cathedral, the centuries of history felt heavy and still in the humid Goan air. Leaving the beach behind for the day, this quiet solemnity offered a completely different kind of peace."
+    },
+    {
+      "id": "goa_012",
+      "filename": "goa_012.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Ornate golden altarpiece",
+        "Vaulted white ceiling",
+        "Carved wooden pulpits",
+        "Church interior nave"
+      ],
+      "descriptive_tags": [
+        "Gilded baroque altar carvings",
+        "High arched ceiling with decorative patterns",
+        "Warm ambient light filtering inside",
+        "Intricate wooden detailing",
+        "Contrasting pink and white columns"
+      ],
+      "sensory_cues": [
+        "Hushed echoing acoustics of the high ceiling",
+        "Faint lingering scent of old incense and timber",
+        "Cool touch of stone flooring",
+        "Dim, reverent lighting"
+      ],
+      "mood_and_tone": [
+        "Grand",
+        "Awe-inspiring",
+        "Hushed"
+      ],
+      "dominant_colors": [
+        "Gilded gold",
+        "Plaster white",
+        "Faded terracotta pink",
+        "Dark carved wood"
+      ],
+      "alt_text": "The grand interior of a historic Goan church, featuring a stark white vaulted ceiling that contrasts dramatically with a towering, intricately carved golden baroque altarpiece.",
+      "micro_story": "Stepping out of the intense sunlight and into the cool, cavernous nave, the blinding gold of the altarpiece took my breath away. I sat in the wooden pews, letting the echoing silence and the smell of ancient incense wash over me."
+    },
+    {
+      "id": "goa_013",
+      "filename": "goa_013.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Red laterite stone basilica",
+        "Expansive green lawn",
+        "Clear blue sky",
+        "Parked utility truck"
+      ],
+      "descriptive_tags": [
+        "Unplastered raw laterite facade",
+        "Massive colonial architecture",
+        "Sun-drenched manicured grass",
+        "Bright cloudless daytime sky",
+        "Historic religious monument"
+      ],
+      "sensory_cues": [
+        "Intense midday heat radiating from the dark stone",
+        "Smell of freshly cut warm grass",
+        "Harsh blinding sunlight",
+        "Dry tropical breeze"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Timeless",
+        "Sun-baked"
+      ],
+      "dominant_colors": [
+        "Deep laterite red",
+        "Vibrant lawn green",
+        "Clear sky blue",
+        "Dark shadow brown"
+      ],
+      "alt_text": "A massive historic basilica in Goa constructed from unplastered red laterite stone, standing proudly behind a vibrant green lawn under a clear, bright blue sky.",
+      "micro_story": "Standing before the raw, exposed red stone of the basilica, the midday Goan sun was absolutely unrelenting. It felt incredible to be twenty-eight and staring at something that had boldly held its ground against the centuries."
+    },
+    {
+      "id": "goa_014",
+      "filename": "goa_014.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Weathered colonial church facade",
+        "Ornate bell towers",
+        "Lush palm fronds",
+        "Overcast sky"
+      ],
+      "descriptive_tags": [
+        "Darkened, aged white plaster",
+        "Intricate baroque stonework",
+        "Tropical green foliage in the foreground",
+        "Flat grey background sky",
+        "Historic architectural details"
+      ],
+      "sensory_cues": [
+        "Humid and heavy pre-rain air",
+        "Rustle of palm fronds in the breeze",
+        "Earthy smell of damp, aged masonry",
+        "Muffled ambient sound due to the overcast weather"
+      ],
+      "mood_and_tone": [
+        "Nostalgic",
+        "Melancholy",
+        "Enduring"
+      ],
+      "dominant_colors": [
+        "Aged white",
+        "Stained grey",
+        "Palm green",
+        "Dark brown accents"
+      ],
+      "alt_text": "A close-up view of a beautifully weathered, white colonial church facade in Goa, framed by vibrant green palm fronds against a flat, overcast grey sky.",
+      "micro_story": "Framed by swaying palm fronds, the rain-stained white facade of the old church looked almost haunting against the overcast sky. It was a quiet, contemplative detour that perfectly balanced the loud, vibrant energy of the beaches."
+    },
+    {
+      "id": "goa_015",
+      "filename": "goa_015.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Vibrant beachfront wooden huts",
+        "Tall coconut palm trees",
+        "Traditional fishing boats",
+        "Sandy beach shoreline"
+      ],
+      "descriptive_tags": [
+        "Colorful blue and yellow painted shacks",
+        "Dense canopy of tropical palms",
+        "Sunlit coastal sand",
+        "Clear bright blue sky",
+        "Rustic timber architecture"
+      ],
+      "sensory_cues": [
+        "Hot sand shifting under bare feet",
+        "Rustling sound of dry palm fronds",
+        "Salty ocean breeze",
+        "Smell of sun-baked wood and sea salt",
+        "Relief of shade under the shack awnings"
+      ],
+      "mood_and_tone": [
+        "Vibrant",
+        "Idyllic",
+        "Escapist"
+      ],
+      "dominant_colors": [
+        "Lush palm green",
+        "Bright cerulean blue",
+        "Warm golden sand",
+        "Honeyed timber brown"
+      ],
+      "alt_text": "A bright, idyllic row of colorful wooden beach huts nestled tightly beneath a dense grove of towering palm trees on a sandy Goan beach.",
+      "micro_story": "Returning to this vibrant row of beach shacks under the towering palms felt like coming back to a secret paradise. I kicked off my sandals, letting the hot sand ground me in the reality of this perfect Goan afternoon."
+    },
+    {
+      "id": "goa_016",
+      "filename": "goa_016.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Illuminated beach restaurant setup",
+        "Warm neon and string lights",
+        "Plastic tables and chairs on sand",
+        "Dark night sky"
+      ],
+      "descriptive_tags": [
+        "Glowing neon palm tree decorations",
+        "Festive string lights outlining structures",
+        "Warm ambient light reflecting on sand",
+        "Casual open-air dining",
+        "Pitch black background"
+      ],
+      "sensory_cues": [
+        "Cool night sand beneath the tables",
+        "Warm glow of fairy lights against the dark",
+        "Smell of grilled seafood and garlic",
+        "Distant thumping bass of beach music",
+        "Humid and breezy night air"
+      ],
+      "mood_and_tone": [
+        "Festive",
+        "Inviting",
+        "Lively"
+      ],
+      "dominant_colors": [
+        "Warm neon orange",
+        "Bright yellow",
+        "Deep black",
+        "Sand red"
+      ],
+      "alt_text": "A lively outdoor beach restaurant in Goa at night, illuminated by warm string lights and glowing neon signs, with empty tables and chairs resting directly on the sand.",
+      "micro_story": "The beach transformed completely after dark, coming alive with warm neon and the smell of roasting garlic. I found a quiet table in the sand, letting the festive glow and distant music wash away the last remnants of my city stress."
+    },
+    {
+      "id": "goa_017",
+      "filename": "goa_017.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Sunset over the ocean",
+        "Rustic wooden table",
+        "Glass beverage bottle",
+        "Thatched roof eaves"
+      ],
+      "descriptive_tags": [
+        "Golden hour coastal view",
+        "Silhouetted figures on the shoreline",
+        "Hazy, warm evening sky",
+        "Fringed palm thatch framing the scene",
+        "Relaxed beachfront vantage point"
+      ],
+      "sensory_cues": [
+        "Condensation on the cold glass bottle",
+        "Smooth, worn texture of the wooden table",
+        "Warm, fading evening heat",
+        "Gentle, rhythmic roar of the incoming tide",
+        "Scent of dry thatch and salty sea air"
+      ],
+      "mood_and_tone": [
+        "Peaceful",
+        "Nostalgic",
+        "Content"
+      ],
+      "dominant_colors": [
+        "Golden sepia orange",
+        "Dark wood brown",
+        "Silhouetted black",
+        "Faded sky yellow"
+      ],
+      "alt_text": "A relaxing sunset view from inside a rustic Goan beach shack, looking out past a wooden table with a bottle, under thatched eaves, toward a golden, hazy ocean horizon.",
+      "micro_story": "I sat alone at the worn wooden table, a cold drink in hand, watching the sun melt into the ocean through the fringe of the thatched roof. It was one of those perfect, quiet golden hours where I felt completely at peace with exactly where I was in life."
+    },
+    {
+      "id": "goa_018",
+      "filename": "goa_018.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Thatched roof beach shack",
+        "Bamboo support pillars",
+        "Empty wicker and plastic chairs",
+        "Sandy beach shoreline"
+      ],
+      "descriptive_tags": [
+        "Rustic palm-thatch canopy",
+        "Sun-dappled sandy floor",
+        "Casual beachfront seating",
+        "Distant colorful beach umbrellas",
+        "Lush green hillside backdrop"
+      ],
+      "sensory_cues": [
+        "Coarse texture of dry palm thatch",
+        "Warm sand shifting around chair legs",
+        "Scent of salty ocean breeze",
+        "Distant chatter of beachgoers",
+        "Relief of cool shade"
+      ],
+      "mood_and_tone": [
+        "Relaxed",
+        "Unpretentious",
+        "Inviting"
+      ],
+      "dominant_colors": [
+        "Thatch brown",
+        "Warm beach sand",
+        "Faded bamboo yellow",
+        "Distant ocean blue"
+      ],
+      "alt_text": "A rustic beachfront shack made of bamboo and palm thatch provides shaded seating with wicker chairs on a sandy Goan beach.",
+      "micro_story": "Taking shelter under the thatched roof, I sank into one of the wicker chairs and kicked off my sandals. Watching the beach umbrellas flutter in the distance, I realized I could happily spend the rest of the day right here."
+    },
+    {
+      "id": "goa_019",
+      "filename": "goa_019.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Elevated wooden beach cabins",
+        "Dense coconut palm grove",
+        "Wide sandy beach",
+        "Scattered sunbeds and umbrellas"
+      ],
+      "descriptive_tags": [
+        "Stilted timber architecture",
+        "Lush tropical backdrop",
+        "Symmetrical pitched cabin roofs",
+        "Expansive clear blue sky",
+        "Sun-drenched coastline"
+      ],
+      "sensory_cues": [
+        "Heat radiating from the vast stretch of sand",
+        "Rustling of the tall palm canopy",
+        "Salty and dry coastal breeze",
+        "Bright midday glare",
+        "Distant hum of ocean waves"
+      ],
+      "mood_and_tone": [
+        "Tropical",
+        "Serene",
+        "Expansive"
+      ],
+      "dominant_colors": [
+        "Pale beach sand",
+        "Clear sky blue",
+        "Palm frond green",
+        "Timber brown"
+      ],
+      "alt_text": "Elevated wooden beach cabins sit nestled in a dense grove of tall coconut palms, overlooking a wide, sun-drenched sandy beach with scattered sunbeds.",
+      "micro_story": "Looking up at the stilted wooden cabins nestled perfectly into the palm grove, I felt a pang of envy for whoever was waking up to that view. The beach stretched out wide and empty, inviting me to walk for miles under the clear sky."
+    },
+    {
+      "id": "goa_020",
+      "filename": "goa_020.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Whitewashed cylindrical lighthouse",
+        "Rusty laterite ground",
+        "Bright clear sky",
+        "Tourists exploring the fort"
+      ],
+      "descriptive_tags": [
+        "Weathered historic masonry",
+        "Imposing coastal beacon",
+        "Sun-baked red earth courtyard",
+        "Vibrant cyan sky",
+        "Sturdy architectural silhouette"
+      ],
+      "sensory_cues": [
+        "Blinding glare off the whitewashed walls",
+        "Dry heat rising from the laterite stone",
+        "Crunch of red gravel underfoot",
+        "Unobstructed coastal wind",
+        "Scent of dusty earth and sea salt"
+      ],
+      "mood_and_tone": [
+        "Historic",
+        "Imposing",
+        "Sun-drenched"
+      ],
+      "dominant_colors": [
+        "Weathered white",
+        "Vibrant cyan",
+        "Laterite red",
+        "Dusty orange"
+      ],
+      "alt_text": "A towering, weathered white cylindrical lighthouse stands prominently against a vibrant blue sky in a wide courtyard of red laterite earth, with scattered tourists exploring the historic site.",
+      "micro_story": "Standing in the dusty red courtyard, the blinding white lighthouse towered above me like a silent guardian of the coast. The stark contrast against the brilliant cyan sky made the centuries of Portuguese history feel incredibly vivid and alive."
+    },
+    {
+      "id": "goa_021",
+      "filename": "goa_021.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Historic whitewashed lighthouse",
+        "Wide laterite fort courtyard",
+        "Distant ocean horizon",
+        "Scattered groups of tourists"
+      ],
+      "descriptive_tags": [
+        "Sweeping coastal fortress grounds",
+        "Stained and weathered lighthouse exterior",
+        "Low defensive stone walls",
+        "Expansive oceanic background",
+        "Hazy daytime sky"
+      ],
+      "sensory_cues": [
+        "Oppressive heat of the open fortress courtyard",
+        "Distant ocean breeze offering slight relief",
+        "Echoing chatter of tour groups",
+        "Rough texture of baked laterite walls",
+        "Scent of dry dust and distant brine"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Historic",
+        "Bustling"
+      ],
+      "dominant_colors": [
+        "Stained white",
+        "Brick red",
+        "Faded ocean blue",
+        "Pale sky blue"
+      ],
+      "alt_text": "A wide view of a historic coastal fort featuring a prominent whitewashed lighthouse, a vast flat courtyard made of red laterite, and visitors walking near low walls overlooking the distant ocean.",
+      "micro_story": "Walking across the vast, sun-baked courtyard of the fort, I joined the clusters of travelers drawn to the edge of the walls. Looking past the weathered lighthouse to the endless ocean, it was easy to imagine the ships that used to navigate by this very beacon."
+    },
+    {
+      "id": "goa_022",
+      "filename": "goa_022.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Rusted iron cannon",
+        "Wooden cannon carriage",
+        "Dark laterite fort wall",
+        "Distant ocean and coastline"
+      ],
+      "descriptive_tags": [
+        "Heavily oxidized artillery piece",
+        "Weathered timber mounting",
+        "Rough porous stone ramparts",
+        "Calm grey-blue sea",
+        "Hazy coastal horizon"
+      ],
+      "sensory_cues": [
+        "Rough, flaking rust of the old cannon",
+        "Hard uneven laterite paving stones",
+        "Cool ocean breeze sweeping over the wall",
+        "Scent of oxidized metal and sea salt",
+        "Muffled sound of water lapping far below"
+      ],
+      "mood_and_tone": [
+        "Historic",
+        "Somber",
+        "Enduring"
+      ],
+      "dominant_colors": [
+        "Rusted iron orange",
+        "Dark laterite brown",
+        "Weathered wood grey",
+        "Muted ocean blue"
+      ],
+      "alt_text": "A heavily rusted historic iron cannon rests on a weathered wooden carriage, aimed out over a dark laterite stone wall toward a calm ocean and distant coastline.",
+      "micro_story": "Running my hand over the rough, flaking rust of the ancient cannon, I looked out at the exact horizon it had guarded for centuries. The peaceful, grey-blue water below made the fort's violent history feel like a distant, half-forgotten dream."
+    },
+    {
+      "id": "goa_023",
+      "filename": "goa_023.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Elevated laterite fort ramparts",
+        "Tourists walking the perimeter",
+        "Textured stone walls",
+        "Expansive ocean view"
+      ],
+      "descriptive_tags": [
+        "Paved red stone walkway",
+        "Massive defensive battlements",
+        "Porous and dark laterite blocks",
+        "Clear sunny sky",
+        "Sweeping coastal vista"
+      ],
+      "sensory_cues": [
+        "Intense heat radiating from the dark stone walls",
+        "Unobstructed sea breeze hitting the elevated walkway",
+        "Crunch of sandy grit on the paved path",
+        "Sound of multiple languages spoken by passing tourists",
+        "Blinding glare off the ocean surface"
+      ],
+      "mood_and_tone": [
+        "Exploring",
+        "Sun-baked",
+        "Scenic"
+      ],
+      "dominant_colors": [
+        "Dark laterite brown",
+        "Sunlit terracotta",
+        "Bright ocean blue",
+        "Clear sky blue"
+      ],
+      "alt_text": "Tourists walk along the wide, paved ramparts of a massive historic fort constructed from dark red laterite stone, enjoying sweeping views of the adjacent ocean under a clear sky.",
+      "micro_story": "I joined the steady stream of people walking the ancient, sun-baked ramparts, the heat radiating through the soles of my shoes. With the vast ocean on one side and the massive laterite walls on the other, the scale of the fortress was truly awe-inspiring."
+    },
+    {
+      "id": "goa_024",
+      "filename": "goa_024.jpg",
+      "city": "Goa",
+      "primary_subjects": [
+        "Weathered upper lighthouse tower",
+        "Glass lantern room and weather vane",
+        "Red terracotta tiled roof",
+        "Uninterrupted blue sky"
+      ],
+      "descriptive_tags": [
+        "Stained and aging white masonry",
+        "Intricate metal railing around the beacon",
+        "Sloping traditional clay roof tiles",
+        "Crisp architectural framing",
+        "Vividly clear atmosphere"
+      ],
+      "sensory_cues": [
+        "Dry heat of a cloudless day",
+        "Sharp visual contrast of white stone against deep blue",
+        "Faint smell of baked terracotta",
+        "Still and quiet high-altitude atmosphere"
+      ],
+      "mood_and_tone": [
+        "Stately",
+        "Weathered",
+        "Still"
+      ],
+      "dominant_colors": [
+        "Deep sky blue",
+        "Stained plaster white",
+        "Terracotta red",
+        "Dark masonry grey"
+      ],
+      "alt_text": "A close-up view of a weathered, whitewashed lighthouse tower with a glass lantern room, set against a deep blue sky and framed by the red terracotta tiled roof of a nearby building.",
+      "micro_story": "Looking up at the glass lantern room crowning the weathered tower, I admired how the stark white stone popped against the flawless blue sky. It stood with a quiet dignity, a silent watchman resting under the intense afternoon sun."
+    },
+    {
+      "id": "hampi_001",
+      "filename": "hampi_001.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Towering carved stone temple gopuram",
+        "Intricate mythological deity sculptures",
+        "Clear blue sky background"
+      ],
+      "descriptive_tags": [
+        "Imposing pyramidal temple tower",
+        "Sun-drenched tan sandstone",
+        "Detailed tiered architecture",
+        "Unobstructed daytime view"
+      ],
+      "sensory_cues": [
+        "Blinding midday sun radiating off the stone",
+        "Rough texture of ancient carved granite",
+        "Dry heat of the Deccan plateau",
+        "Awe-inspiring sense of vertical scale"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Reverent",
+        "Timeless"
+      ],
+      "dominant_colors": [
+        "Pale sandstone yellow",
+        "Deep sky blue",
+        "Cast shadow grey"
+      ],
+      "alt_text": "A massive, intricately carved pyramidal temple tower glows in pale yellow stone against a vivid, clear blue sky.",
+      "micro_story": "Craning my neck to take in the sheer scale of the towering gopuram, I traced the thousands of carved figures baked by the midday sun. Standing before such ancient devotion made all my twenty-eight years feel like a fleeting, beautiful second."
+    },
+    {
+      "id": "hampi_002",
+      "filename": "hampi_002.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Towering stone temple gopuram",
+        "Sun flaring behind the structure",
+        "Paved stone courtyard with a runner",
+        "Dark archway entrance"
+      ],
+      "descriptive_tags": [
+        "Dramatic back-lit temple architecture",
+        "Wide stone-paved plaza",
+        "Glowing golden hour light",
+        "Shadowy colonnaded pavilions",
+        "Imposing monumental scale"
+      ],
+      "sensory_cues": [
+        "Warm golden sunlight catching the dust in the air",
+        "Solid thud of footsteps on massive stone slabs",
+        "Cool shade emanating from the dark archway",
+        "Faint smell of old stone and incense"
+      ],
+      "mood_and_tone": [
+        "Mystical",
+        "Grand",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Golden yellow",
+        "Shadowy grey",
+        "Pale sky white",
+        "Stone brown"
+      ],
+      "alt_text": "The sun peeks dramatically from behind a towering, tiered stone temple, casting a warm golden glow over a wide, paved stone courtyard.",
+      "micro_story": "As the morning sun crested the edge of the massive temple tower, a golden flare washed over the empty stone courtyard. I walked down the central path, letting the quiet majesty of Hampi completely silence my mind."
+    },
+    {
+      "id": "hampi_003",
+      "filename": "hampi_003.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Pyramidal stone temple tower",
+        "Massive dark archway entrance",
+        "Dynamic cloudy sky"
+      ],
+      "descriptive_tags": [
+        "Low-angle architectural perspective",
+        "Intricately carved stone tiers",
+        "Sweeping blue sky with scattered clouds",
+        "Looming monumental presence"
+      ],
+      "sensory_cues": [
+        "Dizzying verticality looking up from the base",
+        "Stifling heat radiating from the pale stone",
+        "Breezy open sky",
+        "Rough, sun-baked masonry"
+      ],
+      "mood_and_tone": [
+        "Overwhelming",
+        "Majestic",
+        "Awe-inspiring"
+      ],
+      "dominant_colors": [
+        "Vibrant sky blue",
+        "Pale sandy yellow",
+        "Deep shadow black",
+        "Cloud white"
+      ],
+      "alt_text": "A dramatic low-angle view of an enormous, intricately carved Hindu temple tower rising into a vibrant blue sky dotted with white clouds.",
+      "micro_story": "Standing directly beneath the monolithic gateway, the carved tower seemed to stretch endlessly into the bright, cloud-swept sky. I felt beautifully insignificant, dwarfed by centuries of history and unwavering devotion."
+    },
+    {
+      "id": "hampi_004",
+      "filename": "hampi_004.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Tiered stone temple tower",
+        "Still green temple tank",
+        "Perfect water reflection",
+        "Stepped stone embankments"
+      ],
+      "descriptive_tags": [
+        "Symmetrical architectural reflection",
+        "Placid greenish water",
+        "Ancient stone step-well",
+        "Hazy distant hills",
+        "Serene morning atmosphere"
+      ],
+      "sensory_cues": [
+        "Still, humid air over the water",
+        "Musty scent of algae and ancient stone",
+        "Cool dampness near the tank edge",
+        "Quiet stillness of the early hour"
+      ],
+      "mood_and_tone": [
+        "Tranquil",
+        "Reflective",
+        "Peaceful"
+      ],
+      "dominant_colors": [
+        "Algae green",
+        "Golden stone yellow",
+        "Pale hazy sky white",
+        "Dark grey stone"
+      ],
+      "alt_text": "A grand, tiered stone temple tower is perfectly mirrored in the still, green waters of an ancient, stepped stone tank under a hazy sky.",
+      "micro_story": "Sitting on the cool stone steps of the temple tank, I watched the towering gopuram perfectly mirrored in the green water. The absolute stillness of the morning felt like a rare, secret gift just for me."
+    },
+    {
+      "id": "hampi_005",
+      "filename": "hampi_005.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Sunlit temple tower",
+        "Dark rocky archway framing the view",
+        "Red flag on the tower peak"
+      ],
+      "descriptive_tags": [
+        "Natural rock framing",
+        "High contrast lighting",
+        "Distant glowing architecture",
+        "Rough shadowy foreground",
+        "Peek-a-boo vantage point"
+      ],
+      "sensory_cues": [
+        "Cool, damp darkness inside the rocky crevice",
+        "Rough and jagged texture of the foreground stone",
+        "Blinding brightness of the sunlit tower in the distance",
+        "Muffled acoustics within the stone walls"
+      ],
+      "mood_and_tone": [
+        "Mysterious",
+        "Dramatic",
+        "Focused"
+      ],
+      "dominant_colors": [
+        "Pitch black",
+        "Glowing golden yellow",
+        "Clear sky blue",
+        "Red accent"
+      ],
+      "alt_text": "A brilliantly sunlit, tiered temple tower topped with a red flag is perfectly framed through a dark, rough-hewn stone window.",
+      "micro_story": "Peering through the dark, jagged cleft in the rocks, the glowing temple tower looked like a framed painting of another era. I lingered in the cool shadows, captivated by how the ruins constantly revealed new secrets."
+    },
+    {
+      "id": "hampi_006",
+      "filename": "hampi_006.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Intricately carved stone pillars",
+        "Ruined brick and stone structure",
+        "Flat paved courtyard"
+      ],
+      "descriptive_tags": [
+        "Ornate colonnaded pavilion",
+        "Weathered and crumbling masonry",
+        "Elaborate mythical carvings",
+        "Sun-bleached architectural ruins",
+        "Stark daytime shadows"
+      ],
+      "sensory_cues": [
+        "Gritty texture of eroding sandstone",
+        "Baking heat radiating from the courtyard floor",
+        "Deep shade under the carved stone canopy",
+        "Dry and dusty ambient air"
+      ],
+      "mood_and_tone": [
+        "Historic",
+        "Melancholic",
+        "Enduring"
+      ],
+      "dominant_colors": [
+        "Bleached stone grey",
+        "Weathered brick red",
+        "Pale sky white",
+        "Deep shadow black"
+      ],
+      "alt_text": "An ornate stone pavilion featuring elaborately carved pillars stands beside a massive, partially ruined structure of brick and stone in a sun-baked courtyard.",
+      "micro_story": "I ran my fingers over the unbelievably intricate carvings on the pillars, marveling at the craftsmanship that survived empires. Standing amongst the sun-bleached ruins, I felt a profound respect for the artistry left behind."
+    },
+    {
+      "id": "hampi_007",
+      "filename": "hampi_007.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Ornate stone chariot shrine",
+        "Carved stone wheels",
+        "Stone elephant figures",
+        "Expansive paved courtyard"
+      ],
+      "descriptive_tags": [
+        "Iconic monolithic monument",
+        "Highly detailed sculptural work",
+        "Distant rocky boulder landscape",
+        "Colonnaded ruins in the background",
+        "Sun-scorched plaza"
+      ],
+      "sensory_cues": [
+        "Intense, blinding glare of the midday sun on pale stone",
+        "Searing heat touching the courtyard slabs",
+        "Coarse, heavily weathered texture of the granite",
+        "Awe of standing before a masterpiece"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Legendary",
+        "Awe-inspiring"
+      ],
+      "dominant_colors": [
+        "Pale granite yellow",
+        "Dusty brown",
+        "Washed-out sky white"
+      ],
+      "alt_text": "A magnificent, elaborately carved stone chariot pulled by stone elephants sits in the center of a wide, sun-drenched temple courtyard surrounded by rocky hills.",
+      "micro_story": "Standing in the searing heat before the famous stone chariot, I couldn't believe the level of detail coaxed out of solid granite. It was a true masterpiece of the ancient world, and seeing it at twenty-eight felt like checking off a lifelong dream."
+    },
+    {
+      "id": "hampi_008",
+      "filename": "hampi_008.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Ruined stone and brick gateway",
+        "Prominent central vertical cleft",
+        "Rocky boulder-strewn hill",
+        "Clear sky"
+      ],
+      "descriptive_tags": [
+        "Crumbling tiered architectural tower",
+        "Dramatic structural fracture",
+        "Barren and rocky Deccan landscape",
+        "Weathered ancient masonry",
+        "Sun-drenched ruins"
+      ],
+      "sensory_cues": [
+        "Dry, arid heat of the rocky landscape",
+        "Rough, crumbling edges of ancient brickwork",
+        "Faint breeze carrying fine dust",
+        "Stark, unforgiving sunlight"
+      ],
+      "mood_and_tone": [
+        "Desolate",
+        "Ancient",
+        "Resilient"
+      ],
+      "dominant_colors": [
+        "Rusted brick red",
+        "Pale stone grey",
+        "Light sky blue",
+        "Earthy brown"
+      ],
+      "alt_text": "A heavily ruined, ancient stone and brick gateway tower featuring a dramatic vertical split stands before a rugged hill composed of giant boulders.",
+      "micro_story": "Looking up at the massive, fractured gateway standing stubbornly against the dry landscape, I felt a deep sense of resilience. Despite centuries of wear and ruin, Hampi still held a powerful, undeniable magic."
+    },
+    {
+      "id": "hampi_009",
+      "filename": "hampi_009.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Carved stone block foreground",
+        "Mythical animal relief carvings",
+        "Out-of-focus temple structure background"
+      ],
+      "descriptive_tags": [
+        "Shallow depth of field",
+        "Intricate granite carvings",
+        "Sunlit textured stone",
+        "Blurred architectural background",
+        "Ancient masonry details"
+      ],
+      "sensory_cues": [
+        "Rough, granular feel of carved granite",
+        "Heat radiating from the sun-baked stone",
+        "Quiet stillness of the ancient courtyard",
+        "Visual depth drawing the eye from foreground to background"
+      ],
+      "mood_and_tone": [
+        "Intimate",
+        "Observant",
+        "Historic"
+      ],
+      "dominant_colors": [
+        "Golden brown",
+        "Sandy yellow",
+        "Soft grey"
+      ],
+      "alt_text": "A close-up view of intricate stone carvings on a weathered granite block, with a blurred ancient temple structure in the background under bright sunlight.",
+      "micro_story": "I ran my fingers over the rough, ancient carvings, marveling at the minute details that had somehow survived centuries of weathering. Looking past the stone animals to the blurred temple beyond, Hampi felt like a beautifully layered puzzle waiting to be deciphered."
+    },
+    {
+      "id": "hampi_010",
+      "filename": "hampi_010.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Towering stone temple gopuram",
+        "Sun flare behind the structure",
+        "Paved stone courtyard",
+        "Dark archway entrance"
+      ],
+      "descriptive_tags": [
+        "Dramatic back-lit architecture",
+        "Wide stone-paved plaza",
+        "Glowing golden hour light",
+        "Shadowy colonnaded pavilions",
+        "Monumental vertical scale"
+      ],
+      "sensory_cues": [
+        "Warm golden sunlight catching the dust in the air",
+        "Solid thud of footsteps on massive stone slabs",
+        "Cool shade emanating from the dark archway",
+        "Faint smell of old stone and lingering incense"
+      ],
+      "mood_and_tone": [
+        "Mystical",
+        "Grand",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Golden yellow",
+        "Shadowy grey",
+        "Pale sky white",
+        "Stone brown"
+      ],
+      "alt_text": "The sun peeks dramatically from behind a towering, tiered stone temple tower, casting a warm golden glow over a wide, paved stone courtyard.",
+      "micro_story": "The morning sun crested the edge of the massive temple tower, sending a blinding golden flare across the empty courtyard. Walking down the central path alone, the sheer scale of the architecture made me feel both tiny and incredibly grounded."
+    },
+    {
+      "id": "hampi_011",
+      "filename": "hampi_011.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Undulating granite bedrock",
+        "Massive smooth boulders",
+        "Small pillared stone pavilion",
+        "Local person walking"
+      ],
+      "descriptive_tags": [
+        "Sweeping rocky landscape",
+        "Precariously balanced boulders",
+        "Weathered ancient mandapa",
+        "Pale hazy sky",
+        "Surreal geological formations"
+      ],
+      "sensory_cues": [
+        "Hard, unyielding surface of the bedrock underfoot",
+        "Dry, still air of the plateau",
+        "Quiet scuff of sandals on stone",
+        "Vast, open silence of the landscape"
+      ],
+      "mood_and_tone": [
+        "Barren",
+        "Timeless",
+        "Quiet"
+      ],
+      "dominant_colors": [
+        "Pale granite grey",
+        "Dusty terracotta",
+        "Muted sky white"
+      ],
+      "alt_text": "A person walks across a vast, undulating expanse of solid granite bedrock scattered with massive, smooth boulders and a small pillared stone pavilion under a pale sky.",
+      "micro_story": "Watching a local man casually navigate the endless, undulating sheets of solid granite, I was struck by how alien this landscape felt. The precariously balanced boulders and ancient pavilions looked like the scattered, forgotten toys of giants."
+    },
+    {
+      "id": "hampi_012",
+      "filename": "hampi_012.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Precariously balanced granite boulders",
+        "Lone green tree",
+        "Low stone wall",
+        "Vast bedrock surface"
+      ],
+      "descriptive_tags": [
+        "Surreal boulder-strewn landscape",
+        "Sun-baked granite formations",
+        "Bright cloudless sky",
+        "Resilient vegetation",
+        "Ancient structural remnants"
+      ],
+      "sensory_cues": [
+        "Searing heat reflecting off the pale rock",
+        "Dry, dusty smell of the earth",
+        "Sparse, welcoming shade offered by the solitary tree",
+        "Rough, abrasive texture of the granite"
+      ],
+      "mood_and_tone": [
+        "Stark",
+        "Surreal",
+        "Enduring"
+      ],
+      "dominant_colors": [
+        "Pale stone grey",
+        "Dusty pink",
+        "Vibrant sky cyan",
+        "Olive green"
+      ],
+      "alt_text": "A surreal landscape featuring massive, smooth granite boulders balancing precariously on a rocky plateau, with a single green tree and remnants of a stone wall under a bright blue sky.",
+      "micro_story": "The massive boulders of Hampi looked like they had been dropped from the sky, balancing impossibly against each other. Finding a tiny patch of shade under a lone tree, I marveled at how anything could thrive in this beautiful, sun-baked oven."
+    },
+    {
+      "id": "hampi_013",
+      "filename": "hampi_013.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Wide flowing river",
+        "Massive rounded river boulders",
+        "Distant rocky hill",
+        "Palm tree groves on the bank"
+      ],
+      "descriptive_tags": [
+        "Wide-angle landscape vista",
+        "Turbulent greenish water",
+        "Boulder-strewn riverbanks",
+        "Lush tropical vegetation contrasting with arid rocks",
+        "Clear blue sky"
+      ],
+      "sensory_cues": [
+        "Rushing sound of river water cutting through stone",
+        "Cooling breeze lifting off the river surface",
+        "Smooth, water-worn texture of the dark boulders",
+        "Humid, earthy scent of the riverbank"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Dynamic",
+        "Refreshing"
+      ],
+      "dominant_colors": [
+        "River green",
+        "Dark boulder grey",
+        "Terracotta pink rocks",
+        "Clear sky blue"
+      ],
+      "alt_text": "A wide-angle panoramic view of a wide, greenish river flowing through a dramatic landscape of massive, smooth boulders, bordered by palm trees and rocky hills under a clear blue sky.",
+      "micro_story": "Sitting on a giant, water-smoothed boulder, I let the rushing sound of the Tungabhadra River drown out my lingering city stress. The stark contrast between the harsh, sun-baked rocks and the cool, life-giving water was the perfect metaphor for this magical place."
+    },
+    {
+      "id": "hampi_014",
+      "filename": "hampi_014.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Vibrant green rice paddies",
+        "Tall coconut palms",
+        "Massive stacked granite boulders",
+        "Steep rocky hill"
+      ],
+      "descriptive_tags": [
+        "Lush agricultural foreground",
+        "Stark rocky background",
+        "Tropical oasis setting",
+        "Precarious boulder formations",
+        "Sun-drenched landscape"
+      ],
+      "sensory_cues": [
+        "Humid, sweet smell of wet earth and growing rice",
+        "Rustle of palm fronds in the gentle breeze",
+        "Intense visual contrast of bright green against pale rock",
+        "Buzzing of insects in the flooded fields"
+      ],
+      "mood_and_tone": [
+        "Idyllic",
+        "Contrasting",
+        "Vibrant"
+      ],
+      "dominant_colors": [
+        "Vivid paddy green",
+        "Pale granite pink",
+        "Deep palm green",
+        "Bright sky blue"
+      ],
+      "alt_text": "Vibrant green rice paddies and tall palm trees sit at the base of a steep hill composed entirely of massive, precariously stacked granite boulders under a clear blue sky.",
+      "micro_story": "The brilliant, almost neon green of the rice paddies against the dry, towering boulders felt like a beautiful, impossible contradiction. Walking through the palms, I realized Hampi isn't just a city of dry ruins; it's a thriving, breathing oasis."
+    },
+    {
+      "id": "hampi_015",
+      "filename": "hampi_015.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Towering stone temple gopuram",
+        "Massive foreground boulders",
+        "Ruined stone colonnade",
+        "Hazy atmospheric sky"
+      ],
+      "descriptive_tags": [
+        "Soft golden hour lighting",
+        "Monumental temple silhouette",
+        "Rugged rocky terrain",
+        "Atmospheric twilight haze",
+        "Ancient architectural landscape"
+      ],
+      "sensory_cues": [
+        "Fading warmth of the sun on the stone",
+        "Cool, still evening air",
+        "Quiet, echoing emptiness of the rocky plateau",
+        "Hazy, dusty atmosphere settling over the ruins"
+      ],
+      "mood_and_tone": [
+        "Ethereal",
+        "Ancient",
+        "Contemplative"
+      ],
+      "dominant_colors": [
+        "Pale golden yellow",
+        "Dusty grey",
+        "Hazy twilight purple",
+        "Dark shadow brown"
+      ],
+      "alt_text": "A towering, multi-tiered temple gopuram bathed in soft golden light stands majestically amidst a rugged landscape of massive boulders and ancient ruins under a hazy twilight sky.",
+      "micro_story": "As the golden light softened the harsh lines of the boulders, the towering temple seemed to glow from within. Sitting alone on the rocky plateau, watching the twilight haze settle over the ruins, I felt entirely at peace with the world."
+    },
+    {
+      "id": "hampi_016",
+      "filename": "hampi_016.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Wide flowing river",
+        "Massive rounded river boulders",
+        "Distant rocky hill",
+        "Palm tree groves on the bank"
+      ],
+      "descriptive_tags": [
+        "Wide-angle landscape vista",
+        "Turbulent greenish water",
+        "Boulder-strewn riverbanks",
+        "Lush tropical vegetation contrasting with arid rocks",
+        "Clear blue sky"
+      ],
+      "sensory_cues": [
+        "Rushing sound of river water cutting through stone",
+        "Cooling breeze lifting off the river surface",
+        "Smooth, water-worn texture of the dark boulders",
+        "Humid, earthy scent of the riverbank"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Dynamic",
+        "Refreshing"
+      ],
+      "dominant_colors": [
+        "River green",
+        "Dark boulder grey",
+        "Terracotta pink rocks",
+        "Clear sky blue"
+      ],
+      "alt_text": "A wide-angle panoramic view of a wide, greenish river flowing through a dramatic landscape of massive, smooth boulders, bordered by palm trees and rocky hills under a clear blue sky.",
+      "micro_story": "The Tungabhadra river carved its way through the impossible boulder landscape, wild and entirely untamed. Standing on the banks and feeling the cool mist off the rapids, I was deeply grateful I had taken this solo trip to find exactly this kind of raw beauty."
+    },
+    {
+      "id": "hampi_017",
+      "filename": "hampi_017.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Curving river channel",
+        "Massive stacked granite boulders",
+        "Rocky hills covered in scrub",
+        "Distant hazy landscape"
+      ],
+      "descriptive_tags": [
+        "Serene river bend",
+        "Sun-baked boulder formations",
+        "Lush green vegetation growing between rocks",
+        "Arid Deccan plateau landscape",
+        "Still greenish water"
+      ],
+      "sensory_cues": [
+        "Quiet ripple of the slow-moving river",
+        "Dry heat radiating from the massive rocks",
+        "Earthy scent of riverbank vegetation",
+        "Still, heavy afternoon air"
+      ],
+      "mood_and_tone": [
+        "Tranquil",
+        "Untamed",
+        "Ancient"
+      ],
+      "dominant_colors": [
+        "Earthy brown",
+        "Muted river green",
+        "Pale sky blue",
+        "Scrub green"
+      ],
+      "alt_text": "A serene view of a calm, greenish river curving through a rugged landscape of massive, stacked brown boulders and scrub vegetation in Hampi.",
+      "micro_story": "Following the gentle curve of the river, I was mesmerized by how the massive boulders seemed to tumble right into the water. It was incredibly peaceful, offering a quiet escape from the grand temples and bustling ruins."
+    },
+    {
+      "id": "hampi_018",
+      "filename": "hampi_018.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Wide flowing river",
+        "Steep banks of stacked boulders",
+        "Distant temple ruins",
+        "Clear blue sky"
+      ],
+      "descriptive_tags": [
+        "Smooth water reflecting the shoreline",
+        "Towering piles of granite",
+        "Vast open waterway",
+        "Distant hazy hills",
+        "Bright daytime illumination"
+      ],
+      "sensory_cues": [
+        "Gentle rocking motion of the water",
+        "Cool breeze sweeping down the river channel",
+        "Blinding reflection of the sun on the water surface",
+        "Smell of fresh freshwater algae"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Serene",
+        "Majestic"
+      ],
+      "dominant_colors": [
+        "Deep river green",
+        "Clear cyan sky",
+        "Golden boulder brown",
+        "Foliage green"
+      ],
+      "alt_text": "A wide, calm river reflects the surrounding landscape of steep, boulder-strewn banks and distant ruins under a perfectly clear blue sky.",
+      "micro_story": "Drifting along the wide expanse of the Tungabhadra, the towering banks of boulders made me feel completely secluded from the modern world. At twenty-eight, this kind of vast, quiet beauty was exactly the reset my soul needed."
+    },
+    {
+      "id": "hampi_019",
+      "filename": "hampi_019.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Massive rocky hill",
+        "Scattered granite boulders",
+        "Riverbank water",
+        "Green scrub vegetation"
+      ],
+      "descriptive_tags": [
+        "Imposing geological formation",
+        "Rounded stone boulders at the water's edge",
+        "Cloudy and overcast sky",
+        "Lush bushes clinging to the rock face"
+      ],
+      "sensory_cues": [
+        "Oppressive humidity before a potential rain",
+        "Rough, abrasive texture of the dark foreground rocks",
+        "Sound of water lapping against the stone bank",
+        "Muted, flat light from the overcast sky"
+      ],
+      "mood_and_tone": [
+        "Imposing",
+        "Rugged",
+        "Quiet"
+      ],
+      "dominant_colors": [
+        "Dark grey stone",
+        "Dusty pink granite",
+        "Overcast sky white",
+        "Shrub green"
+      ],
+      "alt_text": "A rugged hill made entirely of massive, rounded pink and grey granite boulders rises steeply from the edge of a calm river under a cloudy sky.",
+      "micro_story": "Standing at the water's edge, I looked up at the impossible pile of boulders forming the hill above me. It felt as though a giant had casually stacked them there, daring the river to wash them away."
+    },
+    {
+      "id": "hampi_020",
+      "filename": "hampi_020.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Seated traveler facing away",
+        "Expansive rocky landscape",
+        "Lush green banana plantations",
+        "Golden morning mist"
+      ],
+      "descriptive_tags": [
+        "High cliffside vantage point",
+        "Sweeping panoramic valley view",
+        "Soft pastel sunrise lighting",
+        "Contrasting agricultural and rocky terrain",
+        "Winding dirt paths"
+      ],
+      "sensory_cues": [
+        "Cool, crisp morning air carrying a faint mist",
+        "Distant sounds of the village waking up",
+        "Rough texture of the stone slab seat",
+        "Warmth of the rising sun hitting my back"
+      ],
+      "mood_and_tone": [
+        "Awe-inspiring",
+        "Contemplative",
+        "Liberating"
+      ],
+      "dominant_colors": [
+        "Golden sunrise pink",
+        "Vibrant plantation green",
+        "Warm stone brown",
+        "Soft misty purple"
+      ],
+      "alt_text": "A traveler sits on a high rocky ledge, looking out over a breathtaking panoramic view of Hampi's boulder-strewn mountains, green banana plantations, and ancient ruins bathed in soft, golden morning mist.",
+      "micro_story": "I hiked up Matanga Hill in the dark just to catch this sunrise, and sitting on the edge of the world as the mist cleared was worth every breathless step. Looking out over the ancient valley, I felt an overwhelming sense of freedom that I hadn't felt in years."
+    },
+    {
+      "id": "hampi_021",
+      "filename": "hampi_021.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Ruined stone temple dome",
+        "Glowing full moon",
+        "Flock of silhouetted birds",
+        "Dusky evening sky"
+      ],
+      "descriptive_tags": [
+        "Weathered ancient cupola",
+        "Atmospheric twilight scene",
+        "Warm orange celestial body",
+        "Scattered avian silhouettes",
+        "Moody and mysterious atmosphere"
+      ],
+      "sensory_cues": [
+        "Echoing calls of birds returning to roost",
+        "Fading warmth of the evening",
+        "Eerie stillness of the ancient ruins",
+        "Smell of dry dust settling in the dusk"
+      ],
+      "mood_and_tone": [
+        "Mystical",
+        "Melancholy",
+        "Ethereal"
+      ],
+      "dominant_colors": [
+        "Dusky purple",
+        "Faded orange",
+        "Stone grey",
+        "Silhouetted black"
+      ],
+      "alt_text": "A glowing orange moon rises in a dusky, purple sky behind the weathered dome of an ancient stone temple, with a flock of birds flying in silhouette.",
+      "micro_story": "As the orange moon climbed higher into the hazy sky, a flock of birds scattered around the ruined dome, breaking the eerie silence. It was a deeply mystical moment, making the ancient stones feel as though they were breathing with me."
+    },
+    {
+      "id": "hampi_022",
+      "filename": "hampi_022.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Silhouetted temple tower",
+        "Silhouetted human figures",
+        "Vibrant gradient sunset sky",
+        "Distant flat horizon"
+      ],
+      "descriptive_tags": [
+        "Stark architectural silhouette",
+        "Warm glowing sky colors",
+        "Minimalist composition",
+        "Quiet evening observation",
+        "Ancient skyline"
+      ],
+      "sensory_cues": [
+        "Cooling evening breeze",
+        "Hushed murmurs of nearby travelers",
+        "Visual warmth of the fading sun",
+        "Smooth stone beneath my feet"
+      ],
+      "mood_and_tone": [
+        "Peaceful",
+        "Reverent",
+        "Cinematic"
+      ],
+      "dominant_colors": [
+        "Deep silhouette black",
+        "Glowing sunset orange",
+        "Soft twilight purple",
+        "Faded peach"
+      ],
+      "alt_text": "The stark black silhouettes of a tiered temple tower and two people stand out against a vibrant, glowing sunset sky transitioning from orange to soft purple.",
+      "micro_story": "Watching the sunset paint the sky behind the temple ruins, the other travelers and I were reduced to quiet, reverent silhouettes. I took a deep breath, completely letting go of the rushing timelines I had left behind in the city."
+    },
+    {
+      "id": "hampi_023",
+      "filename": "hampi_023.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Woman sketching",
+        "Carved stone pillars",
+        "Small white shrine under a bare tree",
+        "Distant rocky landscape"
+      ],
+      "descriptive_tags": [
+        "Framed architectural view",
+        "Quiet creative observation",
+        "Golden late afternoon light",
+        "Dusty ancient courtyard",
+        "Gnarled leafless tree"
+      ],
+      "sensory_cues": [
+        "Scratch of a pen on rough paper",
+        "Cool shade within the stone pavilion",
+        "Dry, dusty scent of the earth",
+        "Soft, warm glow of the setting sun on the rocks"
+      ],
+      "mood_and_tone": [
+        "Contemplative",
+        "Introspective",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Warm sandstone yellow",
+        "Dusty earth brown",
+        "Faded sky orange",
+        "Stark white shrine"
+      ],
+      "alt_text": "A woman sits in the shade of a stone pavilion, sketching in a notebook while looking out at a small white shrine and a bare tree against a backdrop of ancient boulders.",
+      "micro_story": "Finding a quiet spot between the carved pillars, I pulled out my journal to capture the gnarled tree and the tiny white shrine before the light faded completely. Taking the time to just sit and observe was the greatest luxury of this entire journey."
+    },
+    {
+      "id": "hampi_024",
+      "filename": "hampi_024.jpg",
+      "city": "Hampi",
+      "primary_subjects": [
+        "Towering Virupaksha temple gopuram",
+        "Massive smooth foreground boulders",
+        "Ancient colonnaded ruins",
+        "Hazy atmospheric sky"
+      ],
+      "descriptive_tags": [
+        "Soft twilight illumination",
+        "Monumental tiered architecture",
+        "Rugged boulder-strewn landscape",
+        "Dusty atmospheric haze",
+        "Timeless historical vista"
+      ],
+      "sensory_cues": [
+        "Fading heat radiating from the giant boulders",
+        "Still, heavy evening air",
+        "Eerie quiet descending on the ruins",
+        "Smell of dry earth and ancient stone"
+      ],
+      "mood_and_tone": [
+        "Ethereal",
+        "Majestic",
+        "Melancholy"
+      ],
+      "dominant_colors": [
+        "Muted golden yellow",
+        "Shadowy brown",
+        "Hazy twilight purple",
+        "Dusty grey"
+      ],
+      "alt_text": "A towering, intricately carved temple gopuram stands majestically in the distance, bathed in soft twilight, framed by massive boulders and ancient ruins in Hampi.",
+      "micro_story": "As the twilight haze rolled in, the great temple tower seemed to rise like a mirage from the rugged, boulder-strewn earth. I sat on the warm stones in the gathering dusk, feeling incredibly small but deeply connected to the centuries of history whispering around me."
     },
     {
       "id": "manali_001",
       "filename": "manali_001.jpg",
       "city": "Manali",
-      "primary_subjects": ["mountains", "snow", "pine trees"],
-      "descriptive_tags": ["snow-capped peaks", "dense pine forest", "winding mountain road"],
-      "sensory_cues": ["crisp air", "cold", "fresh pine", "crunchy snow"],
-      "mood_and_tone": ["adventurous", "exhilarating"],
-      "dominant_colors": ["white", "forest green", "sky blue"],
-      "alt_text": "Snow-covered mountain peaks behind a pine forest in Manali",
-      "micro_story": "Priya rolled down the car window and let the freezing mountain air hit her face. The peaks looked unreal."
+      "primary_subjects": [
+        "Snow-covered mountain peaks",
+        "Flowing turquoise river",
+        "Rocky, snow-lined riverbank",
+        "Clear blue sky with scattered clouds"
+      ],
+      "descriptive_tags": [
+        "Brilliant white Himalayan slopes",
+        "Icy glacial meltwater",
+        "Dark river rocks contrasting with snow",
+        "Sweeping alpine valley",
+        "Wispy, high-altitude clouds"
+      ],
+      "sensory_cues": [
+        "Biting cold, crisp mountain air",
+        "Rushing, energetic sound of icy rapids",
+        "Blinding glare of the midday sun reflecting off fresh snow",
+        "Numbing chill radiating from the glacier water"
+      ],
+      "mood_and_tone": [
+        "Exhilarating",
+        "Majestic",
+        "Pristine"
+      ],
+      "dominant_colors": [
+        "Glacial white",
+        "Vibrant sky blue",
+        "Icy teal",
+        "Slate grey"
+      ],
+      "alt_text": "A breathtaking view of a turquoise glacial river flowing through a snowy Himalayan valley, flanked by towering, snow-covered mountain peaks under a bright blue sky.",
+      "micro_story": "Standing at the edge of the freezing turquoise river, I pulled my jacket tighter against the biting Himalayan wind. Looking up at the blindingly white peaks, the sheer, imposing scale of the valley made me feel wonderfully insignificant."
     },
     {
-      "id": "utility_001",
-      "filename": "utility_001.jpg",
-      "city": "Travel Utility",
-      "primary_subjects": ["boarding pass", "airline ticket"],
-      "descriptive_tags": ["printed boarding pass", "flight details", "seat number"],
-      "sensory_cues": ["paper texture", "crumpled edges"],
-      "mood_and_tone": ["functional", "anticipatory"],
-      "dominant_colors": ["white", "blue", "gray"],
-      "alt_text": "A printed boarding pass for a domestic flight in India",
-      "micro_story": "Priya fished the crumpled boarding pass from her jacket pocket just as they called her boarding group."
+      "id": "manali_002",
+      "filename": "manali_002.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Imposing mountain summit",
+        "Jagged exposed black rock",
+        "Steep snowfields",
+        "Uninterrupted blue sky"
+      ],
+      "descriptive_tags": [
+        "Stark contrast of black stone and white snow",
+        "Steep, treacherous alpine incline",
+        "Barren high-altitude environment",
+        "Clear, cloudless azure backdrop"
+      ],
+      "sensory_cues": [
+        "Thin, freezing air at high elevation",
+        "Absolute, echoing silence of the peak",
+        "Harsh, unfiltered sunlight hitting the snow",
+        "Frigid wind whipping across the exposed rock face"
+      ],
+      "mood_and_tone": [
+        "Formidable",
+        "Awe-inspiring",
+        "Desolate"
+      ],
+      "dominant_colors": [
+        "Stark white",
+        "Pitch black",
+        "Deep azure blue"
+      ],
+      "alt_text": "A towering, steep mountain peak displaying a dramatic contrast of jagged black rock and heavy white snow against a perfectly clear, deep blue sky.",
+      "micro_story": "I tilted my head all the way back to take in the jagged, snow-streaked summit towering above us. The sheer drop and the stark black rock cutting through the ice felt both terrifying and undeniably magnetic."
+    },
+    {
+      "id": "manali_003",
+      "filename": "manali_003.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Modern mountain tunnel entrance",
+        "Smooth asphalt highway",
+        "Excavated rocky hillside",
+        "Distant snow-capped peaks"
+      ],
+      "descriptive_tags": [
+        "Concrete portal cutting into the mountain",
+        "Rough, sheer rock walls stabilized by engineering",
+        "Empty multi-lane mountain road",
+        "Rugged, towering alpine backdrop"
+      ],
+      "sensory_cues": [
+        "Smell of cold asphalt and dry mountain dust",
+        "Stark, chilly shadow cast over the foreground road",
+        "Echoing emptiness of the mountain pass",
+        "Crisp, thin air descending from the peaks"
+      ],
+      "mood_and_tone": [
+        "Anticipatory",
+        "Industrial yet scenic",
+        "Journeying"
+      ],
+      "dominant_colors": [
+        "Asphalt grey",
+        "Pale rock tan",
+        "Mountain white",
+        "Clear sky blue"
+      ],
+      "alt_text": "A smooth, paved highway leads directly into a modern concrete tunnel entrance excavated into a steep, rocky hillside, with majestic snow-capped Himalayan peaks in the distance.",
+      "micro_story": "As our car approached the massive concrete maw of the tunnel, the temperature visibly dropped in the mountain's shadow. Slicing straight through the Himalayas felt like crossing a portal into an entirely different, hidden world."
+    },
+    {
+      "id": "manali_004",
+      "filename": "manali_004.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Rushing glacial river",
+        "Thickly snow-covered riverbanks",
+        "Rusted metal debris in the water",
+        "Distant tourist camp and crowds"
+      ],
+      "descriptive_tags": [
+        "Turquoise meltwater cutting through ice",
+        "Twisted, oxidized iron bridge remnants",
+        "Bustling snowy recreation area in the distance",
+        "Harsh, bright winter landscape"
+      ],
+      "sensory_cues": [
+        "Deafening roar of icy rapids rushing over rocks and metal",
+        "Crunch of hard-packed snow underfoot",
+        "Jarring visual contrast of rusted iron against pristine white snow",
+        "Freezing spray lifting off the churning water"
+      ],
+      "mood_and_tone": [
+        "Rugged",
+        "Active",
+        "Contrasting"
+      ],
+      "dominant_colors": [
+        "Icy turquoise",
+        "Stark white",
+        "Rusted iron orange",
+        "Muddy brown"
+      ],
+      "alt_text": "A fast-flowing turquoise glacial river cuts through snow-covered banks, passing over twisted, rusted metal debris, with a bustling snowy tourist area visible in the background.",
+      "micro_story": "Looking down from the concrete ledge at the freezing rapids, my eyes fixed on the twisted, rusted metal skeletons submerged in the turquoise water. It was a stark, eerie reminder of the river's destructive power hidden beneath the winter beauty."
+    },
+    {
+      "id": "manali_005",
+      "filename": "manali_005.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Group of grazing yaks",
+        "Winding mountain pass highway",
+        "Steep green alpine valley",
+        "Hazy, distant mountain ranges"
+      ],
+      "descriptive_tags": [
+        "Shaggy pack animals foraging on an incline",
+        "Dramatic, twisting asphalt switchbacks",
+        "Lush, high-altitude green slopes",
+        "Expansive, deep valley gorge",
+        "Scattered, low-hanging clouds"
+      ],
+      "sensory_cues": [
+        "Earthy smell of alpine grass and livestock",
+        "Cool, sweeping updraft from the deep valley floor",
+        "Dizzying sense of altitude near the cliff edge",
+        "Faint sound of wind rushing over the mountain pass"
+      ],
+      "mood_and_tone": [
+        "Pastoral",
+        "Adventurous",
+        "Breathtaking"
+      ],
+      "dominant_colors": [
+        "Alpine green",
+        "Asphalt grey",
+        "Animal hair brown",
+        "Hazy sky blue"
+      ],
+      "alt_text": "A herd of shaggy yaks grazes on a steep, green alpine slope beside a winding mountain highway, overlooking a vast, deep valley and distant hazy peaks.",
+      "micro_story": "As we pulled over by the dizzying cliff edge, I watched the yaks calmly grazing on the steep alpine grass. Staring down into the massive valley, I felt a sudden, thrilling rush of vertigo mixed with pure wanderlust."
+    },
+    {
+      "id": "manali_006",
+      "filename": "manali_006.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Massive snow-veined mountain range",
+        "Deep forested valley",
+        "Scattered valley town rooftops",
+        "Clear blue sky"
+      ],
+      "descriptive_tags": [
+        "Striking diagonal snow crevices on the rock face",
+        "Dense, dark green pine forests on the lower slopes",
+        "Distant, colorful buildings nestled in the basin",
+        "Overwhelming panoramic scale"
+      ],
+      "sensory_cues": [
+        "Crisp, pine-scented mountain air",
+        "Visual weight and immensity of the towering peaks",
+        "Distant, muffled hum of life from the valley town",
+        "Warm sunlight filtering into the deep basin"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Majestic",
+        "Scenic"
+      ],
+      "dominant_colors": [
+        "Deep pine green",
+        "Mountain snow white",
+        "Clear sky blue",
+        "Earthy valley brown"
+      ],
+      "alt_text": "A breathtaking panoramic view of a deep, forested valley containing a small town, completely dwarfed by a massive, snow-veined mountain range under a clear blue sky.",
+      "micro_story": "Looking down at the tiny, colorful rooftops scattered across the valley floor, I couldn't tear my eyes away from the massive peaks standing guard above them. The sheer scale of the Himalayas makes everything else feel beautifully trivial."
+    },
+    {
+      "id": "manali_007",
+      "filename": "manali_007.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Dense alpine pine forest",
+        "Heavy snow cover on the upper ridges",
+        "Smooth, rounded mountain summit",
+        "Bright blue sky"
+      ],
+      "descriptive_tags": [
+        "Clear treeline transitioning to pure snow",
+        "Dark green conifers dusting the steep slopes",
+        "Pristine, untouched upper snowfields",
+        "High contrast natural landscape"
+      ],
+      "sensory_cues": [
+        "Still, freezing atmosphere of the high alpine zone",
+        "Sharp visual contrast of dark needles against brilliant snow",
+        "Blinding glare reflecting off the smooth upper ridges",
+        "Fresh, icy scent of snow and pine"
+      ],
+      "mood_and_tone": [
+        "Serene",
+        "Untouched",
+        "Pristine"
+      ],
+      "dominant_colors": [
+        "Pine forest green",
+        "Brilliant white",
+        "Vibrant sky blue"
+      ],
+      "alt_text": "A serene view of steep mountain slopes covered in a dense, dark green pine forest that abruptly gives way to smooth, pristine snowfields under a bright blue sky.",
+      "micro_story": "I loved the way the dark pine trees stubbornly fought their way up the steep slopes before finally surrendering to the pure white snow. It was a quiet, beautiful display of nature drawing its boundaries."
+    },
+    {
+      "id": "manali_008",
+      "filename": "manali_008.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Snow-covered mountain village",
+        "Terraced, snowy hillsides",
+        "Towering snowy peaks in the background",
+        "Bare winter trees"
+      ],
+      "descriptive_tags": [
+        "Hillside settlement with colorful roofs",
+        "Snow-blanketed agricultural terraces",
+        "Skeletal deciduous trees in the foreground",
+        "Immense, imposing Himalayan backdrop",
+        "Bright, sunlit winter scene"
+      ],
+      "sensory_cues": [
+        "Crunch of icy, packed snow underfoot",
+        "Faint smell of woodsmoke hanging in the freezing air",
+        "Overwhelming brightness reflecting off the snowy valley bowl",
+        "Stillness of a frozen, sleepy village"
+      ],
+      "mood_and_tone": [
+        "Remote",
+        "Picturesque",
+        "Peaceful"
+      ],
+      "dominant_colors": [
+        "Bright snow white",
+        "Teal roof accents",
+        "Bare wood brown",
+        "Vivid blue sky"
+      ],
+      "alt_text": "A picturesque, snow-covered mountain village with colorful roofs clings to terraced hillsides, framed by bare winter trees and immense, snow-capped Himalayan peaks.",
+      "micro_story": "Spotting the tiny, colorful houses clinging to the snowy hillside, I wondered what it would be like to live there. Waking up to that immense, silent mountain view every single day felt like an impossible dream."
+    },
+    {
+      "id": "manali_009",
+      "filename": "manali_009.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Steep snowy ridge",
+        "Tall evergreen pine trees",
+        "Uninterrupted blue sky"
+      ],
+      "descriptive_tags": [
+        "Dense coniferous forest on an incline",
+        "Dark green needles contrasting with bright white snow",
+        "Deep shadows cast under the tree canopy",
+        "Rugged, untouched wilderness"
+      ],
+      "sensory_cues": [
+        "Hush of the snow-muffled forest",
+        "Freezing, crisp air in the shadows",
+        "Dappled sunlight filtering through the dense pine branches",
+        "Smell of fresh snow and resin"
+      ],
+      "mood_and_tone": [
+        "Quiet",
+        "Isolated",
+        "Tranquil"
+      ],
+      "dominant_colors": [
+        "Deep forest green",
+        "Snow white",
+        "Rich sky blue"
+      ],
+      "alt_text": "A steep mountain ridge covered in a dense, dark green pine forest growing directly out of deep, bright white snow under a clear blue sky.",
+      "micro_story": "The dense cluster of pine trees clinging to the snowy ridge looked like a dark green army marching up the mountain. Standing below them, the absolute silence of the snow-muffled forest was incredibly peaceful."
+    },
+    {
+      "id": "manali_010",
+      "filename": "manali_010.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Smooth snow-capped peak",
+        "Dense pine forest on steep slopes",
+        "Jagged, rocky ravines",
+        "Clear sky"
+      ],
+      "descriptive_tags": [
+        "Rounded, pristine snowy summit",
+        "Deep ravines cutting through the tree line",
+        "Dark shadows cast by the dense pines",
+        "Exposed rock faces amidst the snow"
+      ],
+      "sensory_cues": [
+        "Biting high-altitude wind sweeping off the summit",
+        "Stark, echoing silence of the upper peaks",
+        "Rough, abrasive texture of the exposed rock against the soft snow",
+        "Blinding intensity of the sun on the smooth ice cap"
+      ],
+      "mood_and_tone": [
+        "Imposing",
+        "Majestic",
+        "Cold"
+      ],
+      "dominant_colors": [
+        "Stark white",
+        "Dark pine green",
+        "Exposed rock grey",
+        "Light sky blue"
+      ],
+      "alt_text": "A towering mountain landscape featuring a smooth, brilliantly white snow-capped peak rising above steep slopes covered in dense pine forests and jagged rocky ravines.",
+      "micro_story": "Above the dense tree line, the mountain smoothed out into a perfect, blindingly white dome that seemed to touch the stratosphere. It was a harsh, unforgiving environment, yet impossibly beautiful from where I stood."
+    },
+    {
+      "id": "manali_011",
+      "filename": "manali_011.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Snow-capped Himalayan peaks",
+        "Sunlit golden slopes",
+        "Dark pine forest canopy",
+        "Deep blue sky"
+      ],
+      "descriptive_tags": [
+        "Sweeping mountain panorama",
+        "Jagged snow-dusted ridges",
+        "High-contrast golden hour lighting",
+        "Dense evergreen treeline"
+      ],
+      "sensory_cues": [
+        "Crisp mountain air",
+        "Warmth of the golden sunlight on the lower hills",
+        "Biting chill radiating from the snowy peaks",
+        "Silence of the vast valley"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Expansive",
+        "Awe-inspiring"
+      ],
+      "dominant_colors": [
+        "Deep pine green",
+        "Golden hillside brown",
+        "Snow white",
+        "Azure blue"
+      ],
+      "alt_text": "A sweeping panoramic view of majestic snow-capped Himalayan peaks towering above sunlit golden slopes and a dense dark pine forest under a clear blue sky.",
+      "micro_story": "Standing at the edge of the forest, watching the golden light creep up the massive snowy ridges, I felt a profound sense of stillness. The sheer scale of these mountains at twenty-eight made all my city worries feel incredibly small and distant."
+    },
+    {
+      "id": "manali_012",
+      "filename": "manali_012.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Silhouetted pine tree trunk and needles",
+        "Golden sunset clouds",
+        "Distant mountain ridges",
+        "Hazy forest background"
+      ],
+      "descriptive_tags": [
+        "Backlit coniferous foliage",
+        "Atmospheric twilight sky",
+        "Layered mountain silhouettes",
+        "Moody mountain dusk"
+      ],
+      "sensory_cues": [
+        "Scent of pine needles and damp earth",
+        "Chilly evening breeze rustling the branches",
+        "Fading warmth of the setting sun",
+        "Quiet chirping of settling birds"
+      ],
+      "mood_and_tone": [
+        "Peaceful",
+        "Nostalgic",
+        "Ethereal"
+      ],
+      "dominant_colors": [
+        "Pitch black silhouette",
+        "Golden sunset yellow",
+        "Pale sky blue",
+        "Hazy twilight grey"
+      ],
+      "alt_text": "The dark silhouette of a towering pine tree frames a beautiful sunset sky filled with golden clouds and hazy mountain ridges in the distance.",
+      "micro_story": "As the sun dipped below the distant ridges, the towering pines turned into stark black silhouettes against the golden clouds. I took a deep breath of the freezing, pine-scented air, wanting to memorize this exact moment of twilight magic."
+    },
+    {
+      "id": "manali_013",
+      "filename": "manali_013.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Jagged snow-dusted mountain peaks",
+        "Rugged foothills with patchy forests",
+        "Uninterrupted blue sky",
+        "Shadows cast across the lower valley"
+      ],
+      "descriptive_tags": [
+        "Imposing Himalayan skyline",
+        "High-altitude rocky terrain",
+        "Sharp ridges catching the sunlight",
+        "Deep contrasting valley shadows"
+      ],
+      "sensory_cues": [
+        "Intense high-altitude UV sunlight",
+        "Dry and crisp mountain breeze",
+        "Rough visual texture of the exposed rock and snow",
+        "Immense quiet of the valley"
+      ],
+      "mood_and_tone": [
+        "Imposing",
+        "Majestic",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Azure sky blue",
+        "Snow white",
+        "Earthy hillside brown",
+        "Dark forest green"
+      ],
+      "alt_text": "An imposing range of jagged, snow-dusted Himalayan peaks rises above rugged, shadowed foothills covered in patchy pine forests against a flawless blue sky.",
+      "micro_story": "Looking out at the sharp, snow-dusted ridges scraping the flawless blue sky, my breath caught in my throat. It was my fourth day in Manali, but the sheer, unforgiving beauty of the Himalayas still felt like a sudden shock to the system."
+    },
+    {
+      "id": "manali_014",
+      "filename": "manali_014.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Clustered town buildings with colorful roofs",
+        "Dense pine-covered foothills",
+        "Towering snow-capped mountains",
+        "Faint glowing moon in the sky"
+      ],
+      "descriptive_tags": [
+        "Bustling high-altitude settlement",
+        "Layered mountainous backdrop",
+        "Twilight atmospheric lighting",
+        "Rooftop solar panels and water tanks"
+      ],
+      "sensory_cues": [
+        "Muffled sounds of town traffic and daily life",
+        "Chilly evening air descending from the peaks",
+        "Smell of woodsmoke from local chimneys",
+        "Visual contrast between the chaotic town and serene mountains"
+      ],
+      "mood_and_tone": [
+        "Bustling",
+        "Picturesque",
+        "Cozy"
+      ],
+      "dominant_colors": [
+        "Dusky sky blue",
+        "Dark pine green",
+        "Bright snow white",
+        "Muted town pastels"
+      ],
+      "alt_text": "A picturesque view overlooking a bustling mountain town with clustered, colorful buildings nestled in a valley beneath massive, pine-covered foothills and snow-capped Himalayan peaks under a dusky sky with a visible moon.",
+      "micro_story": "From the balcony of my guesthouse, I watched the moon rise over the snow-capped peaks while the town below buzzed with evening activity. The faint smell of woodsmoke and the biting chill in the air made the whole valley feel incredibly cozy."
+    },
+    {
+      "id": "manali_015",
+      "filename": "manali_015.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Steep dry mountain slope",
+        "Tall spindly pine trees",
+        "Jagged snow-covered peaks",
+        "Overcast winter sky"
+      ],
+      "descriptive_tags": [
+        "Dramatic alpine incline",
+        "Stark contrast between brown earth and white snow",
+        "Looming mountain summit",
+        "Moody and flat lighting"
+      ],
+      "sensory_cues": [
+        "Threat of impending snow in the heavy air",
+        "Cold wind whistling through the spindly pines",
+        "Rough and loose texture of the steep dirt slope",
+        "Stillness of the overcast afternoon"
+      ],
+      "mood_and_tone": [
+        "Somber",
+        "Dramatic",
+        "Wild"
+      ],
+      "dominant_colors": [
+        "Dry earth brown",
+        "Snow white",
+        "Dark pine green",
+        "Overcast grey"
+      ],
+      "alt_text": "A dramatic alpine landscape showing a steep, dry brown mountain slope and tall pine trees in the foreground, framing a looming, jagged snow-covered peak under a moody, overcast sky.",
+      "micro_story": "Standing on the edge of the steep, dry slope, the jagged snowy peaks looming ahead looked both beautiful and deeply intimidating. The heavy, overcast sky promised snow, and I pulled my scarf tight, feeling entirely at the mercy of the mountains."
+    },
+    {
+      "id": "manali_016",
+      "filename": "manali_016.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Hand-written chalkboard cafe menu",
+        "Winding dirt path",
+        "Wooden archway with green roof",
+        "Colorful Tibetan prayer flags",
+        "Green netting fence"
+      ],
+      "descriptive_tags": [
+        "Rustic mountain cafe entrance",
+        "Lush green pathside vegetation",
+        "Casual backpacker vibe",
+        "Bare orchard trees in the background"
+      ],
+      "sensory_cues": [
+        "Smell of damp earth and brewing coffee",
+        "Soft crunch of the dirt path under boots",
+        "Gentle flutter of prayer flags in the breeze",
+        "Distant chatter from cafe patrons"
+      ],
+      "mood_and_tone": [
+        "Welcoming",
+        "Bohemian",
+        "Relaxed"
+      ],
+      "dominant_colors": [
+        "Vibrant foliage green",
+        "Chalkboard black",
+        "Bright prayer flag colors",
+        "Earthy path brown"
+      ],
+      "alt_text": "A winding dirt path leads through a rustic wooden archway to a hidden mountain cafe, marked by a handwritten chalkboard menu and colorful Tibetan prayer flags.",
+      "micro_story": "Wandering off the main road, I followed a narrow dirt path past fluttering prayer flags and stumbled upon this hidden little cafe. The smell of fresh coffee and the quiet rustle of the orchard trees told me I'd found the perfect spot to spend my afternoon."
+    },
+    {
+      "id": "manali_017",
+      "filename": "manali_017.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Glowing Cafe 1986 guitar sign",
+        "Crowded pedestrian street",
+        "Colorful textile shop display",
+        "Multi-story commercial buildings"
+      ],
+      "descriptive_tags": [
+        "Bustling mountain town evening",
+        "Vibrant neon signage",
+        "Dense crowds of tourists in winter wear",
+        "Layered commercial storefronts",
+        "Twilight mountain backdrop"
+      ],
+      "sensory_cues": [
+        "Cacophony of voices and distant live music",
+        "Smell of street food and cold exhaust",
+        "Chilly evening air against warm woolen clothes",
+        "Blinding glare of neon and LED signs"
+      ],
+      "mood_and_tone": [
+        "Energetic",
+        "Festive",
+        "Crowded"
+      ],
+      "dominant_colors": [
+        "Neon red and teal",
+        "Warm shop interior yellow",
+        "Bright textile colors",
+        "Dusky sky blue"
+      ],
+      "alt_text": "A bustling evening scene on a crowded pedestrian street in a mountain town, featuring brightly lit shops, colorful textile displays, and a prominent neon guitar sign for Cafe 1986 against a twilight mountain backdrop.",
+      "micro_story": "Stepping onto the crowded Mall Road, the energy of the mountain town completely enveloped me. Surrounded by glowing neon signs, colorful shawls, and the faint sound of live music spilling into the freezing street, I felt an electric buzz that only Manali can offer."
+    },
+    {
+      "id": "manali_018",
+      "filename": "manali_018.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Warmly lit stone and wood cafe",
+        "Wet cobblestone street",
+        "Man holding a camera on the steps",
+        "Dark pine tree silhouettes"
+      ],
+      "descriptive_tags": [
+        "Cozy evening street scene",
+        "Glowing yellow architectural lighting",
+        "Steep paved mountain alleyway",
+        "Deep twilight atmosphere"
+      ],
+      "sensory_cues": [
+        "Slick, wet reflection of the cobblestones",
+        "Inviting warmth radiating from the cafe windows",
+        "Sharp chill of the mountain night air",
+        "Quiet ambiance of a winding backstreet"
+      ],
+      "mood_and_tone": [
+        "Cozy",
+        "Intimate",
+        "Nocturnal"
+      ],
+      "dominant_colors": [
+        "Warm incandescent yellow",
+        "Deep twilight blue",
+        "Wet asphalt grey",
+        "Brick red"
+      ],
+      "alt_text": "A steep, wet cobblestone street in a mountain town at twilight, featuring a cozy, warmly lit stone cafe on the left and dark pine tree silhouettes against a deep blue sky.",
+      "micro_story": "Dodging the puddles on the wet cobblestone street, the warm, golden glow spilling from the stone cafe felt incredibly inviting. Shivering in the deep twilight chill, I knew a hot cup of tea inside was exactly what I needed to thaw out."
+    },
+    {
+      "id": "manali_019",
+      "filename": "manali_019.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Hand-painted Monk Base Cafe sign",
+        "Stacked slate stone wall",
+        "Bright yellow tarp",
+        "Rocky's Cafe directional sign"
+      ],
+      "descriptive_tags": [
+        "Rustic hostel signage",
+        "Moody low-light atmosphere",
+        "Rough-hewn mountain masonry",
+        "Backpacker enclave indicators"
+      ],
+      "sensory_cues": [
+        "Rough, cold texture of the stacked slate stones",
+        "Rustling of the plastic tarp in the wind",
+        "Dim and moody evening lighting",
+        "Quiet isolation of the mountain trail"
+      ],
+      "mood_and_tone": [
+        "Enigmatic",
+        "Rustic",
+        "Alternative"
+      ],
+      "dominant_colors": [
+        "Pitch black sign",
+        "Bright tarp yellow",
+        "Slate stone grey",
+        "Faded painted orange"
+      ],
+      "alt_text": "A rustic, hand-painted sign for Monk Base Cafe and Hostel sits behind a rough stacked slate wall, partially obscuring a bright yellow tarp in a moody, low-light setting.",
+      "micro_story": "Navigating the winding mountain paths as dusk settled, I spotted the quirky, hand-painted sign for the Monk Base hostel behind a rugged slate wall. The dimly lit trail felt like a secret passage leading into the heart of Manali's backpacker culture."
+    },
+    {
+      "id": "manali_020",
+      "filename": "manali_020.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Hanging cafe signboard",
+        "Bright blue plastic tarp",
+        "Steep foliage-covered cliff face",
+        "White building exterior"
+      ],
+      "descriptive_tags": [
+        "Quirky bakery signage",
+        "Imposing natural rock wall background",
+        "Weathered building facade",
+        "Muted daylight illumination"
+      ],
+      "sensory_cues": [
+        "Damp, earthy smell from the vine-covered cliff",
+        "Flapping sound of the blue tarp catching the wind",
+        "Promise of warm baked goods implied by the sign",
+        "Cool shadow cast by the overhanging rock"
+      ],
+      "mood_and_tone": [
+        "Quaint",
+        "Hidden",
+        "Contrastive"
+      ],
+      "dominant_colors": [
+        "Bold sign black and white",
+        "Vibrant tarp blue",
+        "Deep foliage green",
+        "Off-white building paint"
+      ],
+      "alt_text": "A hanging black and white sign for \"Pie in the Sky Bakery & Cafe\" contrasts with a bright blue tarp and a steep, dark, vine-covered cliff face in the background.",
+      "micro_story": "Tucked away against a massive, vine-covered cliff, the little bakery sign swung gently in the damp breeze. The blue tarp and weathered walls made it look like a well-kept local secret, and I couldn't resist stepping inside to see what they were baking."
+    },
+    {
+      "id": "manali_021",
+      "filename": "manali_021.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Multi-tiered wooden temple",
+        "Towering cedar trees",
+        "Stone steps",
+        "Scattered tourists"
+      ],
+      "descriptive_tags": [
+        "Traditional Himachali architecture",
+        "Pagoda-style wooden roof",
+        "Dense Deodar forest",
+        "Shaded forest clearing"
+      ],
+      "sensory_cues": [
+        "Crisp scent of ancient cedar wood",
+        "Cool forest shade",
+        "Muffled footsteps on stone stairs",
+        "Awe of towering trees"
+      ],
+      "mood_and_tone": [
+        "Reverent",
+        "Peaceful",
+        "Ancient"
+      ],
+      "dominant_colors": [
+        "Dark wood brown",
+        "Forest green",
+        "Muted grey",
+        "Slate black"
+      ],
+      "alt_text": "A traditional, multi-tiered wooden temple stands nestled within a dense, dark forest of towering cedar trees with a few tourists standing on the stone steps.",
+      "micro_story": "Standing before the ancient wooden temple hidden deep in the Deodar forest, the air felt incredibly still and pure. At twenty-eight, surrounded by these towering cedars, I finally understood why people come to the mountains to find peace."
+    },
+    {
+      "id": "manali_022",
+      "filename": "manali_022.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Multi-tiered wooden temple",
+        "Dense cedar forest",
+        "Crowd of tourists",
+        "Bright pink cotton candy"
+      ],
+      "descriptive_tags": [
+        "Bustling temple courtyard",
+        "Towering evergreens",
+        "Vibrant street food",
+        "Ancient wooden architecture"
+      ],
+      "sensory_cues": [
+        "Sweet smell of spun sugar mingling with pine",
+        "Lively chatter of the holiday crowd",
+        "Cool mountain breeze",
+        "Soft crunch of pine needles"
+      ],
+      "mood_and_tone": [
+        "Lively",
+        "Contrasting",
+        "Cheerful"
+      ],
+      "dominant_colors": [
+        "Pine green",
+        "Weathered wood grey",
+        "Bright cotton candy pink",
+        "Forest shadow black"
+      ],
+      "alt_text": "A lively crowd of tourists mills around the base of a beautiful, multi-tiered wooden temple in a dense pine forest, highlighted by a vendor holding bright pink cotton candy.",
+      "micro_story": "The quiet spirituality of the forest temple was wonderfully interrupted by the chaotic, colorful energy of the tourist crowds. Seeing the bright pink cotton candy against the ancient wood brought a huge, unexpected smile to my face."
+    },
+    {
+      "id": "manali_023",
+      "filename": "manali_023.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Fast-flowing rocky river",
+        "Lush green valley",
+        "Distant snow-capped peaks",
+        "Black and yellow guardrail"
+      ],
+      "descriptive_tags": [
+        "Rushing turquoise meltwater",
+        "Riverbed filled with smooth boulders",
+        "Vibrant alpine valley",
+        "Majestic Himalayan backdrop"
+      ],
+      "sensory_cues": [
+        "Roar of the rushing rapids",
+        "Crisp alpine breeze on my face",
+        "Warmth of the afternoon sun",
+        "Fresh scent of pine and water"
+      ],
+      "mood_and_tone": [
+        "Exhilarating",
+        "Breathtaking",
+        "Wild"
+      ],
+      "dominant_colors": [
+        "River blue-green",
+        "Vibrant foliage green",
+        "Snow white",
+        "Sky blue"
+      ],
+      "alt_text": "A fast-flowing mountain river cuts through a rocky bed in a lush green valley, leading the eye toward towering, snow-capped Himalayan peaks under a cloudy blue sky.",
+      "micro_story": "Leaning against the guardrail, I let the deafening roar of the Beas River wash over me. The contrast of the lush green valley against those harsh, snowy peaks was exactly the kind of wild beauty I had traveled all this way to see."
+    },
+    {
+      "id": "manali_024",
+      "filename": "manali_024.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Mountain river",
+        "Riverside cafes and guesthouses",
+        "Weeping willow tree",
+        "Distant mountain ridges"
+      ],
+      "descriptive_tags": [
+        "Bustling riverside settlement",
+        "Multi-story hillside buildings",
+        "Cascading river rapids",
+        "Twilight mountain valley"
+      ],
+      "sensory_cues": [
+        "Rhythmic crashing of water against boulders",
+        "Fading evening light",
+        "Smell of woodsmoke and roasting food",
+        "Cool dampness rising from the river"
+      ],
+      "mood_and_tone": [
+        "Cozy",
+        "Vibrant",
+        "Scenic"
+      ],
+      "dominant_colors": [
+        "Deep river teal",
+        "Warm building yellows",
+        "Foliage green",
+        "Dusky mountain blue"
+      ],
+      "alt_text": "A scenic view of a rushing river flowing past colorful riverside cafes, guesthouses, and a weeping willow tree, nestled in a mountain valley at dusk.",
+      "micro_story": "Finding a cafe right on the edge of the rushing water felt like stumbling into a secret mountain haven. Watching the evening light fade over the valley while listening to the river was the perfect end to a long day of exploring."
+    },
+    {
+      "id": "manali_025",
+      "filename": "manali_025.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Wide rocky riverbed",
+        "Clear river water",
+        "Dense green forest",
+        "Distant blue mountains"
+      ],
+      "descriptive_tags": [
+        "Smooth rounded river boulders",
+        "Lush valley vegetation",
+        "Moody overcast sky",
+        "Remote mountain landscape"
+      ],
+      "sensory_cues": [
+        "Chill of the impending rain in the air",
+        "Earthy scent of damp river rocks",
+        "Gentle rushing sound of the current",
+        "Cool breeze sweeping down the valley"
+      ],
+      "mood_and_tone": [
+        "Moody",
+        "Secluded",
+        "Tranquil"
+      ],
+      "dominant_colors": [
+        "Pale boulder grey",
+        "Deep forest green",
+        "Moody sky blue",
+        "River teal"
+      ],
+      "alt_text": "A wide riverbed filled with large, smooth grey boulders sits in the foreground of a lush, forested mountain valley under a moody, overcast sky.",
+      "micro_story": "I sat on one of the giant, water-smoothed boulders as the sky began to bruise with impending rain. The absolute seclusion of this part of the valley made me feel deeply connected to the raw, untamed nature around me."
+    },
+    {
+      "id": "manali_026",
+      "filename": "manali_026.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Rushing mountain river",
+        "Steep forested valley walls",
+        "Distant snow peak",
+        "Clear blue sky"
+      ],
+      "descriptive_tags": [
+        "Deep V-shaped gorge",
+        "High-contrast sunlight and shadow",
+        "Turbulent river rapids",
+        "Rugged Himalayan terrain"
+      ],
+      "sensory_cues": [
+        "Intense glare of the sun filtering through the valley",
+        "Deafening rush of the rapids",
+        "Crisp and thin mountain air",
+        "Rough texture of the riverbank stones"
+      ],
+      "mood_and_tone": [
+        "Dramatic",
+        "Untamed",
+        "Awe-inspiring"
+      ],
+      "dominant_colors": [
+        "Deep shadow black",
+        "Bright sky blue",
+        "River water white",
+        "Forest green"
+      ],
+      "alt_text": "A fast-flowing mountain river carves its way through a deep, steep-sided valley covered in dark pine forests, with a single snow-capped peak visible in the distance under a bright blue sky.",
+      "micro_story": "Navigating the rocky bank, the sheer force of the river carving through this deep gorge was incredibly humbling. Catching a glimpse of that distant snow peak through the trees reminded me just how high up in the world I really was."
+    },
+    {
+      "id": "manali_027",
+      "filename": "manali_027.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Steep pine-covered mountainside",
+        "Rushing river gorge",
+        "Distant hazy peaks",
+        "Overcast sky"
+      ],
+      "descriptive_tags": [
+        "Dense coniferous forest",
+        "Dramatic rocky inclines",
+        "Sweeping valley vista",
+        "Rugged alpine environment"
+      ],
+      "sensory_cues": [
+        "Scent of pine resin",
+        "Damp chill rising from the gorge",
+        "Vast echoing silence of the mountains",
+        "Rough and rocky ground underfoot"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Secluded",
+        "Enduring"
+      ],
+      "dominant_colors": [
+        "Pine needle green",
+        "Rocky brown",
+        "Muted sky grey",
+        "River white"
+      ],
+      "alt_text": "A steep, imposing mountainside densely packed with dark green pine trees drops down toward a rushing river gorge, with hazy, towering peaks in the background.",
+      "micro_story": "The way the pine trees clung to the nearly vertical mountainside was a beautiful testament to survival. Standing there taking in the vast, sweeping gorge, I felt a deep, grounding sense of peace that only the mountains can provide."
+    },
+    {
+      "id": "manali_028",
+      "filename": "manali_028.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Street food vendor",
+        "Hot cooking griddle with dosas",
+        "Large pan of red curry with tomatoes",
+        "Metal steamer pots"
+      ],
+      "descriptive_tags": [
+        "Nighttime street food stall",
+        "Sizzling hotplate",
+        "Cinematic street lighting",
+        "Vibrant local cuisine"
+      ],
+      "sensory_cues": [
+        "Mouthwatering aroma of roasting spices and frying batter",
+        "Warmth radiating from the hot griddle against the night chill",
+        "Sizzle of cooking food",
+        "Chaotic chatter of the street"
+      ],
+      "mood_and_tone": [
+        "Warm",
+        "Appetizing",
+        "Bustling"
+      ],
+      "dominant_colors": [
+        "Curry red",
+        "Metallic silver",
+        "Warm incandescent yellow",
+        "Deep night black"
+      ],
+      "alt_text": "A nighttime street food vendor cooks dosas on a hot griddle alongside a large pan of red curry and stacked metal steamer pots under warm, cinematic lighting.",
+      "micro_story": "The freezing mountain night was instantly cured by the incredible, spicy aroma wafting from the street food stall. Watching the vendor expertly flip dosas on the sizzling griddle was the perfect, cozy prelude to a warm, hearty dinner."
+    },
+    {
+      "id": "manali_029",
+      "filename": "manali_029.jpg",
+      "city": "Manali",
+      "primary_subjects": [
+        "Roadside food stall",
+        "Colorful printed menus",
+        "Massive snow-covered mountain range",
+        "Dramatic white clouds"
+      ],
+      "descriptive_tags": [
+        "Quaint viewpoint cafe",
+        "Towering Himalayan backdrop",
+        "Bright daytime landscape",
+        "Sharp contrast of settlement and wilderness"
+      ],
+      "sensory_cues": [
+        "Warmth of the bright mountain sun",
+        "Smell of frying snacks from the stall",
+        "Crisp and clean high-altitude air",
+        "Awe of the towering snowy peaks"
+      ],
+      "mood_and_tone": [
+        "Picturesque",
+        "Contrasting",
+        "Breathtaking"
+      ],
+      "dominant_colors": [
+        "Vibrant sky blue",
+        "Snow white",
+        "Stall menu red",
+        "Forest green"
+      ],
+      "alt_text": "A quaint roadside food stall with colorful menus sits in the foreground, entirely dwarfed by a breathtaking, massive snow-covered mountain range and dramatic clouds in the background.",
+      "micro_story": "I stopped at this little roadside stall for a quick snack, only to be completely paralyzed by the view behind it. Eating a simple plate of Maggi while staring up at those god-like, snow-covered summits is a memory I'll hold onto forever."
+    },
+    {
+      "id": "travel_utility_001",
+      "filename": "travel_utility_001.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Hand holding documents",
+        "Two United States passports",
+        "Printed boarding passes"
+      ],
+      "descriptive_tags": [
+        "Dark blue passport covers",
+        "Gold foil eagle emblems",
+        "Tucked paper flight tickets",
+        "Blurred concrete floor background"
+      ],
+      "sensory_cues": [
+        "Crisp edge of the printed paper tickets",
+        "Smooth, textured feel of the passport covers",
+        "Weight of travel documents in hand",
+        "Anticipation of an upcoming departure"
+      ],
+      "mood_and_tone": [
+        "Anticipatory",
+        "Organized"
+      ],
+      "dominant_colors": [
+        "Navy blue",
+        "Paper white",
+        "Gold foil"
+      ],
+      "alt_text": "A hand holds two United States passports with printed boarding passes tucked inside against a softly blurred, grey concrete background.",
+      "micro_story": "Clutching both our passports and boarding passes, I felt that familiar rush of airport adrenaline. At twenty-eight, there is still no better feeling than standing at the gate with my documents in hand, right before a new adventure begins."
+    },
+    {
+      "id": "travel_utility_002",
+      "filename": "travel_utility_002.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "United States passport",
+        "Printed flight itinerary document",
+        "Flight details and gate information"
+      ],
+      "descriptive_tags": [
+        "Close-up crop of a passport cover",
+        "Bold printed text showing MUC to AOI",
+        "Visible seat assignment 16A",
+        "Dark, minimalist background"
+      ],
+      "sensory_cues": [
+        "Smell of fresh printer ink on paper",
+        "Faint texture of the dark passport binding",
+        "High contrast of black text on white paper",
+        "Quiet focus of checking travel logistics"
+      ],
+      "mood_and_tone": [
+        "Structured",
+        "Ready"
+      ],
+      "dominant_colors": [
+        "Deep navy blue",
+        "Bright white",
+        "Faded gold"
+      ],
+      "alt_text": "A close-up shot of a United States passport resting on top of a printed flight itinerary showing a flight from MUC to AOI and seat 16A.",
+      "micro_story": "Double-checking the flight details one last time, my eyes scanned the bold MUC to AOI print on the itinerary. Having every logistic planned out down to seat 16A left my mind completely free to just enjoy the journey ahead."
+    },
+    {
+      "id": "travel_utility_003",
+      "filename": "travel_utility_003.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Burgundy Dutch passport",
+        "KLM boarding pass",
+        "Colorful credit cards",
+        "Black travel backpack"
+      ],
+      "descriptive_tags": [
+        "European Union passport cover",
+        "Amsterdam to New York flight ticket",
+        "Stacked payment cards",
+        "Nylon bag texture with zippers"
+      ],
+      "sensory_cues": [
+        "Crinkling of the thin paper boarding pass",
+        "Stiff, smooth plastic of the credit cards",
+        "Woven nylon texture of the backpack",
+        "Excitement of an impending long-haul flight"
+      ],
+      "mood_and_tone": [
+        "Prepared",
+        "Exciting"
+      ],
+      "dominant_colors": [
+        "Burgundy red",
+        "Paper white",
+        "Bag black",
+        "Multi-color card accents"
+      ],
+      "alt_text": "A burgundy Dutch passport sits alongside a KLM boarding pass for a flight to JFK and colorful credit cards, resting securely on a black nylon travel bag.",
+      "micro_story": "Resting my passport, cards, and boarding pass on my backpack, I ran through my final mental checklist. Amsterdam to JFK was a long haul, but the electric energy of New York was waiting for me at the other end."
+    },
+    {
+      "id": "travel_utility_004",
+      "filename": "travel_utility_004.jpg",
+      "city": "Madrid",
+      "primary_subjects": [
+        "Two hands holding passports",
+        "United States passports",
+        "Blurred historic city square"
+      ],
+      "descriptive_tags": [
+        "First-person dual perspective",
+        "Iconic gold passport crests",
+        "Hazy red-brick European architecture",
+        "Sunlit bustling plaza"
+      ],
+      "sensory_cues": [
+        "Warm sunlight hitting exposed hands",
+        "Smooth leather-like texture of the passports",
+        "Distant murmur and echo of a busy city square",
+        "Joyful feeling of arriving at a destination"
+      ],
+      "mood_and_tone": [
+        "Victorious",
+        "Joyful",
+        "Escapist"
+      ],
+      "dominant_colors": [
+        "Navy blue",
+        "Warm brick red",
+        "Pale sky blue"
+      ],
+      "alt_text": "Two people hold up their United States passports in celebration, framed against a beautifully blurred background of a historic, sunlit European city square.",
+      "micro_story": "We held our passports high in the middle of the sun-drenched plaza, leaning into the cheesy but absolutely necessary tourist ritual. Finally making it to Europe together was a milestone we had been dreaming of for years."
+    },
+    {
+      "id": "travel_utility_005",
+      "filename": "travel_utility_005.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Hand holding an Emirates boarding pass",
+        "Scattered airline boarding passes",
+        "Light tiled floor"
+      ],
+      "descriptive_tags": [
+        "Emirates Economy class ticket in focus",
+        "First and Business class tickets scattered on the ground",
+        "White tiled background surface",
+        "Red airline logos contrasting with white paper"
+      ],
+      "sensory_cues": [
+        "Flimsy texture of thermal ticket paper",
+        "Cool, hard surface of the tile floor",
+        "Visual clutter of multiple travel documents",
+        "Nostalgic feeling of reviewing past trips"
+      ],
+      "mood_and_tone": [
+        "Hectic",
+        "Well-traveled",
+        "Reflective"
+      ],
+      "dominant_colors": [
+        "Paper white",
+        "Bright red",
+        "Pale grey"
+      ],
+      "alt_text": "A hand holds up a single Emirates Economy boarding pass over a tile floor scattered with numerous other First and Business class boarding passes.",
+      "micro_story": "Looking at the sea of old boarding passes scattered on the floor, I pulled out my current economy ticket to Dubai. Each little slip of paper held a distinct story, a different time zone, and a version of myself I left behind."
+    },
+    {
+      "id": "travel_utility_006",
+      "filename": "travel_utility_006.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Hand operating a tablet computer",
+        "Digital hotel check-in interface",
+        "Silver hotel service bell",
+        "Glossy dark reception desk"
+      ],
+      "descriptive_tags": [
+        "Illuminated screen showing a cityscape and welcome message",
+        "Sleek metal tablet stand",
+        "Reflective black counter surface",
+        "Classic chrome bell"
+      ],
+      "sensory_cues": [
+        "Smooth, frictionless glide of a finger on glass",
+        "Anticipation of the sharp ding from the metal bell",
+        "Cool reflection of the screen on the polished desk",
+        "Relief of finally checking into a room"
+      ],
+      "mood_and_tone": [
+        "Modern",
+        "Efficient",
+        "Welcoming"
+      ],
+      "dominant_colors": [
+        "Screen blue",
+        "Silver chrome",
+        "Glossy black"
+      ],
+      "alt_text": "A guest's hand interacts with a digital hotel check-in tablet displaying a \"Welcome to Upscale\" message, situated next to a classic silver service bell on a glossy black desk.",
+      "micro_story": "Tapping through the digital check-in screen, I admired the sleek, quiet efficiency of the modern hotel lobby. After a grueling fourteen-hour travel day, a seamless, wordless arrival was exactly what my exhausted brain needed."
+    },
+    {
+      "id": "travel_utility_007",
+      "filename": "travel_utility_007.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Smartphone displaying Booking.com app",
+        "Wooden table surface"
+      ],
+      "descriptive_tags": [
+        "Bright blue application launch screen",
+        "Modern smartphone with dynamic island",
+        "Warm wood grain background texture",
+        "Minimalist top-down composition"
+      ],
+      "sensory_cues": [
+        "Bright glow of the blue OLED screen in a dim room",
+        "Smooth, cool glass edge of the phone",
+        "Textured grain of the wooden table underneath",
+        "Excitement of browsing future destinations"
+      ],
+      "mood_and_tone": [
+        "Anticipatory",
+        "Practical"
+      ],
+      "dominant_colors": [
+        "Vibrant blue",
+        "Wood brown",
+        "Black bezel"
+      ],
+      "alt_text": "A modern smartphone rests flat on a wooden table, its screen brightly illuminated with the blue Booking.com application launch screen.",
+      "micro_story": "Staring at the glowing blue app screen on the coffee table, I happily fell down a rabbit hole of endless accommodation options. Planning the logistics was half the fun, letting me imagine the view from a dozen different balconies before I even packed a bag."
+    },
+    {
+      "id": "travel_utility_008",
+      "filename": "travel_utility_008.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Booking.com exterior corporate sign",
+        "Stone building facade",
+        "Large glass office windows"
+      ],
+      "descriptive_tags": [
+        "3D mounted corporate logo lettering",
+        "Weathered grey stone cladding",
+        "Reflections of trees in the dark windows",
+        "Modern commercial architecture"
+      ],
+      "sensory_cues": [
+        "Cold, solid appearance of the stone facade",
+        "Glare of daylight on the corporate signage",
+        "Muffled city street noise below",
+        "Imposing scale of the office building"
+      ],
+      "mood_and_tone": [
+        "Professional",
+        "Established"
+      ],
+      "dominant_colors": [
+        "Stone grey",
+        "Black lettering",
+        "Cyan blue accent",
+        "Dark glass green"
+      ],
+      "alt_text": "The exterior corporate signage for Booking.com mounted prominently on a modern, grey stone building facade featuring large, reflective glass windows.",
+      "micro_story": "Walking past the corporate office, I glanced up at the familiar logo that had facilitated so many of my adventures. It was strangely grounding to see the physical headquarters of an app that practically lived on my home screen."
+    },
+    {
+      "id": "travel_utility_009",
+      "filename": "travel_utility_009.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Businessman taking notes on a bed",
+        "Businesswoman reading in the background",
+        "Modern hotel room setting",
+        "Suitcase handle in the foreground"
+      ],
+      "descriptive_tags": [
+        "Crisp white dress shirt and tie",
+        "Focused bearded man writing on a clipboard",
+        "Blurred female colleague working at a desk",
+        "Wood-paneled hotel room decor"
+      ],
+      "sensory_cues": [
+        "Scratching of a pen on paper",
+        "Soft, yielding feeling of sitting on a hotel mattress",
+        "Quiet hum of the room's air conditioning",
+        "Focus and tension of work travel"
+      ],
+      "mood_and_tone": [
+        "Professional",
+        "Focused",
+        "Busy"
+      ],
+      "dominant_colors": [
+        "Shirt white",
+        "Warm wood brown",
+        "Charcoal suit grey"
+      ],
+      "alt_text": "A bearded man in a white dress shirt sits on a hotel bed taking notes on a clipboard, while a woman in a suit works in the blurred background.",
+      "micro_story": "Even in the comfort of the hotel room, the prep work for tomorrow's big pitch didn't stop for a second. I scribbled down my final talking points on the clipboard while my colleague quietly reviewed her own notes in the background."
+    },
+    {
+      "id": "travel_utility_010",
+      "filename": "travel_utility_010.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Two business professionals working",
+        "Laptop computer on a hotel bed",
+        "Clipboard with a printed pie chart",
+        "Black travel suitcase"
+      ],
+      "descriptive_tags": [
+        "Corporate suits worn in a casual setting",
+        "Collaborative discussion over documents",
+        "Glowing laptop screen",
+        "Wood-slatted accent wall"
+      ],
+      "sensory_cues": [
+        "Soft hum of the laptop fan",
+        "Crisp rustle of printed presentation papers",
+        "Firm texture of the hotel bedspread",
+        "Low murmur of strategic conversation"
+      ],
+      "mood_and_tone": [
+        "Collaborative",
+        "Focused",
+        "Professional"
+      ],
+      "dominant_colors": [
+        "Charcoal grey",
+        "Warm wood brown",
+        "White linens",
+        "Pale blue chart"
+      ],
+      "alt_text": "Two business professionals sit together on a hotel bed, reviewing a pie chart on a clipboard and working collaboratively on a silver laptop with a suitcase nearby.",
+      "micro_story": "We gathered around the laptop on the edge of the bed, reviewing the data charts one last time before meeting the client. Blurring the line between a hotel room and a boardroom was just part of the modern travel grind."
+    },
+    {
+      "id": "travel_utility_011",
+      "filename": "travel_utility_011.jpg",
+      "city": "Hyderabad",
+      "primary_subjects": [
+        "Indian Railways WAP-7 locomotive",
+        "Railway tracks and gravel bed",
+        "Metal truss railway bridge",
+        "Cloudy overcast sky"
+      ],
+      "descriptive_tags": [
+        "White and red electric locomotive",
+        "Heavy iron bridge structure",
+        "Crushed stone track ballast",
+        "Overhead electrical catenary wires",
+        "Dramatic atmospheric lighting"
+      ],
+      "sensory_cues": [
+        "Deep, rhythmic rumble of the approaching train",
+        "Crunch of loose gravel beneath my boots",
+        "Smell of hot metal, grease, and ozone",
+        "Vibration of the heavy tracks",
+        "Cool breeze under the overcast sky"
+      ],
+      "mood_and_tone": [
+        "Industrial",
+        "Powerful",
+        "Anticipatory"
+      ],
+      "dominant_colors": [
+        "Rusty iron brown",
+        "Locomotive white",
+        "Safety red",
+        "Cloudy grey"
+      ],
+      "alt_text": "An Indian Railways WAP-7 electric locomotive approaches along a gravel track bed leading to a large metal truss bridge under a dramatic cloudy sky.",
+      "micro_story": "Standing dangerously close to the gravel tracks, the sheer power of the WAP-7 locomotive shook the ground right through my boots. It was the beginning of my cross-country journey, and the rhythmic clatter of the iron wheels felt like a giant heartbeat."
+    },
+    {
+      "id": "travel_utility_012",
+      "filename": "travel_utility_012.jpg",
+      "city": "Mumbai",
+      "primary_subjects": [
+        "Passenger express train",
+        "Covered station platform",
+        "Distant city skyscrapers",
+        "Empty platform edge"
+      ],
+      "descriptive_tags": [
+        "Long line of railway coaches",
+        "Hazy urban skyline in the background",
+        "Converging steel tracks",
+        "Warm morning sunlight",
+        "Structured metal platform roof"
+      ],
+      "sensory_cues": [
+        "Echoing metallic announcements over the PA system",
+        "Smell of hot brake dust and city smog",
+        "Warm morning sunlight spilling onto the textured platform tiles",
+        "Distant, muffled hum of urban traffic"
+      ],
+      "mood_and_tone": [
+        "Transient",
+        "Urban",
+        "Awakening"
+      ],
+      "dominant_colors": [
+        "Hazy peach",
+        "Track rust red",
+        "Industrial shadow grey",
+        "Locomotive cream"
+      ],
+      "alt_text": "A long Indian passenger train rests at a station platform beneath a large metal canopy, with hazy city skyscrapers rising in the background under warm morning light.",
+      "micro_story": "The massive station was unusually quiet in the early morning haze as my train finally pulled up to the platform. Looking out at the towering, sun-kissed skyscrapers, I felt that unique, electric thrill of arriving in a massive metropolis."
+    },
+    {
+      "id": "travel_utility_013",
+      "filename": "travel_utility_013.jpg",
+      "city": "Western Ghats",
+      "primary_subjects": [
+        "Yellow and blue diesel locomotive",
+        "Dense green jungle foliage",
+        "Curved railway track",
+        "Fallen leaves on the ground"
+      ],
+      "descriptive_tags": [
+        "Heavy WDG4D freight locomotive",
+        "Lush tropical forest canopy",
+        "Low-angle track perspective",
+        "Blurred foreground leaves",
+        "Vibrant natural framing"
+      ],
+      "sensory_cues": [
+        "Deep, throbbing rumble of the diesel engine cutting through the silence",
+        "Humid, earthy scent of the dense forest",
+        "Crunch of dry leaves near the tracks",
+        "Cool, heavy shade cast by the thick tree canopy"
+      ],
+      "mood_and_tone": [
+        "Adventurous",
+        "Wild",
+        "Isolated"
+      ],
+      "dominant_colors": [
+        "Locomotive yellow",
+        "Deep jungle green",
+        "Navy blue",
+        "Earthy brown"
+      ],
+      "alt_text": "A brightly colored yellow and blue diesel locomotive emerges from a dense, lush green forest along a curved railway track, viewed from a low angle with blurred leaves in the foreground.",
+      "micro_story": "Trekking along the quiet forest tracks, the sudden, deep roar of the diesel engine breaking through the jungle canopy made my heart race. Watching the massive machine weave through the dense, ancient trees was a stark, beautiful contrast of nature and industry."
+    },
+    {
+      "id": "travel_utility_014",
+      "filename": "travel_utility_014.jpg",
+      "city": "Puducherry",
+      "primary_subjects": [
+        "Passenger train locomotive",
+        "Puducherry station nameboard",
+        "Railway tracks and switches",
+        "Station platform canopy"
+      ],
+      "descriptive_tags": [
+        "Teal and cream WDP4D locomotive",
+        "Bright yellow bilingual station sign",
+        "Converging iron rails and gravel",
+        "Clear daytime sky",
+        "Quiet terminus platform"
+      ],
+      "sensory_cues": [
+        "Heat radiating upward from the sun-baked gravel track bed",
+        "Sharp smell of diesel exhaust and hot iron",
+        "Metallic ping of cooling train brakes",
+        "Blinding glare of the midday sun"
+      ],
+      "mood_and_tone": [
+        "Sunny",
+        "Arriving",
+        "Relaxed"
+      ],
+      "dominant_colors": [
+        "Teal green",
+        "Bright sign yellow",
+        "Rusty track brown",
+        "Sky blue"
+      ],
+      "alt_text": "A teal and cream Indian passenger train sits idle at a railway station next to a bright yellow sign reading 'Puducherry' in multiple languages.",
+      "micro_story": "Stepping off the train onto the hot, sun-baked platform, the bright yellow Puducherry sign officially welcomed me to the coast. After hours of rhythmic train travel, the quiet, salty air of the French Quarter was exactly what I was craving."
+    },
+    {
+      "id": "travel_utility_015",
+      "filename": "travel_utility_015.jpg",
+      "city": "India",
+      "primary_subjects": [
+        "Blue railway coach exterior",
+        "Barred train windows",
+        "Passengers looking out",
+        "Painted carriage numbers"
+      ],
+      "descriptive_tags": [
+        "Weathered blue steel train car",
+        "Classic sleeper class windows",
+        "Candid passenger portraits",
+        "Worn paint and rust streaks",
+        "Horizontal architectural framing"
+      ],
+      "sensory_cues": [
+        "Rough, textured, peeling paint of the coach exterior",
+        "Smell of metallic rust and accumulated travel dust",
+        "Muffled, chaotic chatter escaping from inside the carriage",
+        "Slight sway of the car as passengers move inside"
+      ],
+      "mood_and_tone": [
+        "Candid",
+        "Observant",
+        "Transient"
+      ],
+      "dominant_colors": [
+        "Weathered navy blue",
+        "Pale stripe blue",
+        "Rusty brown",
+        "Warm interior skin tones"
+      ],
+      "alt_text": "The weathered blue exterior of an Indian railway coach features three barred windows framing passengers looking out, including a young boy and an older man.",
+      "micro_story": "Walking slowly down the platform, I caught the eyes of the passengers staring out through the blue, barred windows. Each face told a different story of distance and destination, a shared, silent transience that defines traveling across this massive country."
+    },
+    {
+      "id": "travel_utility_016",
+      "filename": "travel_utility_016.jpg",
+      "city": "London",
+      "primary_subjects": [
+        "Tall glowing check-in signs",
+        "Digital flight information boards",
+        "Silhouetted airport travelers",
+        "Modern terminal architecture"
+      ],
+      "descriptive_tags": [
+        "Luminous yellow A-B-C-D-E totems",
+        "High sweeping architectural ceiling",
+        "Reflective polished terminal floor",
+        "Silhouetted passengers with luggage",
+        "Structured airport logistics"
+      ],
+      "sensory_cues": [
+        "High-pitched squeak of rubber luggage wheels on polished floors",
+        "Bright, clinical glare of the digital departure boards",
+        "Ambient, echoing hum of thousands of conversations",
+        "Cool, crisp climate-controlled air"
+      ],
+      "mood_and_tone": [
+        "Busy",
+        "Modern",
+        "Transitional"
+      ],
+      "dominant_colors": [
+        "Glowing amber yellow",
+        "Digital screen blue",
+        "Shadow black",
+        "Architectural grey"
+      ],
+      "alt_text": "A wide view of a modern airport check-in hall featuring tall, glowing yellow totems lettered A through E, with digital departure boards and silhouetted travelers on a polished floor.",
+      "micro_story": "Stepping into the massive departure hall, the glowing yellow letters towered over a sea of rushing travelers. The frantic, organized energy of the airport was a stark, jarring shift from the slow, deliberate pace of the trains I'd grown so used to."
+    },
+    {
+      "id": "travel_utility_017",
+      "filename": "travel_utility_017.jpg",
+      "city": "London",
+      "primary_subjects": [
+        "Terminal 2 entrance sign",
+        "Sliding glass doors",
+        "Arriving passengers",
+        "Digital advertising screens"
+      ],
+      "descriptive_tags": [
+        "The Queen's Terminal branding",
+        "Modern glass and steel facade",
+        "Bright interior artificial lighting",
+        "People pulling rolling luggage",
+        "Thick structural metal columns"
+      ],
+      "sensory_cues": [
+        "Pneumatic whoosh of the automatic glass doors parting",
+        "Crisp, cold outdoor air abruptly meeting the warm terminal heating",
+        "Clatter of heavy luggage trolleys",
+        "Visual bombardment of bright digital ads"
+      ],
+      "mood_and_tone": [
+        "Bustling",
+        "Official",
+        "Arriving"
+      ],
+      "dominant_colors": [
+        "Terminal grey",
+        "Bright screen cyan",
+        "Stark black signage",
+        "Glass reflection blue"
+      ],
+      "alt_text": "The entrance to Heathrow's Terminal 2, The Queen's Terminal, features large sliding glass doors, digital advertisements, and passengers walking inside with their luggage.",
+      "micro_story": "The massive sliding doors of The Queen's Terminal parted, letting out a rush of warm, coffee-scented air. After weeks of rugged backpacking, the sterile, hyper-modern efficiency of Heathrow felt both jarring and strangely comforting."
+    },
+    {
+      "id": "travel_utility_018",
+      "filename": "travel_utility_018.jpg",
+      "city": "Transit",
+      "primary_subjects": [
+        "Bright yellow Terminal B+C sign",
+        "Row of nested luggage carts",
+        "Stark concrete wall",
+        "White service door"
+      ],
+      "descriptive_tags": [
+        "Minimalist airport aesthetics",
+        "Brutalist concrete background",
+        "Neatly nested silver trolleys",
+        "High-contrast directional signage",
+        "Empty loading pavement"
+      ],
+      "sensory_cues": [
+        "Rough, cold, abrasive texture of the concrete wall",
+        "Metallic clink of nested luggage carts shifting slightly",
+        "Stark visual pop of bright yellow against dull grey",
+        "Eerie, hollow silence of an empty loading zone"
+      ],
+      "mood_and_tone": [
+        "Minimalist",
+        "Liminal",
+        "Quiet"
+      ],
+      "dominant_colors": [
+        "Warning yellow",
+        "Concrete grey",
+        "Metallic silver",
+        "Door white"
+      ],
+      "alt_text": "A bright yellow sign pointing to Terminal B+C hangs on a stark concrete wall above a perfectly neat row of nested silver luggage carts next to a white door.",
+      "micro_story": "Finding a quiet corner outside the terminal, the neat row of luggage carts sat unused against the cold concrete. It was a rare, liminal moment of absolute stillness amidst the endless, chaotic churn of international travel."
+    },
+    {
+      "id": "travel_utility_019",
+      "filename": "travel_utility_019.jpg",
+      "city": "Dallas",
+      "primary_subjects": [
+        "Illuminated overhead gate signs",
+        "Mechanical escalators",
+        "Highly polished terminal floor",
+        "Distant terminal travelers"
+      ],
+      "descriptive_tags": [
+        "Wide open airport concourse",
+        "Reflective, glossy floor surfaces",
+        "Deep blue ceiling architectural accents",
+        "Bright navigational signage",
+        "Multi-level transit hub"
+      ],
+      "sensory_cues": [
+        "Sharp squeak of sneakers on the polished floor",
+        "Low mechanical hum of the moving escalators",
+        "Bright, artificial, unwavering terminal lighting",
+        "Faint, lingering smell of fast food and stale coffee"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Modern",
+        "Transitional"
+      ],
+      "dominant_colors": [
+        "Floor reflection amber",
+        "Sign navy blue",
+        "Accent sky blue",
+        "Glowing yellow"
+      ],
+      "alt_text": "A spacious, highly polished airport terminal interior featuring illuminated directional signs for gates and baggage claim, alongside a set of escalators leading to an upper level.",
+      "micro_story": "Gliding across the impossibly shiny floor toward the D gates, I checked my boarding pass one last time. The sheer size of the terminal was overwhelming, functioning as a massive crossroads for thousands of intersecting lives."
+    },
+    {
+      "id": "travel_utility_020",
+      "filename": "travel_utility_020.jpg",
+      "city": "Toronto",
+      "primary_subjects": [
+        "Silhouetted travelers walking",
+        "Overhead gate and connection signage",
+        "High geometric ceiling",
+        "Empty terminal seating"
+      ],
+      "descriptive_tags": [
+        "Black and white terminal photography",
+        "Strong leading architectural lines",
+        "Bilingual English and French signs",
+        "Wide, bright concourse",
+        "Patterned floor tiles"
+      ],
+      "sensory_cues": [
+        "Echoing rhythm of footsteps in the wide hallway",
+        "Feeling of vast open space overhead",
+        "Visual contrast of stark, heavy shadows",
+        "Quiet murmur of a less crowded terminal wing"
+      ],
+      "mood_and_tone": [
+        "Cinematic",
+        "Purposeful",
+        "Transient"
+      ],
+      "dominant_colors": [
+        "Grayscale",
+        "Deep black",
+        "Bright white",
+        "Mid-tone grey"
+      ],
+      "alt_text": "A black and white photograph of an airport concourse showing silhouetted travelers walking beneath high geometric ceilings and bilingual overhead signs pointing to U.S. Connections.",
+      "micro_story": "Walking down the long, sunlit concourse toward my U.S. connection, the terminal felt like a cinematic black-and-white movie scene. It was the final leg of an incredible journey, and every tired step brought me a little bit closer to home."
+    },
+    {
+      "id": "travel_utility_021",
+      "filename": "travel_utility_021.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Smartphone displaying payment screen",
+        "Empty white ceramic bowl",
+        "Black chopsticks",
+        "Small green succulent"
+      ],
+      "descriptive_tags": [
+        "Rustic wooden dining table",
+        "Digital contactless payment interface",
+        "Minimalist table setting",
+        "Printed paper menu background"
+      ],
+      "sensory_cues": [
+        "Smooth ceramic texture of the empty bowl",
+        "Warm grain of the wooden table",
+        "Bright glow of the smartphone screen",
+        "Lingering satisfaction of a finished meal"
+      ],
+      "mood_and_tone": [
+        "Satisfied",
+        "Modern",
+        "Efficient"
+      ],
+      "dominant_colors": [
+        "Wood brown",
+        "Bright screen blue",
+        "Ceramic white",
+        "Succulent green"
+      ],
+      "alt_text": "A top-down view of a rustic wooden table after a meal, featuring an empty white bowl with chopsticks, a small succulent, and a smartphone displaying a $25.45 contactless payment screen.",
+      "micro_story": "I set my chopsticks across the empty bowl, fully satisfied after an amazing local meal. Tapping my phone to pay was seamless, blending modern convenience with the rustic charm of the little eatery."
+    },
+    {
+      "id": "travel_utility_022",
+      "filename": "travel_utility_022.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Chef in white uniform",
+        "Hanging paper order tickets",
+        "Metal ticket rail",
+        "Warm kitchen heat lamp"
+      ],
+      "descriptive_tags": [
+        "Fast-paced restaurant kitchen",
+        "Close-up on hands pulling orders",
+        "Blank white order dockets",
+        "Stainless steel kitchen equipment"
+      ],
+      "sensory_cues": [
+        "Heat radiating from the food warming lamps",
+        "Sharp snap of paper being pulled from the rail",
+        "Clatter of unseen pans in the background",
+        "Smell of hot cooking oil and spices"
+      ],
+      "mood_and_tone": [
+        "Focused",
+        "Hectic",
+        "Industrious"
+      ],
+      "dominant_colors": [
+        "Uniform white",
+        "Ticket white",
+        "Stainless steel grey",
+        "Warm lamp yellow"
+      ],
+      "alt_text": "A close-up shot of a chef in a white uniform reaching up to pull paper order tickets from a metal rail under the warm glow of a kitchen heat lamp.",
+      "micro_story": "Waiting for my takeout, I caught a glimpse of the kitchen's chaotic ballet. The chef smoothly pulled the next ticket from the rail, a fleeting moment of focus amidst the sizzling pans and shouting voices."
+    },
+    {
+      "id": "travel_utility_023",
+      "filename": "travel_utility_023.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Massive pile of paper receipts",
+        "Printed Chinese text and barcodes",
+        "Crinkled thermal paper"
+      ],
+      "descriptive_tags": [
+        "Chaotic accumulation of printed dockets",
+        "Black ink on thin white paper",
+        "Discarded transaction records",
+        "Messy administrative pile"
+      ],
+      "sensory_cues": [
+        "Dry, papery rustle of crumpled receipts",
+        "Faint smell of thermal printer chemicals",
+        "Visual overwhelm of dense black text",
+        "Tangled texture of discarded paper"
+      ],
+      "mood_and_tone": [
+        "Overwhelming",
+        "Cluttered",
+        "Transient"
+      ],
+      "dominant_colors": [
+        "Paper white",
+        "Ink black",
+        "Shadow grey"
+      ],
+      "alt_text": "A massive, chaotic pile of discarded, crinkled thermal paper receipts printed with Chinese characters and barcodes.",
+      "micro_story": "I stared at the towering pile of discarded receipts at the market's exit. It was a chaotic, physical representation of thousands of tiny transactions and passing travelers, all jumbled together in a sea of thermal paper."
+    },
+    {
+      "id": "travel_utility_024",
+      "filename": "travel_utility_024.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Reserved table sign",
+        "Empty dinner plates and glasses",
+        "Glowing city skyline backdrop",
+        "Small table lamp"
+      ],
+      "descriptive_tags": [
+        "Intimate rooftop dining setting",
+        "Blurry bokeh city lights",
+        "Minimalist table arrangement",
+        "Atmospheric evening lighting"
+      ],
+      "sensory_cues": [
+        "Low, intimate hum of restaurant chatter",
+        "Clink of ice in water glasses",
+        "Dazzling sparkle of distant city lights",
+        "Smooth texture of the wooden table"
+      ],
+      "mood_and_tone": [
+        "Anticipatory",
+        "Romantic",
+        "Exclusive"
+      ],
+      "dominant_colors": [
+        "Bokeh gold",
+        "Midnight blue",
+        "Table brown",
+        "Plate white"
+      ],
+      "alt_text": "A reserved sign sits on a set dining table for two at Joe's Backyard, featuring a small lamp and empty plates against a beautiful backdrop of blurred, glowing city lights at night.",
+      "micro_story": "Finding the \"Reserved\" sign waiting for us at the rooftop table felt like a small VIP moment. The city stretched out below like a sea of glowing embers, setting the perfect stage for our last dinner of the trip."
+    },
+    {
+      "id": "travel_utility_025",
+      "filename": "travel_utility_025.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Brown paper delivery bag",
+        "Printed Uber Eats receipt",
+        "Hands holding the bag"
+      ],
+      "descriptive_tags": [
+        "Close-up of food delivery packaging",
+        "Detailed itemized order ticket",
+        "Casual indoor setting"
+      ],
+      "sensory_cues": [
+        "Crinkle of thick brown kraft paper",
+        "Anticipatory smell of a warm schnitzel and coffee",
+        "Smooth texture of the thermal receipt",
+        "Feeling of hunger after a long travel day"
+      ],
+      "mood_and_tone": [
+        "Relieved",
+        "Casual",
+        "Comforting"
+      ],
+      "dominant_colors": [
+        "Kraft brown",
+        "Paper white",
+        "Ink black",
+        "Skin tone peachy"
+      ],
+      "alt_text": "A close-up of a person's hands holding a brown paper Uber Eats delivery bag, examining a receipt that lists an iced latte and a schnitzel box.",
+      "micro_story": "Exhausted after twelve straight hours of walking the city, I finally caved and ordered delivery to the hotel. Ripping open the brown paper bag to find my schnitzel and iced latte felt like an absolute triumph."
+    },
+    {
+      "id": "travel_utility_026",
+      "filename": "travel_utility_026.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Smartphone displaying a map route",
+        "Winding asphalt road",
+        "Hand holding the phone",
+        "Autumn forest trees"
+      ],
+      "descriptive_tags": [
+        "Digital GPS navigation app",
+        "First-person perspective",
+        "Blurred autumn foliage background",
+        "Empty scenic byway"
+      ],
+      "sensory_cues": [
+        "Crisp autumn air through the open car window",
+        "Smooth glass screen of the phone",
+        "Contrast of bright digital interface against moody natural lighting",
+        "Crunch of dry leaves under tires"
+      ],
+      "mood_and_tone": [
+        "Adventurous",
+        "Guided",
+        "Scenic"
+      ],
+      "dominant_colors": [
+        "Screen blue",
+        "Asphalt dark grey",
+        "Autumn orange",
+        "Phone black"
+      ],
+      "alt_text": "A first-person view of a hand holding a smartphone displaying a Google Maps route, with a blurred, winding asphalt road through an autumn forest in the background.",
+      "micro_story": "The signal was spotty, but the blue line on the map kept us moving forward. Surrounded by brilliant autumn leaves on a completely empty road, getting a little bit lost was actually the best part of the day."
+    },
+    {
+      "id": "travel_utility_027",
+      "filename": "travel_utility_027.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Smartphone screen showing Google Maps",
+        "Hands holding the device",
+        "Local business listing for Morley Butchers"
+      ],
+      "descriptive_tags": [
+        "Searching for local amenities",
+        "Detailed digital street map",
+        "Close-up of app interface",
+        "Highlighting a 4.9-star rating"
+      ],
+      "sensory_cues": [
+        "Glare on the phone's glass screen",
+        "Warmth of the phone battery against the palm",
+        "Focused intent of finding a specific shop",
+        "Soft tapping of fingers on the display"
+      ],
+      "mood_and_tone": [
+        "Practical",
+        "Focused",
+        "Local"
+      ],
+      "dominant_colors": [
+        "Map grey and green",
+        "App blue",
+        "Skin tone tan",
+        "Phone black"
+      ],
+      "alt_text": "A close-up of a person's hands using Google Maps on a smartphone to search for local butchers in the Crouch End area, with Morley Butchers highlighted on the screen.",
+      "micro_story": "I wanted to cook something authentic at the Airbnb, so I pulled up the map to find a local market. Seeing the five-star rating for Morley Butchers, I tapped for directions and headed out into the neighborhood."
+    },
+    {
+      "id": "travel_utility_028",
+      "filename": "travel_utility_028.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "3D Google Maps icon",
+        "Solid blue background"
+      ],
+      "descriptive_tags": [
+        "Minimalist digital illustration",
+        "Floating location pin",
+        "Distinctive multi-colored map marker",
+        "Clean studio lighting effect"
+      ],
+      "sensory_cues": [
+        "Smooth, matte plastic-like texture of the rendered icon",
+        "Clean visual pop of the vibrant colors",
+        "Floating sense of weightlessness"
+      ],
+      "mood_and_tone": [
+        "Modern",
+        "Clean",
+        "Iconic"
+      ],
+      "dominant_colors": [
+        "Solid blue",
+        "Icon white",
+        "Google red, yellow, and green"
+      ],
+      "alt_text": "A stylized, 3D rendering of the Google Maps location pin icon floating in mid-air against a vibrant, solid blue background, casting a soft shadow below.",
+      "micro_story": "Without this little digital pin, I would have spent half my trip walking in the wrong direction. It was my ultimate safety net, turning daunting mega-cities into manageable, step-by-step adventures."
+    },
+    {
+      "id": "travel_utility_029",
+      "filename": "travel_utility_029.jpg",
+      "city": "New York",
+      "primary_subjects": [
+        "Smartphone displaying satellite map",
+        "Map of Manhattan island",
+        "Hand with a black fitness band",
+        "Blurred outdoor park"
+      ],
+      "descriptive_tags": [
+        "Dense urban geography",
+        "Digital navigation interface",
+        "First-person perspective",
+        "Leafy background bokeh"
+      ],
+      "sensory_cues": [
+        "Overwhelming density of the city viewed from above",
+        "Smooth screen of the phone",
+        "Ambient noise of the surrounding park",
+        "Cool metal edge of the device"
+      ],
+      "mood_and_tone": [
+        "Exploring",
+        "Oriented",
+        "Urban"
+      ],
+      "dominant_colors": [
+        "Map green and grey",
+        "Screen blue",
+        "Background bokeh green",
+        "Skin tone peachy"
+      ],
+      "alt_text": "A person wearing a black fitness band holds a smartphone displaying a satellite view of Manhattan on Google Maps, set against a beautifully blurred background of a tree-lined park path.",
+      "micro_story": "Zooming out on the map, the sheer density of Manhattan was mind-boggling. Standing in the middle of a quiet park, I planned my route through the concrete jungle, ready to dive back into the chaos."
+    },
+    {
+      "id": "travel_utility_030",
+      "filename": "travel_utility_030.jpg",
+      "city": "Travel",
+      "primary_subjects": [
+        "Large car touchscreen interface",
+        "Highway visible through the windshield",
+        "Two plastic water bottles",
+        "Driver's arm"
+      ],
+      "descriptive_tags": [
+        "Modern electric vehicle interior",
+        "Satellite navigation display",
+        "Straight multi-lane highway",
+        "Overcast daytime driving"
+      ],
+      "sensory_cues": [
+        "Smooth, silent acceleration of the electric car",
+        "Bright glare of the oversized digital dashboard",
+        "Smell of bottled water and clean car interior",
+        "Hypnotic passing of highway lines"
+      ],
+      "mood_and_tone": [
+        "Futuristic",
+        "Steady",
+        "In-transit"
+      ],
+      "dominant_colors": [
+        "Screen black and blue",
+        "Highway grey",
+        "Overcast sky white",
+        "Bottle blue and red"
+      ],
+      "alt_text": "The interior view of a modern electric car driving down a highway, focusing on a large central touchscreen displaying satellite navigation, with two water bottles in the foreground cup holders.",
+      "micro_story": "Cruising down the highway in near silence, the massive screen on the dashboard tracked our every move. It felt less like a road trip and more like piloting a spaceship toward our next destination."
+    },
+    {
+      "id": "udaipur_001",
+      "filename": "udaipur_001.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "City Palace facade",
+        "Lake Pichola",
+        "Red tourist boat",
+        "Waterfront stone walls"
+      ],
+      "descriptive_tags": [
+        "Monumental Rajput architecture",
+        "Cream-colored palace domes",
+        "Golden hour reflections",
+        "Rippling lake water",
+        "Arched windows and balconies"
+      ],
+      "sensory_cues": [
+        "Gentle rocking of the boat on the lake",
+        "Warmth of the late afternoon sun on stone",
+        "Sound of water splashing against the hull",
+        "Majestic scale of the royal residence"
+      ],
+      "mood_and_tone": [
+        "Regal",
+        "Majestic",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Warm sandstone yellow",
+        "Deep lake blue",
+        "Boat red",
+        "Bright clear sky blue"
+      ],
+      "alt_text": "A monumental cream-colored palace complex with multiple domes sits on the edge of a rippling lake, with a red tourist boat passing in the foreground.",
+      "micro_story": "Gliding across Lake Pichola as the sun began to dip, the sheer scale of the City Palace took my breath away. At twenty-eight, witnessing this kind of preserved royal grandeur made me feel like I had stepped straight into a different century."
+    },
+    {
+      "id": "udaipur_002",
+      "filename": "udaipur_002.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Waterfront palace architecture",
+        "Sunset sky",
+        "Lake Pichola reflections",
+        "Stone bathing ghats"
+      ],
+      "descriptive_tags": [
+        "Layered historic buildings",
+        "Pastel sunset hues",
+        "Traditional domed chhatris",
+        "Calm rippling water",
+        "White and cream facades"
+      ],
+      "sensory_cues": [
+        "Cooling evening breeze off the lake",
+        "Faint sounds of bells from distant temples",
+        "Gentle lap of water against the stone steps",
+        "Fading warmth of the day"
+      ],
+      "mood_and_tone": [
+        "Romantic",
+        "Tranquil",
+        "Nostalgic"
+      ],
+      "dominant_colors": [
+        "Sunset peach",
+        "Reflected gold",
+        "Whitewashed stone",
+        "Deep water green"
+      ],
+      "alt_text": "A layered view of historic white and cream waterfront buildings with traditional domes in Udaipur, beautifully reflected in the calm lake waters under a pastel sunset sky.",
+      "micro_story": "As the sky turned a soft bruised peach, I watched the lights slowly flicker on across the waterfront. The romance of Udaipur was undeniable, settling over the calm water like a warm blanket."
+    },
+    {
+      "id": "udaipur_003",
+      "filename": "udaipur_003.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "City Palace complex",
+        "Lake Pichola",
+        "Ornate cupolas",
+        "Waterfront stone retaining walls"
+      ],
+      "descriptive_tags": [
+        "Massive royal residence",
+        "Sun-drenched yellow facade",
+        "Bright cloudless sky",
+        "Intricate balconies and arches",
+        "Green lakeside trees"
+      ],
+      "sensory_cues": [
+        "Intense glare of the midday sun on the water",
+        "Dry heat radiating from the palace walls",
+        "Rhythmic hum of boat engines",
+        "Grandeur of the Rajput architecture"
+      ],
+      "mood_and_tone": [
+        "Grand",
+        "Sun-drenched",
+        "Historical"
+      ],
+      "dominant_colors": [
+        "Golden yellow",
+        "Deep sky blue",
+        "Lake water green",
+        "Foliage green"
+      ],
+      "alt_text": "A sweeping daytime view from the water of the magnificent City Palace in Udaipur, featuring intricate balconies, domed cupolas, and yellow stone walls under a bright blue sky.",
+      "micro_story": "Taking a daytime boat ride, the City Palace stood before me like a golden fortress rising directly from the water. I couldn't stop snapping photos, desperate to capture the intricate details of every single balcony and dome."
+    },
+    {
+      "id": "udaipur_004",
+      "filename": "udaipur_004.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Triple-arched stone gateway",
+        "Ornate palace architecture",
+        "Large green courtyard tree",
+        "People walking"
+      ],
+      "descriptive_tags": [
+        "Monumental entrance gate",
+        "Intricate white stone carvings",
+        "Traditional Rajasthani cupolas",
+        "Sloping cobblestone ramp",
+        "Bright afternoon light"
+      ],
+      "sensory_cues": [
+        "Echoing footsteps under the stone archways",
+        "Rough texture of the ancient carved marble",
+        "Welcome shade from the large green tree",
+        "Hum of tourist chatter"
+      ],
+      "mood_and_tone": [
+        "Inviting",
+        "Historic",
+        "Grand"
+      ],
+      "dominant_colors": [
+        "Creamy white stone",
+        "Deep foliage green",
+        "Clear sky blue",
+        "Shadowy archway black"
+      ],
+      "alt_text": "A monumental, intricately carved triple-arched stone gateway leads into a grand palace courtyard in Udaipur, flanked by traditional cupolas and a large green tree.",
+      "micro_story": "Walking through the massive arched gateways of the palace, I traced my fingers along the intricately carved stone. It was easy to imagine royal processions passing right where I was standing."
+    },
+    {
+      "id": "udaipur_005",
+      "filename": "udaipur_005.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Taj Lake Palace",
+        "Lake Pichola",
+        "Hazy distant hills",
+        "Small passenger boats"
+      ],
+      "descriptive_tags": [
+        "Floating white marble palace",
+        "Expansive grey lake water",
+        "Overcast atmospheric sky",
+        "Aravalli mountain range backdrop",
+        "Secluded luxury hotel"
+      ],
+      "sensory_cues": [
+        "Muffled quiet of the hazy afternoon",
+        "Cool damp breeze sweeping across the lake",
+        "Distant drone of a boat motor",
+        "Ethereal beauty of the white marble against the grey water"
+      ],
+      "mood_and_tone": [
+        "Ethereal",
+        "Mysterious",
+        "Calm"
+      ],
+      "dominant_colors": [
+        "Pristine white",
+        "Muted lake grey",
+        "Hazy mountain blue-green",
+        "Sky grey"
+      ],
+      "alt_text": "An elevated view of the pristine white Taj Lake Palace seemingly floating in the middle of Lake Pichola, surrounded by hazy water and distant mountains under an overcast sky.",
+      "micro_story": "Through the hazy afternoon air, the Lake Palace looked like a mirage made of pure white marble. It sat so perfectly isolated in the center of the lake, looking like a secret I wasn't quite allowed to know."
+    },
+    {
+      "id": "udaipur_006",
+      "filename": "udaipur_006.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Covered waterfront balcony",
+        "Checkered marble floor",
+        "Moored boats",
+        "Lake Pichola"
+      ],
+      "descriptive_tags": [
+        "Elegant arched white pillars",
+        "Black and white diamond floor tiles",
+        "View of the opposite shoreline",
+        "Overcast sky",
+        "Trailing green vines"
+      ],
+      "sensory_cues": [
+        "Smooth, cool feel of the marble floor underfoot",
+        "Gentle slapping of water against the moored boats",
+        "Humid pre-rain breeze",
+        "Smell of fresh rain and lake water"
+      ],
+      "mood_and_tone": [
+        "Elegant",
+        "Relaxing",
+        "Contemplative"
+      ],
+      "dominant_colors": [
+        "Marble white",
+        "Floor tile black",
+        "Muted lake blue",
+        "Vine green"
+      ],
+      "alt_text": "The view from an elegant waterfront balcony with white arched pillars and a black-and-white checkered marble floor, looking out over moored boats and Lake Pichola under a cloudy sky.",
+      "micro_story": "I found a quiet spot on the checkered marble balcony, watching the covered boats bob gently in the water. With the sky threatening rain, the lake took on a moody, quiet elegance that made me want to sit there all day with a book."
+    },
+    {
+      "id": "udaipur_007",
+      "filename": "udaipur_007.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Udaipur waterfront skyline",
+        "Full moon",
+        "Stone ghats and buildings",
+        "Lake Pichola"
+      ],
+      "descriptive_tags": [
+        "Layered historic city architecture",
+        "Faint moon in the evening sky",
+        "Calm lake reflections",
+        "Trees interspersed with buildings",
+        "Soft dusk lighting"
+      ],
+      "sensory_cues": [
+        "Stillness of the evening air",
+        "Soft glow of the rising moon",
+        "Distant sounds of the city winding down",
+        "Gentle lap of water on the stone steps"
+      ],
+      "mood_and_tone": [
+        "Serene",
+        "Atmospheric",
+        "Timeless"
+      ],
+      "dominant_colors": [
+        "Faded twilight blue",
+        "Warm stone yellow",
+        "Deep water grey",
+        "Foliage green"
+      ],
+      "alt_text": "A serene view of the Udaipur waterfront at dusk, showing layered historic buildings, stone ghats, and trees bordering the calm lake under a pale sky with a visible moon.",
+      "micro_story": "As the pale moon rose over the clustered buildings of the old city, Udaipur felt entirely timeless. Sitting by the ghats, I let the utter stillness of the evening wash away any remaining travel fatigue."
+    },
+    {
+      "id": "udaipur_008",
+      "filename": "udaipur_008.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Elevated city and lake view",
+        "Passing passenger boat",
+        "Taj Lake Palace",
+        "Distant Aravalli mountains"
+      ],
+      "descriptive_tags": [
+        "Sweeping panoramic vista",
+        "Mix of white palaces and urban buildings",
+        "Hazy atmospheric background",
+        "Vibrant green trees",
+        "expansive lake water"
+      ],
+      "sensory_cues": [
+        "Wide-open breezy vantage point",
+        "Distant hum of city traffic and boat engines",
+        "Muggy warmth of the day",
+        "Visual scale of the lakeside city"
+      ],
+      "mood_and_tone": [
+        "Expansive",
+        "Bustling",
+        "Scenic"
+      ],
+      "dominant_colors": [
+        "Deep lake green",
+        "Whitewashed building white",
+        "Hazy mountain grey",
+        "Tree canopy green"
+      ],
+      "alt_text": "An elevated, panoramic view overlooking Lake Pichola in Udaipur, featuring a passenger boat, white waterfront palaces, lush green trees, and a hazy mountain backdrop.",
+      "micro_story": "Climbing to a rooftop cafe, the entire city of Udaipur unfolded below me in a stunning mix of white marble, green trees, and shimmering water. Watching a tiny passenger boat cut across the lake, I finally grasped the full, sprawling beauty of the \"City of Lakes.\""
+    },
+    {
+      "id": "udaipur_009",
+      "filename": "udaipur_009.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Taj Lake Palace close-up",
+        "Small covered boat",
+        "Lake Pichola",
+        "Clear blue sky"
+      ],
+      "descriptive_tags": [
+        "Pristine white marble architecture",
+        "Ornate domed pavilions",
+        "Dark green shade tree",
+        "Rippling blue water",
+        "Bright sunlit day"
+      ],
+      "sensory_cues": [
+        "Blinding glare of the sun on the white marble",
+        "Gentle rocking of the water",
+        "Crisp and clear daytime air",
+        "Sound of water splashing against the stone foundation"
+      ],
+      "mood_and_tone": [
+        "Idyllic",
+        "Luxurious",
+        "Bright"
+      ],
+      "dominant_colors": [
+        "Pure marble white",
+        "Deep lake blue",
+        "Clear sky cyan",
+        "Lush foliage green"
+      ],
+      "alt_text": "A close-up view of the pristine white Taj Lake Palace on Lake Pichola, featuring ornate domed pavilions and a large green tree, with a small covered boat moored in front under a bright blue sky.",
+      "micro_story": "Gliding right past the gleaming white walls of the Lake Palace, I could see the intricate details of its marble pavilions. The stark white against the deep blue of the lake was so stunning it almost looked unreal."
+    },
+    {
+      "id": "udaipur_010",
+      "filename": "udaipur_010.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "City Palace facade",
+        "Lush green waterfront trees",
+        "Lake Pichola waters",
+        "Domed cupolas"
+      ],
+      "descriptive_tags": [
+        "Expansive royal architecture",
+        "Cream-colored stone building",
+        "Vibrant green foliage",
+        "Rippling green lake water",
+        "Clear daytime sky"
+      ],
+      "sensory_cues": [
+        "Warm sunlight radiating off the stone",
+        "Gentle swaying of the large trees",
+        "Sound of water lapping against the stone walls",
+        "Smell of fresh lake water"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Vibrant",
+        "Historic"
+      ],
+      "dominant_colors": [
+        "Golden cream",
+        "Deep foliage green",
+        "Lake water green",
+        "Sky blue"
+      ],
+      "alt_text": "A daytime view from the water of the magnificent City Palace in Udaipur, featuring cream-colored stone walls, domed cupolas, and lush green trees bordering the green waters of Lake Pichola.",
+      "micro_story": "Drifting slowly past the City Palace, I was struck by the vibrant contrast between the ancient cream stone and the lush, sprawling trees. It felt like watching a living painting of a bygone royal era."
+    },
+    {
+      "id": "udaipur_011",
+      "filename": "udaipur_011.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Row of carved stone elephants",
+        "Waterfront pavilion walkway",
+        "Colorful decorative flags",
+        "Lake Pichola"
+      ],
+      "descriptive_tags": [
+        "Intricate white marble architecture",
+        "Submerged elephant statues",
+        "Bright primary-colored flags fluttering",
+        "Arched colonnade",
+        "Sunlit calm waters"
+      ],
+      "sensory_cues": [
+        "Gentle slap of water against the stone elephants",
+        "Snap of the colorful flags in the breeze",
+        "Blinding brightness of the white marble",
+        "Cooling effect of the lake breeze"
+      ],
+      "mood_and_tone": [
+        "Regal",
+        "Festive",
+        "Tranquil"
+      ],
+      "dominant_colors": [
+        "Marble white",
+        "Lake green",
+        "Festive red and yellow",
+        "Clear sky blue"
+      ],
+      "alt_text": "A row of carved stone elephants lines the base of a white marble waterfront pavilion adorned with colorful flags on the calm green waters of Lake Pichola.",
+      "micro_story": "Approaching the island pavilion, the row of half-submerged stone elephants looked as though they were guarding the palace secrets. The colorful flags snapping in the wind added a surprisingly festive touch to the ancient marble."
+    },
+    {
+      "id": "udaipur_012",
+      "filename": "udaipur_012.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Massive arched stone gateway",
+        "Heavy wooden doors with spikes",
+        "No Horn Please sign",
+        "Painted elephant murals"
+      ],
+      "descriptive_tags": [
+        "Imposing historic fortress entrance",
+        "Intricately carved stone arch",
+        "Weathered white masonry",
+        "Cobblestone entrance ramp",
+        "Bright sunny shadows"
+      ],
+      "sensory_cues": [
+        "Echoing acoustics within the deep archway",
+        "Rough texture of the ancient wood and metal spikes",
+        "Heat reflecting off the white stone",
+        "Distant murmur of courtyard visitors"
+      ],
+      "mood_and_tone": [
+        "Imposing",
+        "Historic",
+        "Welcoming"
+      ],
+      "dominant_colors": [
+        "Whitewashed stone",
+        "Dark wood brown",
+        "Signage red",
+        "Mural green and yellow"
+      ],
+      "alt_text": "A massive, intricately carved white stone gateway with heavy, spiked wooden doors stands open, leading into a historic courtyard with a red 'No Horn Please' sign in the foreground.",
+      "micro_story": "Walking up the cobblestone ramp through the massive spiked doors, I could almost hear the echoes of royal processions. The bright red 'No Horn Please' sign was a funny, modern reminder that I was still in the twenty-first century."
+    },
+    {
+      "id": "udaipur_013",
+      "filename": "udaipur_013.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Red canopied tourist boat",
+        "White marble island pavilion",
+        "Distant city skyline",
+        "Lake Pichola"
+      ],
+      "descriptive_tags": [
+        "Brightly painted wooden boat",
+        "Gleaming white Jag Mandir palace",
+        "Layered historic waterfront",
+        "Deep blue rippling water",
+        "Clear morning light"
+      ],
+      "sensory_cues": [
+        "Gentle rocking motion of the boat on the lake",
+        "Rhythmic chug of a distant engine",
+        "Crisp and clear morning air",
+        "Sunlight sparkling on the water's surface"
+      ],
+      "mood_and_tone": [
+        "Idyllic",
+        "Peaceful",
+        "Picturesque"
+      ],
+      "dominant_colors": [
+        "Boat red",
+        "Lake navy blue",
+        "Marble white",
+        "Sky azure"
+      ],
+      "alt_text": "A bright red, canopied tourist boat floats on the deep blue waters of Lake Pichola, with a gleaming white island palace and the historic Udaipur skyline in the background.",
+      "micro_story": "The bright red tourist boat bobbed gently in the foreground, perfectly framing the white marble island palace in the distance. The absolute calm of the lake in the morning made the whole city feel like a dream."
+    },
+    {
+      "id": "udaipur_014",
+      "filename": "udaipur_014.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Triple-arched stone gateway",
+        "Ornate palace facade",
+        "Faded wall frescoes",
+        "Intricate overhanging balconies"
+      ],
+      "descriptive_tags": [
+        "Monumental Rajput architecture",
+        "Weathered yellow and white stone",
+        "Scalloped archways",
+        "Detailed tile work and paintings",
+        "Shadowed entranceway"
+      ],
+      "sensory_cues": [
+        "Cool shade beneath the massive arches",
+        "Gritty texture of the ancient carved stone",
+        "Faint smell of dust and history",
+        "Distant cooing of pigeons nesting in the alcoves"
+      ],
+      "mood_and_tone": [
+        "Grand",
+        "Weathered",
+        "Timeless"
+      ],
+      "dominant_colors": [
+        "Weathered yellow",
+        "Stone grey",
+        "Faded fresco blue",
+        "Clear sky blue"
+      ],
+      "alt_text": "A magnificent triple-arched stone gateway to a historic palace, featuring intricately carved balconies, scalloped arches, and faded blue frescoes on weathered yellow stone.",
+      "micro_story": "Standing beneath the massive scalloped arches of the Tripolia Gate, I admired the faded blue frescoes that still clung to the stone. It was a beautiful, weathered testament to the enduring legacy of the Mewar kings."
+    },
+    {
+      "id": "udaipur_015",
+      "filename": "udaipur_015.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Folk dancer in traditional dress",
+        "Flaming brass pot on head",
+        "Spinning colorful skirt",
+        "Historic courtyard setting"
+      ],
+      "descriptive_tags": [
+        "Dynamic blurred motion",
+        "Vibrant embroidered textiles",
+        "Warm glow of the fire",
+        "Dimly lit stone architecture",
+        "Cultural performance"
+      ],
+      "sensory_cues": [
+        "Swish of heavy embroidered fabric spinning",
+        "Heat radiating from the flaming pot",
+        "Rhythmic beat of unseen traditional drums",
+        "Smell of burning fuel and incense"
+      ],
+      "mood_and_tone": [
+        "Energetic",
+        "Mesmerizing",
+        "Cultural"
+      ],
+      "dominant_colors": [
+        "Vibrant skirt blue",
+        "Fabric orange",
+        "Fire yellow",
+        "Courtyard shadow green"
+      ],
+      "alt_text": "A traditional Rajasthani folk dancer spins dynamically in a vibrantly embroidered blue and orange skirt while balancing a flaming brass pot on her head in a dimly lit historic courtyard.",
+      "micro_story": "The dancer spun with dizzying speed, her vibrant blue and orange skirt a blur of color, all while balancing a flaming brass pot on her head. The rhythmic drums echoing in the ancient courtyard made the Bagore Ki Haveli performance absolutely hypnotic."
+    },
+    {
+      "id": "udaipur_016",
+      "filename": "udaipur_016.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Layered palace facades",
+        "Lake Pichola waterfront",
+        "Ornate domed cupolas",
+        "Palm trees"
+      ],
+      "descriptive_tags": [
+        "Massive sprawling royal complex",
+        "Sunlit yellow and white stone",
+        "Intricate arched windows",
+        "Calm blue water",
+        "Clear sunny sky"
+      ],
+      "sensory_cues": [
+        "Warmth of the afternoon sun",
+        "Gentle lap of water against the stone ghats",
+        "Rustle of palm fronds in the breeze",
+        "Visual overwhelm of architectural details"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Sunny",
+        "Grand"
+      ],
+      "dominant_colors": [
+        "Palace yellow",
+        "Whitewashed stone",
+        "Lake blue",
+        "Palm green"
+      ],
+      "alt_text": "A sprawling daytime view of the City Palace complex in Udaipur from the water, displaying layers of sunlit yellow and white stone facades, domed cupolas, and waterfront ghats.",
+      "micro_story": "From the boat, the City Palace looked like a golden mountain of intricate arches and domes rising from the lake. The sheer scale and beauty of it, gleaming in the afternoon sun, was impossible to look away from."
+    },
+    {
+      "id": "udaipur_017",
+      "filename": "udaipur_017.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Red-canopied passenger boat",
+        "Setting sun",
+        "Silhouetted Aravalli hills",
+        "Lake Pichola"
+      ],
+      "descriptive_tags": [
+        "Golden hour sunset lighting",
+        "Rippling water reflections",
+        "Hazy mountainous horizon",
+        "Tranquil evening boat ride",
+        "Warm atmospheric glow"
+      ],
+      "sensory_cues": [
+        "Warm, golden light reflecting off the water",
+        "Chug of the boat's outboard motor",
+        "Cooling evening breeze",
+        "Salty, earthy smell of the lake at dusk"
+      ],
+      "mood_and_tone": [
+        "Romantic",
+        "Peaceful",
+        "Golden"
+      ],
+      "dominant_colors": [
+        "Sunset gold",
+        "Deep water blue",
+        "Canopy red",
+        "Silhouetted purple/grey"
+      ],
+      "alt_text": "A red-canopied passenger boat cruises across the rippling waters of Lake Pichola at sunset, silhouetted against a golden sky and the distant Aravalli hills.",
+      "micro_story": "As the sun dipped behind the Aravalli hills, the entire lake turned into a sea of liquid gold. Watching the little red-canopied boat cross the shimmering water was the perfect, peaceful end to the day."
+    },
+    {
+      "id": "udaipur_018",
+      "filename": "udaipur_018.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Silhouetted rowboat with passengers",
+        "Bright setting sun",
+        "Silhouetted mountain range",
+        "Golden lake reflections"
+      ],
+      "descriptive_tags": [
+        "Vibrant orange sunset sky",
+        "High contrast silhouette photography",
+        "Still lake water",
+        "Peaceful twilight atmosphere",
+        "Minimalist composition"
+      ],
+      "sensory_cues": [
+        "Intense warmth of the orange light",
+        "Quiet splash of oars in the water",
+        "Stillness of the evening air",
+        "Fading heat of the day"
+      ],
+      "mood_and_tone": [
+        "Serene",
+        "Dramatic",
+        "Meditative"
+      ],
+      "dominant_colors": [
+        "Fiery orange",
+        "Silhouetted black",
+        "Golden yellow reflection"
+      ],
+      "alt_text": "A tiny silhouetted rowboat with passengers floats on a lake directly in the golden reflection of a massive, bright orange sunset over a silhouetted mountain range.",
+      "micro_story": "The sky erupted in a fiery, brilliant orange as the sun sank below the mountains. Watching the tiny, silhouetted rowboat glide silently through the golden reflection felt like a scene straight out of a painting."
+    },
+    {
+      "id": "udaipur_019",
+      "filename": "udaipur_019.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Illuminated City Palace",
+        "Calm lake water",
+        "Night sky",
+        "City lights reflections"
+      ],
+      "descriptive_tags": [
+        "Glowing waterfront architecture",
+        "Deep blue twilight sky",
+        "Golden light reflections on water",
+        "Expansive palace complex",
+        "Tranquil nighttime scene"
+      ],
+      "sensory_cues": [
+        "Crisp night air over the lake",
+        "Gentle lapping of water",
+        "Distant hum of city nightlife",
+        "Visual warmth of the golden lights against the dark"
+      ],
+      "mood_and_tone": [
+        "Serene",
+        "Majestic",
+        "Romantic"
+      ],
+      "dominant_colors": [
+        "Deep navy blue",
+        "Golden yellow",
+        "Reflected amber",
+        "Pitch black"
+      ],
+      "alt_text": "The majestic City Palace of Udaipur is brilliantly illuminated at night, casting long, golden reflections across the calm, dark waters of Lake Pichola.",
+      "micro_story": "The city completely transformed after dark. Floating on the lake, the illuminated palace looked like a glowing golden crown resting on the still, dark water."
+    },
+    {
+      "id": "udaipur_020",
+      "filename": "udaipur_020.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Taj Lake Palace",
+        "Silhouetted passenger boat",
+        "Sunset sky",
+        "Distant Aravalli hills"
+      ],
+      "descriptive_tags": [
+        "Pastel purple and orange sunset",
+        "Glowing island hotel",
+        "Calm lake waters",
+        "Hazy mountain silhouettes",
+        "Wide panoramic view"
+      ],
+      "sensory_cues": [
+        "Fading warmth of the day",
+        "Soft splash of the boat's oars",
+        "Cooling evening breeze",
+        "Peaceful twilight quiet"
+      ],
+      "mood_and_tone": [
+        "Tranquil",
+        "Ethereal",
+        "Romantic"
+      ],
+      "dominant_colors": [
+        "Sunset purple",
+        "Soft orange",
+        "Silhouetted black",
+        "Glowing yellow"
+      ],
+      "alt_text": "A silhouetted boat crosses Lake Pichola at sunset, with the illuminated Taj Lake Palace and hazy mountains set against a beautiful purple and orange sky.",
+      "micro_story": "As the sky faded from orange to a deep bruised purple, the Lake Palace lit up from within. Watching the silhouetted boat cross the water felt like witnessing a scene from a fairytale."
+    },
+    {
+      "id": "udaipur_021",
+      "filename": "udaipur_021.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Jag Mandir island palace",
+        "Golden sun reflection",
+        "Layered mountain ridges",
+        "Expansive lake"
+      ],
+      "descriptive_tags": [
+        "Blinding golden sunset reflection",
+        "Silhouetted island architecture",
+        "Hazy mountain backdrop",
+        "High-angle panoramic view",
+        "Shimmering water surface"
+      ],
+      "sensory_cues": [
+        "Intense warmth radiating from the sunset glow",
+        "Blinding glare off the rippling water",
+        "Wide-open breezy atmosphere",
+        "Muffled distance of the landscape"
+      ],
+      "mood_and_tone": [
+        "Majestic",
+        "Breathtaking",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Brilliant gold",
+        "Silhouetted black",
+        "Hazy yellow",
+        "Deep grey"
+      ],
+      "alt_text": "A high-angle view of an island palace in Lake Pichola, completely silhouetted by the blinding, brilliant golden reflection of a sunset over hazy mountains.",
+      "micro_story": "From high above the lake, the setting sun turned the water into a blinding sheet of liquid gold. The island palace sat perfectly in the middle of it all, a dark silhouette against the brilliant light."
+    },
+    {
+      "id": "udaipur_022",
+      "filename": "udaipur_022.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Tiered white palace facade",
+        "Ornate domed cupolas",
+        "Scalloped archways",
+        "Overhanging balconies"
+      ],
+      "descriptive_tags": [
+        "Intricate Rajput architecture",
+        "Multi-level stone balconies",
+        "Clear pale sky",
+        "Traditional jali latticework",
+        "Towering waterfront structure"
+      ],
+      "sensory_cues": [
+        "Awe at the sheer vertical scale",
+        "Intricate texture of carved marble",
+        "Heat radiating from the pale stone",
+        "Echoing sounds of birds nesting in the domes"
+      ],
+      "mood_and_tone": [
+        "Grand",
+        "Historic",
+        "Elegant"
+      ],
+      "dominant_colors": [
+        "Creamy white",
+        "Pale sky grey",
+        "Dark shadow brown"
+      ],
+      "alt_text": "A close-up, low-angle view of a towering, multi-tiered white marble palace facade in Udaipur, featuring ornate overhanging balconies and domed cupolas.",
+      "micro_story": "Craning my neck to look up at the towering white facade, the layers of intricate balconies and domes seemed to stack endlessly into the sky. It was a masterpiece of royal architecture, standing proud against the pale daylight."
+    },
+    {
+      "id": "udaipur_023",
+      "filename": "udaipur_023.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Dense city buildings",
+        "Hazy atmospheric sky",
+        "Rooftop terraces",
+        "Distant hills"
+      ],
+      "descriptive_tags": [
+        "Sprawling urban landscape",
+        "Clustered white and pastel houses",
+        "Flat rooftops with water tanks",
+        "Hazy midday atmosphere",
+        "High-angle city panorama"
+      ],
+      "sensory_cues": [
+        "Distant cacophony of city traffic and honking",
+        "Hazy and dusty afternoon heat",
+        "Vast visual texture of thousands of homes",
+        "Faint smell of urban dust"
+      ],
+      "mood_and_tone": [
+        "Bustling",
+        "Expansive",
+        "Hazy"
+      ],
+      "dominant_colors": [
+        "Whitewashed grey",
+        "Dusty pastel pink",
+        "Hazy sky white",
+        "Earthy brown"
+      ],
+      "alt_text": "A high-angle, sweeping panoramic view of Udaipur's dense, sprawling cityscape, filled with clustered white and pastel buildings under a hazy, bright sky.",
+      "micro_story": "Looking out over the sprawling city, the dense cluster of white and pastel rooftops stretched as far as the eye could see. The midday haze softened the chaotic energy, turning the bustling streets into a quiet, textured quilt."
+    },
+    {
+      "id": "udaipur_024",
+      "filename": "udaipur_024.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Ornate white stone cupola",
+        "Scalloped arch windows",
+        "Glowing interior light",
+        "Intricate balcony details"
+      ],
+      "descriptive_tags": [
+        "Traditional chhatri pavilion",
+        "Warm glowing archways",
+        "Detailed stone parapets",
+        "Soft twilight sky",
+        "Elegant Rajput design"
+      ],
+      "sensory_cues": [
+        "Soft visual contrast of warm light against cool stone",
+        "Smooth texture of polished marble",
+        "Quiet elegance of the architectural details",
+        "Still evening air"
+      ],
+      "mood_and_tone": [
+        "Elegant",
+        "Peaceful",
+        "Regal"
+      ],
+      "dominant_colors": [
+        "Warm glowing amber",
+        "Pale marble white",
+        "Soft twilight blue"
+      ],
+      "alt_text": "A beautiful, ornate white marble cupola on a palace roof features scalloped archways that glow with warm yellow light against a soft twilight sky.",
+      "micro_story": "As evening fell, warm light spilled from the scalloped archways of the rooftop cupola. The delicate white stone against the soft twilight sky looked so elegant and peaceful, a perfect end to the day."
+    },
+    {
+      "id": "udaipur_025",
+      "filename": "udaipur_025.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Blooming pink and white bougainvillea",
+        "Strolling pedestrians",
+        "Fallen flower petals",
+        "Historic white building"
+      ],
+      "descriptive_tags": [
+        "Lush floral canopy",
+        "Colorful traditional saris",
+        "Paved stone walkway",
+        "Dappled sunlight",
+        "Relaxed courtyard scene"
+      ],
+      "sensory_cues": [
+        "Sweet floral scent in the warm air",
+        "Soft rustle of leaves and falling petals",
+        "Quiet murmur of relaxed conversation",
+        "Dappled warmth of the sun through the branches"
+      ],
+      "mood_and_tone": [
+        "Vibrant",
+        "Cheerful",
+        "Idyllic"
+      ],
+      "dominant_colors": [
+        "Vibrant magenta",
+        "Crisp white",
+        "Stone grey",
+        "Bright sari orange"
+      ],
+      "alt_text": "A vibrant canopy of pink and white bougainvillea hangs over a paved stone courtyard, where pedestrians in colorful clothing stroll among fallen petals.",
+      "micro_story": "Walking through the courtyard, a vibrant canopy of pink and white bougainvillea framed the path ahead. With petals scattering across the stone and locals strolling in bright saris, it was a perfectly idyllic, colorful moment."
+    },
+    {
+      "id": "udaipur_026",
+      "filename": "udaipur_026.jpg",
+      "city": "Udaipur",
+      "primary_subjects": [
+        "Open wooden window shutters",
+        "Blue painted interior walls",
+        "Ornate hanging chandelier",
+        "Seated man looking at phone"
+      ],
+      "descriptive_tags": [
+        "Detailed scalloped arches",
+        "Rich interior architecture",
+        "Framed perspective",
+        "Carved stone facade",
+        "Quiet candid moment"
+      ],
+      "sensory_cues": [
+        "Coolness implied by the blue interior",
+        "Contrast of bright outdoor light and indoor shadow",
+        "Quiet focus of the seated figure",
+        "Rough texture of the exterior stone"
+      ],
+      "mood_and_tone": [
+        "Intimate",
+        "Architectural",
+        "Serene"
+      ],
+      "dominant_colors": [
+        "Pale stone yellow",
+        "Rich interior blue",
+        "Dark wood brown",
+        "Warm ambient lighting"
+      ],
+      "alt_text": "Open wooden shutters and scalloped stone arches frame a beautiful blue-painted palace interior with a hanging chandelier, where a man sits quietly looking at his phone.",
+      "micro_story": "Peeking through the open wooden shutters, the rich blue interior of the palace room offered a striking contrast to the pale exterior stone. The quiet, candid moment of the man sitting in the window perfectly captured the relaxed pace of palace life."
     }
   ]
 }

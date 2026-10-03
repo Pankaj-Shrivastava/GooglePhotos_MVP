@@ -3,15 +3,14 @@ import json
 import base64
 import requests
 import time
-import sys
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 import glob
 
 load_dotenv()
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
-
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 OUTPUT_PATH = os.path.join("src", "data", "tags.json")
+BATCH_SIZE = 5  # Save to file every 5 photos
 
 REQUIRED_FIELDS = [
     "primary_subjects", "descriptive_tags", "sensory_cues",
@@ -33,126 +32,111 @@ Extract the following metadata as a JSON object:
 }
 
 Be specific and evocative. Avoid generic tags. Focus on what makes 
-this photo unique — the sensory details someone would remember."""
+this photo unique -- the sensory details someone would remember."""
 
 
 def log(msg):
     """Print with immediate flush so logs are visible in real-time."""
-    print(msg, flush=True)
+    safe_msg = msg.encode('ascii', 'replace').decode('ascii')
+    print(safe_msg, flush=True)
 
 
 def encode_image(image_path):
-    with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode('utf-8')
+    with open(image_path, "rb") as f:
+        return base64.b64encode(f.read()).decode('utf-8')
 
 
 def validate_tags(tags):
-    """Validate that the AI response contains all required fields with correct types."""
-    if not isinstance(tags, dict):
-        return False
-    
+    if not isinstance(tags, dict): return False
     for field in REQUIRED_FIELDS:
-        if field not in tags:
-            log(f"  ⚠️  Missing field: {field}")
-            return False
-    
-    # Validate array fields
-    array_fields = ["primary_subjects", "descriptive_tags", "sensory_cues",
-                    "mood_and_tone", "dominant_colors"]
-    for field in array_fields:
-        if not isinstance(tags[field], list) or len(tags[field]) == 0:
-            log(f"  ⚠️  Field '{field}' is not a non-empty list")
-            return False
-    
-    # Validate string fields
-    for field in ["alt_text", "micro_story"]:
-        if not isinstance(tags[field], str) or len(tags[field].strip()) == 0:
-            log(f"  ⚠️  Field '{field}' is not a non-empty string")
-            return False
-    
+        if field not in tags: return False
     return True
 
 
 def load_existing_data():
-    """Load existing tags.json to support resume capability."""
     if os.path.exists(OUTPUT_PATH):
         try:
             with open(OUTPUT_PATH, "r") as f:
                 data = json.load(f)
                 if "photos" in data and isinstance(data["photos"], list):
                     return data
-        except (json.JSONDecodeError, IOError):
+        except Exception:
             pass
     return None
 
 
 def save_data(output_data):
-    """Save tags.json incrementally after each successful image."""
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     output_data["generated_at"] = datetime.now(timezone.utc).isoformat()
     output_data["total_photos"] = len(output_data["photos"])
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output_data, f, indent=2)
+    log(f"  [SAVED] tags.json updated on disk with {output_data['total_photos']} photos.")
 
 
-def generate_tags_for_image(city, image_path):
-    if not GROQ_API_KEY:
-        log("Missing GROQ API KEY")
+MODELS = [
+    "gemini-3.5-flash",
+    "gemini-3.1-flash",
+    "gemini-flash-latest",
+    "gemini-pro-latest"
+]
+
+def generate_tags_for_image(city, image_path, model_name):
+    if not GEMINI_API_KEY:
+        log("Missing GEMINI_API_KEY")
         return None
         
-    base64_image = encode_image(image_path)
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json"
-    }
+    img_data = encode_image(image_path)
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
     
     payload = {
-        "model": "llama-3.2-11b-vision-instruct",
-        "messages": [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": PROMPT.replace("{city}", city)},
-                    {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}
-                ]
-            }
-        ],
-        "response_format": {"type": "json_object"}
+        "contents": [{
+            "parts": [
+                {"text": PROMPT.replace("{city}", city)},
+                {"inline_data": {"mime_type": "image/jpeg", "data": img_data}}
+            ]
+        }],
+        "generationConfig": {
+            "responseMimeType": "application/json"
+        }
     }
     
     try:
-        response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=payload)
+        response = requests.post(url, json=payload)
         if response.status_code == 200:
-            content = response.json()['choices'][0]['message']['content']
+            content = response.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
+            content = content.strip()
+            if content.startswith("```json"): content = content[7:]
+            if content.startswith("```"): content = content[3:]
+            if content.endswith("```"): content = content[:-3]
+            
             return json.loads(content)
         else:
-            log(f"  ❌ API error ({response.status_code}): {response.text[:200]}")
+            log(f"  API Error ({response.status_code}) with {model_name}: {response.text[:200]}")
             return None
     except Exception as e:
-        log(f"  ❌ Network error: {e}")
+        log(f"  Network error with {model_name}: {e}")
         return None
 
 
 def main():
     photos_dir = os.path.join("public", "photos")
     
-    # Resume: load existing data and find already-processed IDs
     existing_data = load_existing_data()
     if existing_data:
         output_data = existing_data
         processed_ids = {p["id"] for p in output_data["photos"]}
-        log(f"📂 Resuming — {len(processed_ids)} photos already processed")
+        log(f"Resuming - {len(processed_ids)} photos already in tags.json")
     else:
         output_data = {
             "generated_at": "",
-            "model": "llama-3.2-11b-vision-instruct",
+            "model": "gemini-multi-fallback",
             "total_photos": 0,
             "photos": []
         }
         processed_ids = set()
-        log("📂 Starting fresh — no existing tags.json found")
+        log("Starting fresh - no tags.json found")
     
-    # Collect all image paths first for progress tracking
     all_images = []
     for city_folder in sorted(os.listdir(photos_dir)):
         city_path = os.path.join(photos_dir, city_folder)
@@ -164,63 +148,55 @@ def main():
                 all_images.append((city_name, img_path, filename, photo_id))
     
     total = len(all_images)
-    skipped = 0
-    processed = 0
-    failed = 0
+    skipped, processed, failed = 0, 0, 0
+    batch_counter = 0
     
-    log(f"🖼️  Found {total} images across {len(set(c for c, *_ in all_images))} cities\n")
+    log(f"Found {total} images to process.\n")
     
     for idx, (city_name, img_path, filename, photo_id) in enumerate(all_images, 1):
-        # Skip already processed (resume support)
         if photo_id in processed_ids:
             skipped += 1
             continue
-        
-        log(f"[{idx}/{total}] Processing {filename} ({city_name})...")
-        
-        # Retry logic with exponential backoff
-        tags = None
-        for attempt in range(3):
-            tags = generate_tags_for_image(city_name, img_path)
-            if tags and validate_tags(tags):
-                break
-            if tags and not validate_tags(tags):
-                log(f"  ⚠️  Invalid response structure, retrying...")
-                tags = None
-            log(f"  🔄 Retry {attempt + 1}/3 in {10 * (attempt + 1)}s...")
-            time.sleep(10 * (attempt + 1))
-        
-        if tags and validate_tags(tags):
-            # Only keep the expected fields (strip any extras from AI)
-            clean_tags = {field: tags[field] for field in REQUIRED_FIELDS}
-            photo_data = {
-                "id": photo_id,
-                "filename": filename,
-                "city": city_name,
-                **clean_tags
-            }
-            output_data["photos"].append(photo_data)
-            processed += 1
             
-            # Incremental save after every successful image
-            save_data(output_data)
-            log(f"  ✅ Saved ({processed} done, {total - idx - skipped} remaining)")
+        log(f"[{idx}/{total}] Processing {filename}...")
+        
+        tags = None
+        model_idx = 0
+        max_attempts = len(MODELS) * 2  # Try each model twice in rotation
+        
+        for attempt in range(max_attempts):
+            model_name = MODELS[model_idx % len(MODELS)]
+            log(f"  Trying {model_name} (Attempt {attempt + 1}/{max_attempts})...")
+            
+            tags = generate_tags_for_image(city_name, img_path, model_name)
+            if tags and validate_tags(tags): 
+                break
+            
+            log(f"  Failed with {model_name}. Retrying in 5s...")
+            time.sleep(5)
+            model_idx += 1
+            
+        if tags and validate_tags(tags):
+            clean_tags = {field: tags[field] for field in REQUIRED_FIELDS}
+            output_data["photos"].append({"id": photo_id, "filename": filename, "city": city_name, **clean_tags})
+            processed += 1
+            batch_counter += 1
+            
+            # Batch saving logic
+            if batch_counter >= BATCH_SIZE:
+                save_data(output_data)
+                batch_counter = 0
         else:
             failed += 1
-            log(f"  ❌ Failed after 3 attempts — skipping {filename}")
+            log(f"  Failed after 3 attempts.")
+            
+        time.sleep(4)  # 15 requests per minute limit = 1 every 4s
         
-        time.sleep(5)  # Rate limit prevention
-    
-    # Final summary
-    log(f"\n{'='*50}")
-    log(f"🏁 DONE!")
-    log(f"   ✅ Processed: {processed}")
-    log(f"   ⏭️  Skipped (already done): {skipped}")
-    log(f"   ❌ Failed: {failed}")
-    log(f"   📄 Total in tags.json: {len(output_data['photos'])}")
-    log(f"   💾 Saved to: {OUTPUT_PATH}")
-    log(f"{'='*50}")
-
+    # Final save for any remaining unbatched photos
+    if batch_counter > 0:
+        save_data(output_data)
+        
+    log(f"\nDONE! Processed: {processed}, Skipped: {skipped}, Failed: {failed}")
 
 if __name__ == "__main__":
     main()
