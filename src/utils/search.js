@@ -10,6 +10,7 @@ export function searchPhotos(query, photos) {
     'mood_and_tone',
     'dominant_colors',
     'alt_text',
+    'city',
   ];
 
   return photos
