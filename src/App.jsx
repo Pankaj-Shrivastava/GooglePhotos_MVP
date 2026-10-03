@@ -4,10 +4,12 @@ import SearchBar from './components/SearchBar';
 import PhotoGrid from './components/PhotoGrid';
 import OnboardingToast from './components/OnboardingToast';
 import tagsData from './data/tags.json';
+import { searchPhotos } from './utils/search';
 
 function App() {
   const [allPhotos, setAllPhotos] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   
   // Initialize photos on load
   useEffect(() => {
@@ -16,24 +18,18 @@ function App() {
     }
   }, []);
 
-  // Simple in-memory search for now (Full engine in M4)
+  // Debounce the search query to avoid excessive re-renders
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedQuery(searchQuery);
+    }, 200);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // Use the search engine to filter and rank photos
   const filteredPhotos = useMemo(() => {
-    if (!searchQuery.trim()) return allPhotos;
-    const query = searchQuery.toLowerCase();
-    return allPhotos.filter(photo => {
-      // Very basic substring search across a few fields for M3
-      const text = [
-        ...(photo.primary_subjects || []),
-        ...(photo.descriptive_tags || []),
-        ...(photo.sensory_cues || []),
-        ...(photo.mood_and_tone || []),
-        photo.alt_text,
-        photo.city
-      ].join(' ').toLowerCase();
-      
-      return text.includes(query);
-    });
-  }, [allPhotos, searchQuery]);
+    return searchPhotos(debouncedQuery, allPhotos);
+  }, [debouncedQuery, allPhotos]);
 
   // Toast state
   const [toastDismissed, setToastDismissed] = useState(() => {

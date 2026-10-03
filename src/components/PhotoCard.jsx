@@ -11,6 +11,7 @@ export default function PhotoCard({ photo, onFlip }) {
     const prefix = filename.replace(/_\d{3}\.jpg$/i, '').toLowerCase();
     const map = {
       'goa': 'Goa',
+      'hampi': 'Hampi',
       'jaipur': 'Jaipur',
       'manali': 'Manali',
       'travel_utility': 'Travel_Utility',
