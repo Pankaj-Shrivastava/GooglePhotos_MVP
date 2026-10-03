@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-03T00:00:00Z",
+  "model": "mock",
+  "total_photos": 3,
+  "photos": [
+    {
+      "id": "udaipur_001",
+      "filename": "udaipur_001.jpg",
+      "city": "Udaipur",
+      "primary_subjects": ["palace", "lake", "reflection"],
+      "descriptive_tags": ["white marble palace", "calm lake water", "evening sky"],
+      "sensory_cues": ["serene", "golden light", "still water", "warm glow"],
+      "mood_and_tone": ["peaceful", "majestic"],
+      "dominant_colors": ["gold", "white", "deep blue"],
+      "alt_text": "City Palace reflected in Lake Pichola at golden hour",
+      "micro_story": "The last light painted the City Palace in gold as Priya watched its reflection shimmer on the lake."
+    },
+    {
+      "id": "manali_001",
+      "filename": "manali_001.jpg",
+      "city": "Manali",
+      "primary_subjects": ["mountains", "snow", "pine trees"],
+      "descriptive_tags": ["snow-capped peaks", "dense pine forest", "winding mountain road"],
+      "sensory_cues": ["crisp air", "cold", "fresh pine", "crunchy snow"],
+      "mood_and_tone": ["adventurous", "exhilarating"],
+      "dominant_colors": ["white", "forest green", "sky blue"],
+      "alt_text": "Snow-covered mountain peaks behind a pine forest in Manali",
+      "micro_story": "Priya rolled down the car window and let the freezing mountain air hit her face. The peaks looked unreal."
+    },
+    {
+      "id": "utility_001",
+      "filename": "utility_001.jpg",
+      "city": "Travel Utility",
+      "primary_subjects": ["boarding pass", "airline ticket"],
+      "descriptive_tags": ["printed boarding pass", "flight details", "seat number"],
+      "sensory_cues": ["paper texture", "crumpled edges"],
+      "mood_and_tone": ["functional", "anticipatory"],
+      "dominant_colors": ["white", "blue", "gray"],
+      "alt_text": "A printed boarding pass for a domestic flight in India",
+      "micro_story": "Priya fished the crumpled boarding pass from her jacket pocket just as they called her boarding group."
+    }
+  ]
+}
