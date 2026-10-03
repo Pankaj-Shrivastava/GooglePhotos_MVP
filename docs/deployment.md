@@ -31,6 +31,7 @@ Vercel provides native, zero-configuration support for Vite applications.
 3. Under the **"Import Git Repository"** section, find your repository (`GooglePhotos_MVP` or whatever you named it) and click **"Import"**.
 4. In the "Configure Project" screen:
    - **Project Name:** Leave as default or customize it (e.g., `priyas-memory-search`).
+   - **Root Directory:** If your `GooglePhotos_MVP` folder is inside a larger repository (like `AI_Projects`), click **Edit** next to Root Directory and select `GooglePhotos_MVP`. If it's a standalone repository, leave it as `./` (default).
    - **Framework Preset:** Vercel should automatically detect **Vite**. Leave it as is.
    - **Build Command:** Should automatically be `npm run build`.
    - **Output Directory:** Should automatically be `dist`.
