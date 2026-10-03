@@ -1,6 +1,6 @@
 import PhotoCard from './PhotoCard';
 
-export default function PhotoGrid({ photos = [], onSuggestionClick, onPhotoFlip }) {
+export default function PhotoGrid({ photos = [], totalCount = 0, isSearching = false, onSuggestionClick, onPhotoFlip }) {
   if (photos.length === 0) {
     return (
       <div className="flex-1 min-h-[220px] flex flex-col items-center justify-center text-center px-4 mt-12">
@@ -35,6 +35,15 @@ export default function PhotoGrid({ photos = [], onSuggestionClick, onPhotoFlip 
 
   return (
     <div className="flex flex-col pb-6">
+      {isSearching && (
+        <div className="flex items-center gap-2.5 mb-6">
+          <span className="text-[11px] font-semibold tracking-widest text-indigo-400 uppercase">
+            Search Results
+          </span>
+          <div className="flex-1 h-[1px] bg-indigo-500/20"></div>
+          <span className="text-[10px] text-indigo-400 font-medium">{photos.length} / {totalCount} photos</span>
+        </div>
+      )}
       {Object.entries(groupedPhotos).map(([city, cityPhotos]) => (
         <div key={city} className="mb-6">
           <div className="flex items-center gap-2.5 mb-3">

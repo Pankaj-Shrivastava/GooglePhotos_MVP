@@ -51,6 +51,8 @@ function App() {
       
       <PhotoGrid 
         photos={filteredPhotos}
+        totalCount={allPhotos.length}
+        isSearching={debouncedQuery.trim().length > 0}
         onSuggestionClick={setSearchQuery}
         onPhotoFlip={dismissToast}
       />
