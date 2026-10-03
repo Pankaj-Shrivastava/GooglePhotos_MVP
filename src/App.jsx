@@ -56,6 +56,7 @@ function App() {
       <PhotoGrid 
         photos={filteredPhotos}
         onSuggestionClick={setSearchQuery}
+        onPhotoFlip={dismissToast}
       />
       
       {!toastDismissed && (

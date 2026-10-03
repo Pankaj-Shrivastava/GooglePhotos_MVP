@@ -1,6 +1,6 @@
 import PhotoCard from './PhotoCard';
 
-export default function PhotoGrid({ photos = [], onSuggestionClick }) {
+export default function PhotoGrid({ photos = [], onSuggestionClick, onPhotoFlip }) {
   if (photos.length === 0) {
     return (
       <div className="flex-1 min-h-[220px] flex flex-col items-center justify-center text-center px-4 mt-12">
@@ -46,7 +46,7 @@ export default function PhotoGrid({ photos = [], onSuggestionClick }) {
           </div>
           <div className="grid grid-cols-2 gap-2">
             {cityPhotos.map((photo) => (
-              <PhotoCard key={photo.id} photo={photo} />
+              <PhotoCard key={photo.id} photo={photo} onFlip={onPhotoFlip} />
             ))}
           </div>
         </div>
