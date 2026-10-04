@@ -23,7 +23,58 @@ export default function PhotoGrid({ photos = [], totalCount = 0, isSearching = f
     );
   }
 
-  // Group photos by city
+  if (isSearching) {
+    const spotOnPhotos = photos.slice(0, 6);
+    const neighborhoodPhotos = photos.slice(6);
+
+    return (
+      <div className="flex flex-col pb-6">
+        <div className="flex items-center gap-2.5 mb-6 mt-2">
+          <span className="text-[11px] font-semibold tracking-widest text-indigo-400 uppercase">
+            Search Results
+          </span>
+          <div className="flex-1 h-[1px] bg-indigo-500/20"></div>
+          <span className="text-[10px] text-indigo-400 font-medium">{photos.length} / {totalCount} photos</span>
+        </div>
+        
+        {spotOnPhotos.length > 0 && (
+          <div className="mb-8">
+            <div className="flex items-center gap-2.5 mb-3">
+              <span className="text-[11px] font-semibold tracking-widest text-emerald-400 uppercase">
+                Spot On
+              </span>
+              <div className="flex-1 h-[1px] bg-emerald-900/30"></div>
+              <span className="text-[10px] text-emerald-500/70 font-medium">{spotOnPhotos.length} {spotOnPhotos.length === 1 ? 'photo' : 'photos'}</span>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {spotOnPhotos.map((photo) => (
+                <PhotoCard key={photo.id} photo={photo} onFlip={onPhotoFlip} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {neighborhoodPhotos.length > 0 && (
+          <div className="mb-6">
+            <div className="flex items-center gap-2.5 mb-3">
+              <span className="text-[11px] font-semibold tracking-widest text-amber-400 uppercase">
+                In the Neighborhood
+              </span>
+              <div className="flex-1 h-[1px] bg-amber-900/30"></div>
+              <span className="text-[10px] text-amber-500/70 font-medium">{neighborhoodPhotos.length} {neighborhoodPhotos.length === 1 ? 'photo' : 'photos'}</span>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {neighborhoodPhotos.map((photo) => (
+                <PhotoCard key={photo.id} photo={photo} onFlip={onPhotoFlip} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // Group photos by city (default view when not searching)
   const groupedPhotos = photos.reduce((acc, photo) => {
     const city = photo.city || 'Unknown';
     if (!acc[city]) {
@@ -35,17 +86,8 @@ export default function PhotoGrid({ photos = [], totalCount = 0, isSearching = f
 
   return (
     <div className="flex flex-col pb-6">
-      {isSearching && (
-        <div className="flex items-center gap-2.5 mb-6">
-          <span className="text-[11px] font-semibold tracking-widest text-indigo-400 uppercase">
-            Search Results
-          </span>
-          <div className="flex-1 h-[1px] bg-indigo-500/20"></div>
-          <span className="text-[10px] text-indigo-400 font-medium">{photos.length} / {totalCount} photos</span>
-        </div>
-      )}
       {Object.entries(groupedPhotos).map(([city, cityPhotos]) => (
-        <div key={city} className="mb-6">
+        <div key={city} className="mb-6 mt-2">
           <div className="flex items-center gap-2.5 mb-3">
             <span className="text-[11px] font-semibold tracking-widest text-[#64748b] uppercase">
               {city}
