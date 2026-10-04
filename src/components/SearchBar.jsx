@@ -22,7 +22,7 @@ export default function SearchBar({ value = '', onChange, onClear }) {
           value={value}
           onChange={(e) => onChange?.(e.target.value)}
           placeholder="Search memories... try 'golden sunset'"
-          className={`flex-1 bg-transparent border-none outline-none text-xs font-medium tracking-tight ${
+          className={`flex-1 bg-transparent border-none outline-none text-sm font-medium tracking-tight ${
             isActive ? 'text-[#f8fafc]' : 'text-[#f8fafc] placeholder-[#94a3b8]'
           }`}
         />

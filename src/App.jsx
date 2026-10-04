@@ -53,6 +53,7 @@ function App() {
         photos={filteredPhotos}
         totalCount={allPhotos.length}
         isSearching={debouncedQuery.trim().length > 0}
+        searchQuery={debouncedQuery}
         onSuggestionClick={setSearchQuery}
         onPhotoFlip={dismissToast}
       />
