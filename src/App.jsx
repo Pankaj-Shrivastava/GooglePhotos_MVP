@@ -7,16 +7,9 @@ import tagsData from './data/tags.json';
 import { searchPhotos } from './utils/search';
 
 function App() {
-  const [allPhotos, setAllPhotos] = useState([]);
+  const [allPhotos, setAllPhotos] = useState(tagsData?.photos || []);
   const [searchQuery, setSearchQuery] = useState('');
   const [debouncedQuery, setDebouncedQuery] = useState('');
-  
-  // Initialize photos on load
-  useEffect(() => {
-    if (tagsData && tagsData.photos) {
-      setAllPhotos(tagsData.photos);
-    }
-  }, []);
 
   // Debounce the search query to avoid excessive re-renders
   useEffect(() => {
@@ -32,13 +25,10 @@ function App() {
   }, [debouncedQuery, allPhotos]);
 
   // Toast state
-  const [toastDismissed, setToastDismissed] = useState(() => {
-    return localStorage.getItem('onboarding_toast_dismissed') === 'true';
-  });
+  const [toastDismissed, setToastDismissed] = useState(false);
 
   const dismissToast = () => {
     setToastDismissed(true);
-    localStorage.setItem('onboarding_toast_dismissed', 'true');
   };
 
   return (

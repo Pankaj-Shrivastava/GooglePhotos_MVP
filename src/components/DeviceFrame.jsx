@@ -21,7 +21,11 @@ export default function DeviceFrame({ children }) {
           <div className="absolute -right-[12px] top-36 w-[3px] h-16 bg-slate-700 rounded-r-sm"></div>
 
           {/* Inner Phone Screen */}
-          <div className="relative w-full h-full rounded-[38px] bg-[#0f172a] overflow-hidden flex flex-col justify-between border border-slate-800 shadow-inner">
+          <div 
+            id="phone-screen-portal"
+            className="relative w-full h-full rounded-[38px] bg-[#0f172a] overflow-hidden flex flex-col justify-between border border-slate-800 shadow-inner"
+            style={{ transform: 'translateZ(0)' }}
+          >
             
             {/* Dynamic Island / Notch */}
             <div className="absolute top-2.5 left-1/2 -translate-x-1/2 z-50 flex items-center justify-between px-3 h-[25px] w-[110px] bg-black rounded-full ring-1 ring-white/10 shadow-sm">

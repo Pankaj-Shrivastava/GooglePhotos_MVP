@@ -62,5 +62,10 @@
   .rotate-y-180 {
     transform: rotateY(180deg);
   }
+
+  /* View Transitions Stacking */
+  ::view-transition-group(*) {
+    z-index: 100;
+  }
 }
 
